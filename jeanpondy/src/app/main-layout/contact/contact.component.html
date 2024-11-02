@@ -1,0 +1,125 @@
+<div id="contact" class="contact contact-bg">
+  <div class="line-title">
+    <div class="line"></div>
+    <div class="title"><h2>Contact</h2></div>
+  </div>
+  <div class="info-contact-area">
+    <div class="info">
+      <h3>Got a problem to solve?</h3>
+      <span>
+        Contact me through this form. I'm interested in hearing from you,
+        knowing your ideas, and contributing to your projects with my work.
+      </span>
+      <p>Need a Frontend developer? <b>Contact me!</b></p>
+    </div>
+    <div class="contact-area">
+      <div class="container">
+        <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+          <!-- Name -->
+          <label for="name"></label>
+          <input
+            [(ngModel)]="contactData.name"
+            #name="ngModel"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name.."
+            required
+          />
+          <!-- Error message for invalid name field -->
+          <span *ngIf="!name.valid && name.touched" style="color: red">
+            Please enter a valid name.
+          </span>
+
+          <!-- Email -->
+          <label for="email"></label>
+          <input
+            #email="ngModel"
+            [(ngModel)]="contactData.email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address.."
+            required
+            pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+          />
+          <!-- Error message for invalid email field -->
+          <span *ngIf="!email.valid && email.touched" style="color: red">
+            Please enter a valid email address.
+          </span>
+
+          <!-- Message -->
+          <label for="message"></label>
+          <textarea
+            #message="ngModel"
+            [(ngModel)]="contactData.message"
+            id="message"
+            name="message"
+            placeholder="Your message"
+            style="height: 200px"
+            minlength="4"
+            required
+          ></textarea>
+
+          <!-- Error message for invalid message field -->
+          <span
+            *ngIf="!message.valid && message.touched"
+            style="color: rgb(251, 5, 5)"
+          >
+            Please enter a valid message (at least 4 characters).
+          </span>
+
+          <!-- Privacy Policy Checkbox -->
+          <div>
+            <input
+              type="checkbox"
+              id="privacyPolicy"
+              name="privacyPolicy"
+              [(ngModel)]="contactData.privacyPolicy"
+              #privacyPolicy="ngModel"
+              required
+            />
+            <label for="privacyPolicy" class="privacy-policy-text">
+              I've read the
+              <a routerLink="/datenschutz" class="privacy-policy-link">
+                privacy policy
+              </a>
+
+              and agree to the processing of my data as outlined.
+            </label>
+            <!-- Error message for privacy policy not accepted -->
+            <div
+              *ngIf="
+                (contactForm.submitted || privacyPolicy.touched) &&
+                !contactData.privacyPolicy
+              "
+            >
+              <span style="color: rgb(211, 5, 5)">
+                Please accept the privacy policy.
+              </span>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <input
+            class="btn-submit"
+            type="submit"
+            value="Send Message :)"
+            [disabled]="!contactForm.form.valid || !contactData.privacyPolicy"
+          />
+        </form>
+
+        <!-- Feedback Modal -->
+        <div class="overlay" *ngIf="feedbackMessage">
+          <div class="overlay-content">
+            <p>{{ feedbackMessage }}</p>
+            <button (click)="closeFeedback()">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div (click)="scrollToSection('profile')" class="down-line">
+    <img src="assets/img/arrow-down-line.png" alt="" />
+  </div>
+</div>

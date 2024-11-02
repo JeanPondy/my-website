@@ -1,0 +1,1504 @@
+.contact{
+    width: 1340px;
+    height: 747px;
+    top: 5286px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    //border: 2px solid rgba(255, 255, 255, 1);
+  
+    opacity: 0;
+    transform: translateY(120px);
+    transition: transform 3.6s ease-out, opacity 3.6s ease-out;
+  
+   
+  
+    // Klasse für sichtbare Elemente
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+  
+    }
+     
+    
+     
+   
+    
+      
+  
+      .line-title{
+          width: 943px;
+          height: 108px;
+          gap: 32px;
+          //border: 2px solid rgba(255, 255, 255, 1);
+          display: flex;
+          align-items: center;
+  
+          .line{
+              margin-top: -16px;
+              width: 535px;
+              height: 0px;
+              border: 4px solid rgba(151, 71, 255, 1);
+          }
+      
+              /* ----------------------------- */
+              .title{
+              
+                  h2{
+                      display: flex;
+                      align-items: center;
+                  width: 376px;
+                  height: 108px;
+                  font-family: Poppins;
+                  font-weight: 700;
+                  font-size: 90px;
+                  line-height: 108px;
+                  color: rgba(255, 255, 255, 1);
+                  gap: 10px;
+                  //border: 2px solid rgba(255, 255, 255, 1);
+                  
+              }
+  
+              /* ---------------------------------- */
+  
+          }
+      }
+      .info-contact-area{
+          margin-top: 40px;
+          height: 508px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+         
+  
+          .info{
+              margin-left: 100px;
+              width: 474px;
+              height: 154px;
+              gap: 24px;
+              //border: 4px solid rgba(255, 255, 255, 1);
+              color: rgba(255, 255, 255, 1);
+              //border: 2px solid rgba(255, 255, 255, 1);
+  
+              h3{
+                  width: 474px;
+                  height: 38px;
+                  font-family: Poppins;
+                  font-weight: 700;
+                  font-size: 32px;
+                  line-height: 38.4px;
+              }
+              span{
+                  width: 474px;
+                  height: 57px;
+                  font-family: Poppins;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 19.2px;
+              }
+              p{
+                  margin-top: 32px;
+                  width: 474px;
+                  height: 19px;
+                  font-family: Poppins;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 19.2px;
+              }
+  
+          }
+          .contact-area{
+              margin-left: 723px;
+              margin-top: -168px;
+              height: 508px;
+              gap: 32px;
+              //border: 4px solid rgb(222, 51, 156);
+              /* Style inputs with type="text", select elements and textareas */
+              input[type=text],[type=email], select, textarea {
+              width: 100%; /* Full width */
+              padding: 12px; /* Some padding */ 
+              border: 1px solid rgba(151, 71, 255, 1); /* Gray border */
+              border-radius: 4px; /* Rounded borders */
+              box-sizing: border-box; /* Make sure that padding and width stays in place */
+              margin-top: 6px; /* Add a top margin */
+              margin-bottom: 16px; /* Bottom margin */
+              resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+  
+              &:hover{
+                  border: 1px solid   rgba(112, 230, 28, 1); 
+                  cursor: pointer;
+                
+              }
+  
+          }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      margin-top: 40px;
+      width: 253px;
+      height: 58px;
+      padding: 15px 30px 15px 30px;
+      gap: 10px;
+      background: rgba(182, 182, 182, 1);
+      color: rgba(255, 255, 255, 1);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      opacity: 0px;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 27.6px;
+  
+      &:hover{
+          background: rgba(112, 230, 28, 1);
+      }
+     
+    }
+  
+    /* Add a background color and some padding around the form */
+    .container {
+      border-radius: 5px;
+      background: rgba(20, 29, 47, 0);
+      padding: 20px;
+    
+    }
+          }
+      }
+  
+  
+      .down-line{
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        
+          margin-top: 60px;
+          margin-left: 1310px;
+       
+          font-size: 12px;
+          >img{
+              width: 100%;
+              height: auto;
+              border-radius: 50%;
+              border: 2px solid  rgba(255, 255, 255, 1); 
+              box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  
+              &:hover{
+                 
+                  border: 2px solid   rgba(112, 230, 28, 1); 
+                
+              }
+          }
+      }
+  
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    background: rgba(20, 29, 47, 1);
+    color: rgba(255, 255, 255, 1);
+  
+  }
+  
+  /* Zusätzlich kannst du die Eingabefelder selbst anpassen, um den Hintergrund zu ändern */
+  input,
+  textarea {
+    background: rgba(20, 29, 47, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none; /* Optional: um die Rahmen zu entfernen */
+    padding: 10px; /* Optional: um etwas Innenabstand zu schaffen */
+    border-radius: 5px; /* Optional: um die Ecken abzurunden */
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none; /* Entfernt den Standard-Fokusrahmen */
+    border: 2px solid rgba(255, 255, 255, 1); /* Optional: Rahmen beim Fokus */
+  }
+  
+  
+  .privacy-policy-text {
+      color: rgba(255, 255, 255, 1);
+      font-size: 14px;
+    
+      //border: 1px solid rgba(112, 230, 28, 1);
+      //padding: 5px; /* Optional: Innenabstand für das Label */
+     // display: inline-block; /* Damit der Border sichtbar ist */
+    }
+    
+    .privacy-policy-link {
+      color: rgba(151, 71, 255, 1);
+      text-decoration: none; /* Optional: Unterstreichung entfernen */
+    }
+    
+    .privacy-policy-link:hover {
+      text-decoration: underline; /* Optional: Unterstreichung beim Hover hinzufügen */
+      cursor: pointer;
+    }
+  
+  /* ---------------------------------- */
+  input[type="checkbox"] {
+      appearance: none; /* Entfernt das Standard-Checkbox-Design */
+      width: 20px; /* Breite der Checkbox */
+      height: 20px; /* Höhe der Checkbox */
+      border: 2px solid  rgba(112, 230, 28, 1); /* Border-Farbe */
+      border-radius: 4px; /* Ecken abrunden */
+      display: inline-block; /* Block-Layout */
+      position: relative; /* Für das Pseudo-Element */
+      cursor: pointer; /* Cursor ändern, wenn drauf geklickt wird */
+    }
+    
+   
+    
+    input[type="checkbox"]:checked::after {
+      content: ''; /* Leeres Pseudo-Element für das Häkchen */
+      position: absolute; /* Positioniert es relativ zur Checkbox */
+      top: 0px; /* Positioniert es innerhalb der Checkbox */
+      left: 0px; /* Positioniert es innerhalb der Checkbox */
+      width: 100%; /* Breite des Häkchens */
+      height: 100%; /* Höhe des Häkchens */
+      background-image: url('./../../../../public/assets/img/hack.png');
+      background-size: cover; /* Passt das Bild an die Checkbox an */
+      background-position: center; /* Zentriert das Bild */
+      //background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
+      //transform: rotate(45deg); /* Häkchen drehen */
+      
+    }
+    
+    input[type="checkbox"]:checked::before {
+      content: none; /* Leeres Pseudo-Element für das Häkchen */
+     
+    }
+    .btn-submit{
+      width: 200px;
+    }
+  
+  
+  
+    /* Overlay styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .overlay-content p {
+    margin-bottom: 20px;
+  }
+  
+  .overlay-content button {
+    padding: 10px 20px;
+    background: rgba(151, 71, 255, 1); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .overlay-content button:hover {
+    background:  rgba(112, 230, 28, 1);  
+  }
+  
+    
+  
+    /* --------------reserve */
+  
+  @media (max-width: 1438px){}
+  @media (max-width: 1350px){
+    .contact{
+      position: absolute;
+    
+      width: 1080px;
+      height: 747px;
+      display: flex;
+      flex-direction: column;
+      top: 5386px;
+      top: 5568px;
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 32px;
+        margin-left: 1010px;
+    }
+  
+      .info-contact-area{
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 474px;
+          height: 154px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 623px;
+          margin-top: -168px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 104px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 1098px){
+    .contact{
+      width: 980px;
+      height: 747px;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 5386px;
+      top: 5568px;
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 32px;
+        margin-left: 910px;
+    }
+  
+      .info-contact-area{
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 474px;
+          height: 154px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 623px;
+          margin-top: -168px;
+          height: 508px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 64px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 1060px){
+    .contact{
+      position: absolute;
+      width: 900px;
+      height: 747px;
+      display: flex;
+      flex-direction: column;
+      top: 5936px;
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 32px;
+        margin-left: 840px;
+    }
+  
+      .info-contact-area{
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 404px;
+          height: 200px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 523px;
+          margin-top: -208px;
+          height: 508px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 64px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 980px){
+    .contact{
+      position: absolute;
+      width: 900px;
+      height: 747px;
+      display: flex;
+      flex-direction: column;
+      top: 6820px;
+      top: 7002px;
+  
+      .line-title{
+        width: 893px;
+        height: 108px;
+        gap: 32px;
+        //border: 2px solid rgba(255, 255, 255, 1);
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -16px;
+            width: 535px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items: center;
+                width: 376px;
+                height: 108px;
+                font-family: Poppins;
+                font-weight: 700;
+                font-size: 90px;
+                line-height: 108px;
+                color: rgba(255, 255, 255, 1);
+                gap: 10px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 32px;
+        margin-left: 840px;
+    }
+  
+      .info-contact-area{
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 404px;
+          height: 200px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 523px;
+          margin-top: -208px;
+          height: 508px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 64px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 940px){
+    .contact{
+      position: absolute;
+      width: 840px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+     
+      top: 7016px;
+  
+      .line-title{
+        width: 839px;
+        height: 54px;
+        gap: 32px;
+      
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 535px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 376px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 90px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 144px;
+        margin-left: 740px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 24px;
+          width: 704px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 25px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 300px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 880px){
+    .contact{
+      position: absolute;
+      width: 704px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      top: 6972px;
+  
+      .line-title{
+        width: 703px;
+        height: 54px;
+        gap: 32px;
+      
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 535px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 376px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 144px;
+        margin-left: 640px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 24px;
+          width: 654px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 25px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 208px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 730px){
+    .contact{
+      position: absolute;
+      width: 564px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      top: 6806px;
+      top: 6988px;
+  
+      .line-title{
+        width: 563px;
+        height: 54px;
+        gap: 32px;
+     
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 535px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 376px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 144px;
+        margin-left: 500px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 24px;
+          width: 524px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+         
+        }
+        .contact-area{
+          margin-left: 25px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 120px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 590px){
+    .contact{
+      position: absolute;
+    
+      width: 472px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      top: 6760px;
+      top: 6942px;
+      
+  
+      .line-title{
+        width: 471px;
+        height: 54px;
+        gap: 32px;
+       
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 435px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 300px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 164px;
+        margin-left: 420px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 24px;
+          width: 441px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+          margin-top: -40px;
+  
+  
+          h3{
+            width: 404px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38.4px;
+        }
+        span{
+            width: 404px;
+            height: 57px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+        p{
+            margin-top: 32px;
+            width: 404px;
+            height: 19px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+         
+        }
+        .contact-area{
+          margin-left: 25px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 88px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 490px){
+    .contact{
+      position: absolute;
+     
+      width: 386px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      top: 7052px;
+      top: 7234px;
+      top: 6942px;
+     
+  
+      .line-title{
+        width: 365px;
+        height: 54px;
+        gap: 2px;
+    
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 25px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+            padding-left: 0px;
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items:start;
+                    justify-content: center;
+                    width: 300px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                    margin-left: -72px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 164px;
+        margin-left: 320px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 300px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+          margin-top: -40px;
+       
+  
+  
+          h3{
+            width: 320px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 38.4px;
+           
+        }
+        span{
+            width: 304px;
+            height: 57px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+       
+          
+        }
+        p{
+            margin-top: 20px;
+            width: 304px;
+            height: 19px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+         
+        }
+        .contact-area{
+          margin-left: 5px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 48px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 400px){
+    .contact{
+      position: absolute;
+     
+      width: 376px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      //padding: 0 4px;
+      top: 6718px;
+      top: 6530.28px;
+     
+  
+      .line-title{
+        width: 365px;
+        height: 54px;
+        gap: 2px;
+    
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 25px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+            padding-left: 0px;
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items:start;
+                    justify-content: center;
+                    width: 300px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                    margin-left: -72px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 168px;
+        margin-left: 320px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 16px;
+          width: 300px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+          margin-top: -40px;
+  
+  
+          h3{
+            width: 320px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 38.4px;
+        }
+        span{
+            width: 304px;
+            height: 57px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+        p{
+            margin-top: 20px;
+            width: 304px;
+            height: 19px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+         
+        }
+        .contact-area{
+          margin-left: 5px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 48px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 388px){
+    .contact{
+      position: absolute;
+      width: 332px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      top: 6862.28px;
+  
+      .line-title{
+        width: 331px;
+        height: 54px;
+        gap: 2px;
+       
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 25px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+            padding-left: 0px;
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items:start;
+                    justify-content: center;
+                    width: 300px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                    margin-left: -72px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 144px;
+        margin-top: 180px;
+        margin-left: 300px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 4px;
+          margin-left: 16px;
+          width: 300px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+  
+  
+          h3{
+            width: 320px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 38.4px;
+        }
+        span{
+            width: 304px;
+            height: 57px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+        p{
+            margin-top: 20px;
+            width: 304px;
+            height: 19px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+         
+        }
+        .contact-area{
+          margin-left: 5px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 24px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  @media (max-width: 350px){
+    .contact{
+      position: absolute;
+      width: 308px;
+      height: 797.28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      top: 6786.28px;
+      top: 6886.28px;
+  
+      .line-title{
+        width: 315px;
+        height: 54px;
+        gap: 2px;
+       
+        display: flex;
+        align-items: center;
+  
+        .line{
+            margin-top: -0px;
+            width: 25px;
+            height: 0px;
+            border: 4px solid rgba(151, 71, 255, 1);
+            padding-left: 0px;
+        }
+    
+            /* ----------------------------- */
+            .title{
+            
+                h2{
+                    display: flex;
+                    align-items:start;
+                    justify-content: center;
+                    width: 300px;
+                    height: 108px;
+                    font-family: Poppins;
+                    font-weight: 700;
+                    font-size: 45px;
+                    line-height: 108px;
+                    color: rgba(255, 255, 255, 1);
+                    gap: 10px;
+                    margin-left: -72px;
+                //border: 2px solid rgba(255, 255, 255, 1);
+                
+            }
+  
+            /* ---------------------------------- */
+  
+        }
+    }
+  
+      .down-line{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      
+        margin-top: 144px;
+        margin-top: 180px;
+        margin-left: 270px;
+    }
+  
+      .info-contact-area{
+       
+        margin-top: 40px;
+        height: 508px;
+  
+        .info{
+          margin-left: 4px;
+          margin-left: 16px;
+          width: 300px;
+          height: 140px;
+          gap: 24px;
+          //border: 4px solid rgba(255, 255, 255, 1);
+          color: rgba(255, 255, 255, 1);
+  
+  
+          h3{
+            width: 300px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 38.4px;
+        }
+        span{
+            width: 304px;
+            height: 57px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+        p{
+            margin-top: 20px;
+            width: 304px;
+            height: 19px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+         
+        }
+        .contact-area{
+          margin-left: 5px;
+          margin-top: 40px;
+          height: 442px;
+          gap: 32px;
+  
+              /* Style the submit button with a specific background color etc */
+          input[type=submit] {
+          margin-top: 40px;
+          width: 195px;
+          height: 49px;
+          margin-left: 24px;
+          &:hover{
+          background: rgba(112, 230, 28, 1);
+        }}
+        }
+  
+  
+      
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

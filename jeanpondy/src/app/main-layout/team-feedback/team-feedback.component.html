@@ -1,0 +1,50 @@
+<div id="team-feedback" class="team-feedback bg-image">
+  <img class="capo" src="./assets/img/caporal.png" alt="" />
+  <div class="slider-container">
+    <!-- Nachricht links -->
+    <div class="message-box">
+      <p class="message">{{ currentMessage.text }}</p>
+      <div class="line-name">
+        <div class="line"></div>
+        <p class="name">{{ currentMessage.name }}</p>
+      </div>
+    </div>
+
+    <!-- Bild rechts -->
+    <div class="image-box">
+      <img [src]="currentMessage.imageUrl" alt="Bild" />
+      <div class="line-pic"></div>
+    </div>
+  </div>
+
+  <!-- Navigation und Icons unten -->
+
+  <div class="buttons">
+    <div>
+      <img
+        class="btn-img1"
+        (click)="previousMessage()"
+        src="assets/img/arrow_back.png"
+        alt=""
+      />
+    </div>
+
+    <!-- Dynamisch erstellte Punkte -->
+    <div class="dots">
+      <span
+        *ngFor="let message of messages; let i = index"
+        [class.active]="i === currentIndex"
+        class="dot"
+      ></span>
+    </div>
+
+    <div id="contactb">
+      <img
+        class="btn-img2"
+        (click)="nextMessage()"
+        src="assets/img/arrow_forward.png"
+        alt=""
+      />
+    </div>
+  </div>
+</div>

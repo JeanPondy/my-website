@@ -1,0 +1,56 @@
+<div id="profile" class="profile">
+  <div class="profile-pic">
+    <img class="photo-profile-bg" src="./assets/img/photo-shadows.png" alt="" />
+    <img
+      class="p-pic"
+      src="./assets/img/moi1.png"
+      alt=""
+      width="411"
+      height="448"
+      loading="lazy"
+    />
+  </div>
+  <div class="hero">
+    <div class="iam-frontend">
+      <h2 class="iam">I am</h2>
+      <div class="name-beruf">
+        <h1 class="name">Jean Pondy</h1>
+        <p class="frontend">FRONTEND DEVELOPER</p>
+
+        <button
+          mat-fab
+          extended
+          class="btn-talk"
+          (click)="scrollToSection('contact')"
+        >
+          Let´s talk
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="big-bg"></div>
+  <div class="big-bg2"></div>
+  <div class="references">
+    <div class="references-line">
+      <div class="line"></div>
+      <img (click)="goToGithub()" src="./assets/img/github.png" alt="" />
+      <img
+        (click)="scrollToSection('contact')"
+        src="./assets/img/email.png"
+        alt=""
+      />
+      <img (click)="goToLinkedin()" src="./assets/img/linkedin.png" alt="" />
+      <div
+        [class.active]="activeSection === 'about-me'"
+        (click)="scrollToSection('contact')"
+        class="mail"
+      >
+        mpondolpondy&#64;gmail.com
+      </div>
+    </div>
+    <div (click)="scrollToSection('footer')" class="scroll-down">
+      Scroll down ->
+    </div>
+  </div>
+</div>

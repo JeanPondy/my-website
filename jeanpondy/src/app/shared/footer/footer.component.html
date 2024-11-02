@@ -1,0 +1,48 @@
+<div id="footer" class="footer">
+  <div class="logo-legal">
+    <img
+      [class.active]="activeSection === 'about-me'"
+      (click)="scrollToSection('ober')"
+      class="logo"
+      src="./assets/img/logo1.jpeg"
+      alt=""
+    />
+
+    <div class="legal line">
+      <a routerLink="/imprint">Imprint</a>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="copyR-name">
+    <p class="copyR">C</p>
+    <h3 class="name">Jean Pondy 2024</h3>
+  </div>
+  <div class="git-mail-in">
+    <img
+      (click)="goToGithub()"
+      class="git"
+      src="assets/img/github.png"
+      alt=""
+    />
+    <img
+      [class.active]="activeSection === ''"
+      (click)="scrollToSection('contactb')"
+      class="mail"
+      src="assets/img/mail.png"
+      alt=""
+    />
+    <img
+      (click)="goToLinkedin()"
+      class="in"
+      src="assets/img/linkedin.png"
+      alt=""
+    />
+  </div>
+
+  <div class="legal2 line">
+    <div class="line">
+      <a routerLink="/imprint">Imprint</a>
+      <!--     <p class="imprint">Imprint</p> -->
+    </div>
+  </div>
+</div>

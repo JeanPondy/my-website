@@ -1,12 +1,30 @@
 <div class="header-menu">
-  <img src="./assets/img/logo1.jpeg" alt="" />
+  <img (click)="goToHome()" class="logo" src="./assets/img/logo1.jpeg" alt="" />
+
+  <div class="lang-div">
+    <div
+      [ngClass]="{ 'lang-switch': selectedLang === 'en' }"
+      (click)="switchLanguage('en')"
+      class="lang-en"
+    >
+      EN
+    </div>
+    <div
+      [ngClass]="{ 'lang-switch': selectedLang === 'de' }"
+      (click)="switchLanguage('de')"
+      class="lang-de"
+    >
+      DE
+    </div>
+  </div>
 
   <div class="menu">
     <button
       [class.active]="activeSection === 'about-me'"
       (click)="scrollToSection('about-me')"
     >
-      About me
+      {{ "HEADER.ABOUT_ME" | translate }}
+      <!-- Debug-Text -->
     </button>
     <button
       [class.active]="activeSection === 'my-skills'"

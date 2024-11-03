@@ -5,15 +5,27 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { HeaderComponent } from './main-layout/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MainLayoutComponent, ImprintComponent, PrivacyPolicyComponent,HeaderComponent, FooterComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    MainLayoutComponent,
+    ImprintComponent,
+    PrivacyPolicyComponent,
+    HeaderComponent,
+    FooterComponent,
+    TranslateModule
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'] // Hier ist der Fehler
 })
 export class AppComponent {
   title = 'jeanpondy';
 }
+

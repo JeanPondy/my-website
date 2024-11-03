@@ -17,7 +17,62 @@
     align-items: center; 
     background-color: rgba(20, 29, 47, 1);
     z-index: 1000; 
+    .logo{
+        cursor: pointer;
+    }
+   
     //border: 1px solid yellowgreen;
+
+    .lang-switch {
+        background-color: #9747FF;
+    }
+    .lang-div {
+        width: 84px;
+        height: 30px;
+        border-radius: 14px;
+        border: 1px solid #70E61C;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+        &:hover {
+            border: 1px solid white;
+            cursor: pointer;
+            
+        }
+    }
+    .lang-en {
+        width: 44px;
+        height: 28px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: lightgray;
+        
+        &:hover {
+            color: white;
+        }
+        
+    }
+    .lang-de {
+        width: 44px;
+        height: 28px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        color: lightgrey;
+        &:hover {
+            color: white;
+        }
+        
+    }
+    
   
   
   

@@ -25,6 +25,11 @@
         width: 760px;
         height: 660px;
         left: 0px;
+        
+ 
+        background-repeat: no-repeat;
+        background-position: right 40px top 40px;
+        background-size: 760px 560px; /* Breite x Höhe */
         z-index: -100;
         border: 2px solid rgba(255, 255, 255, 1);
 

@@ -1,14 +1,39 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; // Hinzugefügt, um Angular-Direktiven nutzen zu können
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule], // `CommonModule` hier importieren
+  imports: [CommonModule,  TranslateModule], // `CommonModule` hier importieren
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  constructor(private translate: TranslateService, private router: Router) {
+    this.translate.setDefaultLang('en');
+    this.translate.use('en'); // Oder die Sprache, die du ver
+  }
+  menuOpen: boolean = false;
+  selectedLang: string = "en";
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+
+    if (this.menuOpen) {
+      document.documentElement.style.overflow = 'hidden';  
+    } else {
+      document.documentElement.style.overflow = '';  
+    }
+  }
+
+  switchLanguage(lang: string) {
+    this.selectedLang = lang;
+    this.translate.use(lang);
+  }
+
   activeSection: string = '';
   isMobileMenuOpen: boolean = false;
 
@@ -31,5 +56,8 @@ export class HeaderComponent {
 
   closeMobileMenu() {
     this.isMobileMenuOpen = false;
+  }
+  goToHome() {
+    this.router.navigate(['/']); // Navigiert zur Startseite
   }
 }

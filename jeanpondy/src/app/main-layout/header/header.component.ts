@@ -34,6 +34,8 @@ export class HeaderComponent {
     this.translate.use(lang);
   }
 
+
+  
   activeSection: string = '';
   isMobileMenuOpen: boolean = false;
 

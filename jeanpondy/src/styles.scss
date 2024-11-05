@@ -74,12 +74,18 @@ body {
  
 .about-bg{
   position: absolute;
-  width: 100vw;
-  height: 200vh;
+  width: 572.03px;
+  height: 100%;
+  top: 750px;
+  
+  right: 0px;
+  
+ 
   background-image: url('./../public/assets/img/purple-shadow-R2.png');
   background-repeat: no-repeat;
-  background-position: right 0px top 820px;
-  z-index: -1;
+  background-position: right 0px top 80px;
+  background-size: 172.03px 608px;
+  z-index: 1;
 }
 .skills-bg{
   position: absolute;
@@ -121,16 +127,7 @@ body {
 
 }
 
-.shape-hero {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('./../public/assets/img/shapeheropage.png');
-  background-repeat: no-repeat;
-  background-position: left 0px top 370.6px;
-  background-size: 100vw 1071px;
-  z-index: -1;
-}
+
 
 .shadows {
   position: absolute;

@@ -30,7 +30,7 @@
       [class.active]="activeSection === 'my-skills'"
       (click)="scrollToSection('my-skills')"
     >
-      Skills
+      {{ "HEADER.SKILLS" | translate }}
     </button>
     <button
       [class.active]="activeSection === 'my-portfolio'"
@@ -47,16 +47,16 @@
 <div class="mobile-menu-overlay" [class.active]="isMobileMenuOpen">
   <div class="mobile-menu">
     <button (click)="scrollToSection('about-me'); closeMobileMenu()">
-      About me
+      {{ "HEADER.ABOUT_ME" | translate }}
     </button>
     <button (click)="scrollToSection('my-skills'); closeMobileMenu()">
-      Skills
+      {{ "HEADER.SKILLS" | translate }}
     </button>
     <button (click)="scrollToSection('my-portfolio'); closeMobileMenu()">
       Portfolio
     </button>
     <button (click)="scrollToSection('contact'); closeMobileMenu()">
-      Contact
+      {{ "HEADER.CONTACT" | translate }}
     </button>
   </div>
 </div>

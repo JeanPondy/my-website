@@ -5,6 +5,22 @@
     top: 297px;
     left: 0px;
     display: flex;
+
+
+    .shape-hero {
+        position: absolute;
+        width: 100%;
+        height: 971.56px;
+        top: 16px;
+       
+        background-image: url('./../../../../public/assets/img/shapeheropage.png');
+        background-repeat: no-repeat;
+        background-position: left 0px top 377.6px;
+        background-size: 100%  971.56px;
+        z-index: -1;
+      }
+        
+      
    
    .profile-pic {
     width: 710.7px;
@@ -34,6 +50,7 @@
         border: 2px solid rgba(255, 255, 255, 1);
 
     }
+   
   
 
    

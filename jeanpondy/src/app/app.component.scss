@@ -1,0 +1,79 @@
+
+
+
+.about-bg{
+    position: absolute;
+    width: 572.03px;
+    height: 100%;
+    top: 750px;
+    right: 0px;
+    background-image: url('./../../public/assets/img/purple-shadow-R2.png');
+    background-repeat: no-repeat;
+    background-position: right 0px top 80px;
+    background-size: 172.03px 608px;
+    z-index: 1;
+  }
+
+  /* -------------------------------------------------------skills-bg */
+
+  .skills-bg{
+    position: absolute;
+    width: 428.59px;
+    height: 100%;
+    top: 2982.96px;
+    top: 2000.96px;
+    left: 0px;
+    background-image: url('./../../public/assets/img/green-shadow-2L.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 0px;
+    z-index: 1;
+  }
+
+
+  /* -------------------------------------------------------p-folio-bg */
+  .p-folio-bg{
+    position: absolute;
+    width: 636px;
+    height: 100%;
+    top: 3355px;
+    left: 0px;
+   
+    background-image: url('./../../public/assets/img/purple-shadow-L3.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 0px;
+    z-index: -1;
+  }
+
+  /* -----------------------------------team-feedback-bg */
+  .team-feedback-bg {
+    position: absolute;
+    width: 428.59px;
+    height: 100%;
+    top: 4486px;
+    top: 4200px;
+    right: 0px;
+   
+   
+    background-image: url('./../../public/assets/img/green-shadow-2R.png');
+    background-repeat: no-repeat;
+    background-position: right 0px top 0px;
+    
+    z-index: 1;
+  }
+
+/* ------------------------------------------------message-bg */
+   .message-bg{
+    position: absolute;
+    width: 747.47px;
+    height: 100%;
+    top: 6445px;
+    top: 5320px;
+    left: 0;
+  
+   
+    background-image: url('./../../public/assets/img/purple-shadow-L4.png');
+    background-repeat: no-repeat;
+    background-position: left -121px top 200px;
+    background-size: 647.47px 602.79px;
+    z-index: -1;
+  } 

@@ -72,48 +72,10 @@ body {
   z-index: -100;
 } */
  
-.about-bg{
-  position: absolute;
-  width: 572.03px;
-  height: 100%;
-  top: 750px;
-  
-  right: 0px;
-  
- 
-  background-image: url('./../public/assets/img/purple-shadow-R2.png');
-  background-repeat: no-repeat;
-  background-position: right 0px top 80px;
-  background-size: 172.03px 608px;
-  z-index: 1;
-}
-.skills-bg{
-  position: absolute;
-  width: 100vw;
-  height: 400vh;
-  background-image: url('./../public/assets/img/green-shadow-2L.png');
-  background-repeat: no-repeat;
-  background-position: left 0px top 1920px;
-  z-index: -1;
-}
-.p-folio-bg{
-  position: absolute;
-  width: 100vw;
-  height: 400vh;
-  background-image: url('./../public/assets/img/purple-shadow-L3.png');
-  background-repeat: no-repeat;
-  background-position: left 0px top 3200px;
-  z-index: -1;
-}
-.message-bg{
-  position: absolute;
-  width: 100vw;
-  height: 567vh;
-  background-image: url('./../public/assets/img/purple-shadow-L4.png');
-  background-repeat: no-repeat;
-  background-position: left 0px top 5600px;
-  z-index: -1;
-}
+
+
+
+
 
 .background-images {
   position: absolute;
@@ -144,12 +106,15 @@ body {
 
 
 .content-wrapper {
-  max-width: 1440px;
+ 
   width: 100%;
+  max-width: 1440px;
   height: 6123px;
   margin: 0 auto;
+
   position: relative;
   overflow: hidden;
+  border: 1px solid wheat;
 }
 
 

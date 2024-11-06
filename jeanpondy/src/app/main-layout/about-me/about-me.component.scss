@@ -1,10 +1,12 @@
 .aboutMe-picture{
+    
     width: 1340px;
     height: 532px;
     top: 1067px;
     left: 100px;
     position: absolute;
-    //border: 2px solid rgba(255, 255, 255, 1);
+   
+  
     //display: flex;
     //display: none;
     opacity: 0;
@@ -16,14 +18,9 @@
     &.is-visible {
       opacity: 1;
       transform: scale(1); // Zoom auf volle Größe
-    
     }
 
-    
- 
-
-   
-
+      border: 2px solid rgba(255, 255, 255, 1);
 
     .about-me{
         font-family: Poppins;
@@ -34,40 +31,43 @@
         width: 471px;
         height: 532px;
         color: white;
+       
         //border: 2px solid rgba(255, 255, 255, 1);
         //background-image: url('../../../public/assets/img/backgroundshapes.png');
-        //border: 2px solid rgba(255, 255, 255, 1);
-        h2{
-            height: 108px;
-            //styleName: Style 1/t2;
-            font-family: Poppins;
-            font-size: 90px;
-            font-weight: 700;
-            line-height: 108px;
-            text-align: left;
-          
-
-        }
-
        
-        >div{
-            margin-top: 24px;
-           
+        .about-message{
+
+
+            h2{
+                height: 108px;
+                //styleName: Style 1/t2;
+                font-family: Poppins;
+                font-size: 90px;
+                font-weight: 700;
+                line-height: 108px;
+                text-align: left;
+                margin-top: -16px;
+    
+            }
+          
+    
+            .message{
+                width: 471px;
+                height: 120px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.2px;
+                text-align: left;
+                margin-top: -80px;
+             
+            }
+
         }
 
-        .message{
-            height: 90px;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 19.2px;
-            text-align:start;
-            margin-top: -24px;
-            //border: 2px solid rgba(255, 255, 255, 1);
-        }
-    
         .location{
-            margin-top: 32px;
-            height: 57px;
+            width: 471px;
+            height: 77px;
+            margin-top: 24px;
             display: flex;
             gap: 16px;
             //border: 2px solid rgba(255, 255, 255, 1);
@@ -78,25 +78,49 @@
                 width: 25.33px;
                 height: 32px;
             }
-           
+            p{
+                font-family: poppins;
+               
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 0px;
+                text-align: left;
+
+            }
+          
           
         }
+
         .bulb{
             display: flex;
             gap: 16px;
             height: 57px;
             //border: 2px solid rgba(255, 255, 255, 1);
+            margin-top: 16px;
     
             >img{
                 width: 22.06px;
                 height: 32px;
+             
             }
+            p{
+                font-family: poppins;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: left;
+                margin-top: 0px;
+
+            }
+         
+           
           
         }
+
         .vector{
             display: flex;
             gap: 16px;
-            height: 114px;
+            height: 140px;
+            margin-top: 32px;
            
            //border: 2px solid rgba(255, 255, 255, 1);
     
@@ -105,6 +129,16 @@
                 height: 30px;
                 margin: 0 8px;
             }
+            p{
+                font-family: poppins;
+               
+                font-weight: 400;
+                font-size: 16px;
+                margin-top: 0px;
+                text-align: left;
+
+            }
+    
         }
     }
   
@@ -140,7 +174,7 @@
         position: absolute;
         top: 260px;
         left: 1176px;
-        width: 25%;
+        width: 160px;
         //width: 156px;
         height: 0px;
         border-style: solid;

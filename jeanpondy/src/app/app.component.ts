@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
-import { HeaderComponent } from './main-layout/header/header.component';
+
 import { FooterComponent } from './shared/footer/footer.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './main-layout/header/header.component';
 
 
 @Component({
@@ -18,7 +19,7 @@ import { CommonModule } from '@angular/common';
     MainLayoutComponent,
     ImprintComponent,
     PrivacyPolicyComponent,
-    HeaderComponent,
+   HeaderComponent,
     FooterComponent,
     TranslateModule
   ],

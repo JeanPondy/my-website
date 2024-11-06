@@ -1,17 +1,17 @@
 .my-skills1{
-    width: 1339px;
+    width: 1340px;
     height: 404px;
     top: 1779px;
     left: 100px;
     position: absolute;
     display: flex;
     justify-content: space-between;
-    //border: 2px solid rgba(255, 255, 255, 1);
+  
     //display: none;
     opacity: 0;
     transform: translateY(80px);
     transition: transform 4.6s ease-out, opacity 4.6s ease-out;
-  
+    border: 2px solid rgba(255, 255, 255, 1);
    
   
     // Klasse für sichtbare Elemente
@@ -659,7 +659,9 @@
         //left: 869px;
         display: flex;
         flex-direction: column;
-        //border: 2px solid rgba(255, 255, 255, 1);
+        text-align: right;
+      
+        border: 2px solid rgba(255, 255, 255, 1);
      
 
         .skills-line{
@@ -667,6 +669,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+          
+        
 
             h2{
                 width: 395px;
@@ -675,15 +679,22 @@
                 font-weight: 700px;
                 font-size: 90px;
                 line-height: 108px;
-                color: white;
-               margin-left: 72px;
+                color: rgba(255, 255, 255, 1);
+                margin-left: 76px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                border: 2px solid rgba(255, 255, 255, 1);
+            
+               
             }
 
             .line{
                 width: 68px;
-                height: 0px;
+                margin-top: 0px;
                 border-style: solid;
                 color: rgba(151, 71, 255, 1);
+              
+            
                
             }
         }
@@ -696,6 +707,9 @@
             font-size: 16px;
             line-height: 19.2px;
             color: white;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border: 2px solid rgba(255, 255, 255, 1);
         
         }
         h3{
@@ -705,12 +719,17 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 38.4px;
-            color: white;
-           margin-left: 52px;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 60px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border: 2px solid rgba(255, 255, 255, 1);
+         
 
            span{
             font-weight: 900;
             color: rgba(151, 71, 255, 1);
+           
 
            }
         }
@@ -721,7 +740,10 @@
             font-weight: 400px;
             font-size: 16px;
             line-height: 19.2px;
-            color: white;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 60px;
+            margin-top: 16px;
+            border: 2px solid rgba(255, 255, 255, 1);
         
         }
        
@@ -730,7 +752,7 @@
             height: 58px;
             justify-content: center;
             align-items: center;
-            margin-left: 210px;
+            margin-left: 256px;
             margin-top: 32px;
             border-radius: 10px;
             padding: 15px 30px 15px 30px;
@@ -745,6 +767,7 @@
             .btn-touch{
                 font-weight: 400;
                 font-size: 16px;
+              
 
             }
         

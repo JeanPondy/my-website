@@ -9,26 +9,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    //border: 2px solid rgba(255, 255, 255, 1);
-    //display: none;
-
-   /*  opacity: 0;
-    transform: scale(0.8) rotate(-10deg);
-    transition: opacity 3.6s ease, transform 3.6s ease;
-
-    &.is-visible {
-        opacity: 1;
-        transform: scale(1) rotate(0);
-    } */
+    border: 2px solid rgba(255, 255, 255, 1);
+ 
 
     opacity: 0;
-  transform: translateX(-400px);
-  transition: opacity 7.5s ease-out, transform 6.5s ease-out;
+    transform: translateX(-400px);
+    transition: opacity 7.5s ease-out, transform 6.5s ease-out;
+    &.is-visible {
+        opacity: 1;
+        transform: translateX(0);
+      }
 
-  &.is-visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
+ 
 
 
 
@@ -100,15 +92,19 @@
                     //opacity: 0px;
                     border: 2px solid rgba(151, 71, 255, 1);
                     margin-top: 8px;
+                  
                 }
                 .name{
-                    width: 239px;
+                    width: 339px;
                     height: 22px;
                     font-family: Montserrat;
                     font-weight: 400;
                     font-size: 18px;
                     line-height: 21.6px;
+                   margin-top: -16px;
+                   
                     color: rgba(255, 255, 255, 1);
+                
                   
                 }
             }
@@ -918,46 +914,10 @@
              gap: 32px;
              flex-direction: column-reverse;
              /* ----------- */
-/* 
-                //flex: 1;
-                //padding-right: 20px;
-                width: 160.5px;
-                height: 380px;
-                display: flex;
-                align-items: center;
-                overflow: hidden; // Verhindert, dass Inhalte über den Container hinausragen
-               
 
-                .message{
-                    width: 200%;
-                    max-height: calc(200% - 20px);  // Lässt Platz für .line-name
-                    //margin-top: -20px;
-                   
-                    overflow-y: auto; // Ermöglicht Scrollen bei Überlauf
-                    word-wrap: break-word; // Bricht lange Wörter um
-                    margin-top: 160px; // Entfernt den negativen Margin
-                    padding: 10px; // Fügt etwas Innenabstand hinzu
-                 
-                    box-sizing: border-box; // Verhindert, dass Padding die Gesamtbreite erhöht
-                  
-
-
-                }
-                .line-name{
-                    width: 325.5px;
-                    margin-top: 24px;
-                    box-sizing: border-box; // Verhindert, dass Padding die Gesamtbreite erhöht
-                   
-
-                    .line{
-                        width: 54.5px;
-                    }
-                }
-             } */
-            
             
 
-             /* ----------- */
+         
 
              .message-box {
                  //flex: 1;
@@ -970,7 +930,8 @@
 
                 .message{
                     width: 330px;
-                    margin-top: -20px;
+                    margin-top: 20px;
+                   
                   
                 }
                 .line-name{
@@ -980,6 +941,7 @@
 
                     .line{
                         width: 54.5px;
+                      
                     }
                 }
              }

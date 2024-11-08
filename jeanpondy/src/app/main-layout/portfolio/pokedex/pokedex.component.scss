@@ -4,7 +4,7 @@
     height: 339.19px;
     gap: 35px;
     //margin-top: 80px;
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     //border: 2px solid rgb(243, 9, 9);
 
 
@@ -14,15 +14,6 @@
        
     }
 
-   /*  transform: rotate(-10deg);
-    opacity: 0;
-    transition: transform 3.5s ease-out, opacity 0.5s ease-out;
-
-    &.is-visible {
-        transform: rotate(0);
-        opacity: 1;
-    }
- */
 
     transform: perspective(800px) rotateX(45deg);
     opacity: 0;
@@ -45,8 +36,11 @@
         //gap: 35px;
         display: flex;
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 0px;
+        
         align-items: flex-end;
+        border: 2px solid rgba(255, 255, 255, 1);
+
 
         h3{
             width: 196px;
@@ -55,8 +49,10 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 38.4px;
+           margin-top: 88px;
             color: rgba(151, 71, 255, 1);
             text-align: right;
+         
           
         }
 
@@ -69,6 +65,7 @@
             line-height: 27.6px;
             color: rgba(112, 230, 28, 1);
             text-align: right;
+            margin-top: -24px;
         }
 
         p{
@@ -80,6 +77,7 @@
             line-height: 19.2px;
             color: rgba(255, 255, 255, 1);
             text-align: right;
+            margin-top: -8px;
            
         } 
 
@@ -90,6 +88,7 @@
             display: flex;
             //align-items: center;
             justify-content: flex-end; 
+            margin-top: 40px;
           
 
             .btn-talk1{

@@ -6,6 +6,7 @@
     margin-top: 8px;
  
     //border: 2px solid rgb(243, 9, 9);
+    border: 2px solid rgba(255, 255, 255, 1);
     
     >img{
         width: 620px;
@@ -28,9 +29,9 @@
 
         display: flex;
         flex-direction: column;
-        margin-top: 112px;
+        margin-top: 0px;
         align-items: flex-start;
-        //border: 2px solid rgba(255, 255, 255, 1);
+        border: 2px solid rgba(255, 255, 255, 1);
        
 
         h3{
@@ -42,6 +43,9 @@
             line-height: 38.4px;
             color: rgba(151, 71, 255, 1);
             text-align: left;
+            margin-top: 80px;
+            margin-bottom: -16px;
+           
             //border: 2px solid rgba(151, 71, 255, 1);
         }
 
@@ -55,6 +59,7 @@
             color: rgba(112, 230, 28, 1);
             text-align: left;
             //border: 2px solid rgba(112, 230, 28, 1);
+            margin-bottom: 0px;
         }
 
         p{
@@ -73,6 +78,7 @@
             width: 375px;
             height: 65.36px;
             gap: 86px;
+            margin-top: 24px;
             display: flex;
             //align-items: center;
             justify-content:flex-start; 

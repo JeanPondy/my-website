@@ -70,33 +70,39 @@
           </span>
 
           <!-- Privacy Policy Checkbox -->
-          <div>
-            <input
-              type="checkbox"
-              id="privacyPolicy"
-              name="privacyPolicy"
-              [(ngModel)]="contactData.privacyPolicy"
-              #privacyPolicy="ngModel"
-              required
-            />
-            <label for="privacyPolicy" class="privacy-policy-text">
-              I've read the
-              <a routerLink="/privacyPolicy" class="privacy-policy-link">
-                privacy policy
-              </a>
+          <div class="privacyPolicy-checkbox">
+            <div>
+              <input
+                type="checkbox"
+                id="privacyPolicy"
+                name="privacyPolicy"
+                [(ngModel)]="contactData.privacyPolicy"
+                #privacyPolicy="ngModel"
+                required
+              />
+            </div>
 
-              and agree to the processing of my data as outlined.
-            </label>
-            <!-- Error message for privacy policy not accepted -->
-            <div
-              *ngIf="
-                (contactForm.submitted || privacyPolicy.touched) &&
-                !contactData.privacyPolicy
-              "
-            >
-              <span style="color: rgb(211, 5, 5)">
-                Please accept the privacy policy.
-              </span>
+            <div>
+              <label for="privacyPolicy" class="privacy-policy-text">
+                I've read the
+                <a routerLink="/privacyPolicy" class="privacy-policy-link">
+                  privacy policy
+                </a>
+
+                and agree to the processing of my data as outlined.
+              </label>
+
+              <!-- Error message for privacy policy not accepted -->
+              <div
+                *ngIf="
+                  (contactForm.submitted || privacyPolicy.touched) &&
+                  !contactData.privacyPolicy
+                "
+              >
+                <span style="color: rgb(211, 5, 5)">
+                  Please accept the privacy policy.
+                </span>
+              </div>
             </div>
           </div>
 

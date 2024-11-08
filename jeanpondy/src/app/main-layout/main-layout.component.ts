@@ -8,6 +8,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamFeedbackComponent } from './team-feedback/team-feedback.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @Component({
   selector: 'app-main-layout',
   standalone: true,

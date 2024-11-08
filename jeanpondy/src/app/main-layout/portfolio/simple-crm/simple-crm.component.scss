@@ -4,7 +4,7 @@
     width: 1168px;
     height: 340px;
     gap: 35px;
-   // border: 2px solid rgba(255, 255, 255, 1);
+   border: 2px solid rgba(255, 255, 255, 1);
    //border: 2px solid rgb(243, 9, 9);
 
     >img{
@@ -27,7 +27,8 @@
 
         display: flex;
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 0px;
+        border: 2px solid rgba(255, 255, 255, 1);
 
         h3{
             width: 196px;
@@ -36,6 +37,7 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 38.4px;
+            padding-top: 40px;
             color: rgba(151, 71, 255, 1);
         }
 
@@ -46,7 +48,9 @@
             font-weight: 400;
             font-size: 23px;
             line-height: 27.6px;
+            margin-top: -8px;
             color: rgba(112, 230, 28, 1);
+
         }
 
         p{
@@ -57,6 +61,7 @@
             font-size: 16px;
             line-height: 19.2px;
             color: rgba(255, 255, 255, 1);
+            margin-top: 8px;
         } 
 
         .buttons{
@@ -155,49 +160,7 @@
             }
         }
 }
-/* @media (max-width: 1098px){
-    .simple-crm{
-        margin: 0px 0 0 0px;
-        width: 880px;
-         
-     
-         >img{
-            width: 500px;
-            height: 270px;
-            margin-top: 16px;
-         }
-     
-         .simple-crm-info{
-     
-             display: flex;
-             flex-direction: column;
-             margin-top: 120px;
-             width: 315px;
-             margin-left: -40px;
-     
-             h3{
-                 width: 196px;
-                 height: 42.82px;
-                 font-family: Poppins;
-                 font-weight: 700;
-                 font-size: 32px;
-                 line-height: 38.4px;
-                 color: rgba(151, 71, 255, 1);
-             }
-             h3{
-                width: 196px;
-            }
-            h4{
-                width: 308px;
 
-            }
-            p{
-               width: 370px; 
-            }
-            }
-        }
-
-} */
 @media (max-width: 1098px){
     .simple-crm{
         margin: 0px 0 0 0px;

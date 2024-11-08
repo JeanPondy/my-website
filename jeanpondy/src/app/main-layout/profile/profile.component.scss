@@ -8,17 +8,11 @@
     display: flex;
    
 
-
-   
-        
-      
-   
    .profile-pic {
     width: 710.7px;
     height: 771.38px;
     position: absolute;
 
-    //background-image: url('./../../../public/assets/img/shadows.png');
     background-position: left 0px top 140px; 
     background-repeat: no-repeat;
     object-fit: none;
@@ -78,7 +72,7 @@
     width: 1344px;
     height: 646px;
     top: 297px;
-    left: 80px;
+    left: 88px;
     position: absolute;
   
     
@@ -216,7 +210,7 @@
     }
 
     .line{
-        margin-top: 12px;
+        margin-top: 16px;
         width: 100px;
         height: 0px;
         border-style: solid;

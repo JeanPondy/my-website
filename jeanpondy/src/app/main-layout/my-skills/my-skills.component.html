@@ -52,13 +52,10 @@
 
   <div class="my-skills">
     <div class="skills-line">
-      <h2>My skills</h2>
+      <h2>{{ "MY_SKILLS.TITLE" | translate }}</h2>
       <div class="line"></div>
     </div>
-    <p class="p1">
-      I have gained experience in building projects with different frontend
-      technologies and concepts
-    </p>
+    <p class="p1">{{ "MY_SKILLS.DESCRIPTION" | translate }}</p>
     <div>
       <div class="skills-icons2">
         <div class="skill html">
@@ -116,17 +113,14 @@
     </div>
 
     <h3>Looking for <span>another skill</span>?</h3>
-    <p class="p2">
-      Feel free to contact me. I look forward to expanding on my previous
-      knowledge
-    </p>
+    <p class="p2">{{ "MY_SKILLS.CONTACT_MESSAGE" | translate }}</p>
     <button
       mat-fab
       extended
       class="btn-talk"
       (click)="scrollToSection('contact')"
     >
-      <p class="btn-touch">Get in touch</p>
+      <p class="btn-touch">{{ "MY_SKILLS.CONTACT_BUTTON" | translate }}</p>
     </button>
   </div>
 </div>

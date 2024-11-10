@@ -20,6 +20,19 @@ body {
     overflow-y: hidden;
   }
 
+  .content-wrapper {
+ 
+    width: 100%;
+    max-width: 1440px;
+    height: 6123px;
+    height: auto;
+    margin: 0 auto;
+  
+    position: relative;
+    overflow: hidden;
+    border: 1px solid wheat;
+  }
+
 
 
 
@@ -105,17 +118,7 @@ body {
 }
 
 
-.content-wrapper {
- 
-  width: 100%;
-  max-width: 1440px;
-  height: 6123px;
-  margin: 0 auto;
 
-  position: relative;
-  overflow: hidden;
-  border: 1px solid wheat;
-}
 
 
 
@@ -157,7 +160,7 @@ body {
     background-size: 960px 700px; /* Breite x Höhe */
     z-index: -100;
   }
-  .shape-hero {
+  .shape-her {
     position: absolute;
     width: 100vw;
     height: 100vh;

@@ -1,9 +1,10 @@
 import { Component,  ElementRef, AfterViewInit  } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-da-bubble',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './da-bubble.component.html',
   styleUrl: './da-bubble.component.scss'
 })

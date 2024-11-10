@@ -4,5 +4,137 @@
       "SKILLS": "Fähigkeiten",
       "PORTFOLIO": "Portfolio",
       "CONTACT": "Kontakt"
-    }
+    },
+    "PROFILE": {
+      "I_AM": "Ich bin",
+      "FRONTEND_DEVELOPER": "Frontend-Entwickler",
+      "LETS_TALK": "Lass uns reden",
+      "SCROLL_DOWN": "Runterscrollen ->"
+    },
+    "ABOUT_ME": {
+      "TITLE": "Über mich",
+      "INTRO": "Hallo, ich bin ein leidenschaftlicher Frontend-Entwickler aus Karlsruhe, Deutschland, der fließend Deutsch und Französisch spricht und gut Englisch versteht. Angetrieben von der grenzenlosen Kreativität und den endlosen Möglichkeiten der IT spezialisiere ich mich darauf, visuell ansprechende und intuitive Websites und Anwendungen zu erstellen.",
+      "LOCATION": {
+        "ICON_ALT": "Standortsymbol",
+        "TEXT": "Ob vor Ort oder remote, ich bin flexibel und anpassungsfähig und arbeite gerne in verschiedenen Umgebungen, sei es in Karlsruhe, München oder weltweit."
+      },
+      "BULB": {
+        "ICON_ALT": "Glühbirnensymbol",
+        "TEXT": "Ich bin offen für neue Herausforderungen und stets bestrebt, mein Wissen und meine Fähigkeiten kontinuierlich zu erweitern."
+      },
+      "VECTOR": {
+        "ICON_ALT": "Vektorsymbol",
+        "TEXT": "Für mich ist Programmieren viel mehr als nur Code schreiben. Es ist eine kreative Kunst, bei der ich komplexe technische Probleme in einfache und benutzerfreundliche Lösungen verwandle. Mein Ziel ist es, nicht nur funktionale, sondern auch ästhetisch ansprechende Ergebnisse zu schaffen, die es meinen Kunden ermöglichen, ihre Visionen zu verwirklichen."
+      }
+    },
+
+  "MY_SKILLS": {
+    "TITLE": "Skills",
+    "DESCRIPTION": "Ich verfüge über Erfahrung mit diversen Frontend-Technologien und -Konzepten.",
+    "SKILLS_LIST": {
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JS": "JavaScript",
+      "TS": "TypeScript",
+      "ANGULAR": "Angular",
+      "FIREBASE": "Firebase",
+      "GIT": "Git",
+      "API": "REST API",
+      "SCRUM": "Scrum",
+      "MATERIAL_DESIGN": "Material Design",
+      "CONTINUAL_LEARNING": "Stetiges Lernen"
+    },
+    "LOOKING_FOR_OTHER": "Sie suchen nach einer anderen Fähigkeit?",
+    
+    "CONTACT_MESSAGE": "Nehmen Sie Kontakt mit mir auf. Ich freue mich darauf, mein bisheriges Wissen zu erweitern.",
+    "CONTACT_BUTTON": "Kontaktiere mich!"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio",
+    "DESCRIPTION": "Entdecken Sie hier eine Auswahl meiner Arbeiten – Interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen"
+  },
+  "JOIN": {
+    "TITLE": "Join",
+    "TECHNOLOGIES": "JavaScript | HTML | CSS",
+    "DESCRIPTION": "Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+    "LIVE_TEST_BUTTON": "Live-Test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "EL_POLLO_LOCO": {
+    "TITLE": "El Pollo Loco",
+    "TECHNOLOGIES": "JavaScript | HTML | CSS",
+    "DESCRIPTION": "Ein einfaches Jump-and-Run-Spiel, basierend auf einem objektorientierten Ansatz. El Pollo Loco ist ein 2D-Actionspiel, in dem ein mexikanischer Held gegen Küken, Hühner und einen riesigen Hühnerboss kämpft. Springe auf Küken und Hühner und werfe Tabasco-Flaschen auf den Boss, um zu gewinnen. Besiege den Boss, um als Sieger hervorzugehen!",
+    "LIVE_TEST_BUTTON": "Live-Test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "SIMPLE_CRM": {
+    "TITLE": "Einfaches CRM",
+    "TECHNOLOGIES": "Angular | Firebase",
+    "DESCRIPTION": "Ein sehr einfaches Customer Relationship Management System mit CRUD-Funktionalität.",
+    "LIVE_TEST_BUTTON": "Live-Test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "POKEDEX": {
+    "TITLE": "Pokédex",
+    "TECHNOLOGIES": "JS | HTML | CSS | API",
+    "DESCRIPTION": "Basierend auf der PokéAPI, eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert.",
+    "LIVE_TEST_BUTTON": "Live-Test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "DABUBBLE": {
+    "TITLE": "DA Bubble",
+    "TECHNOLOGIES": "Angular | TypeScript | Firebase",
+    "DESCRIPTION": "Diese App ist ein Slack-Clone. Sie revolutioniert die Teamkommunikation und Zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeitnachrichten und einer robusten Kanalorganisation.",
+    "LIVE_TEST_BUTTON": "Live-Test",
+    "GITHUB_BUTTON": "Github"
+  },
+
+  "CONTACT": {
+    "TITLE": "Kontakt",
+    "SUBTITLE": "Haben Sie ein Problem zu lösen?",
+    "DESCRIPTION": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und zu Ihren Projekten mit meiner Arbeit beizutragen.",
+    "CTA": "Brauchen Sie einen Frontend-Entwickler? Kontaktieren Sie mich!",
+    "NAME_PLACEHOLDER": "Ihr Name..",
+    "NAME_ERROR": "Bitte geben Sie einen gültigen Namen ein.",
+    "EMAIL_PLACEHOLDER": "Ihre E-Mail-Adresse..",
+    "EMAIL_ERROR": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "MESSAGE_PLACEHOLDER": "Ihre Nachricht",
+    "MESSAGE_ERROR": "Bitte geben Sie eine gültige Nachricht ein (mindestens 4 Zeichen).",
+    "PRIVACY_POLICY_LABEL": "Ich habe die",
+    "PRIVACY_POLICY_LINK": "Datenschutzerklärung",
+    "PRIVACY_POLICY_CONFIRMATION": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "PRIVACY_POLICY_ERROR": "Bitte akzeptieren Sie die Datenschutzerklärung.",
+    "SUBMIT_BUTTON": "Nachricht senden :)",
+    "FEEDBACK_CLOSE": "Schließen"
+  },
+
+  "TEAM_FEEDBACK": {
+    "FEEDBACKS": [
+      {
+        "TEXT": "Jean hat das Team mit seiner großartigen Organisation und klaren Kommunikation zusammengehalten. Ohne sein Engagement wären wir nicht so weit gekommen.",
+        "NAME": "Elon Musk - Teamkollege"
+      },
+      {
+        "TEXT": "Es war eine große Freude, mit Jean zu arbeiten. Er weiß, wie man Teammitglieder motiviert und ermutigt, das Beste zu geben, und bringt immer neue Ideen in Brainstorming-Sitzungen ein. Jean war stets präsent und bereit zuzuhören und zu helfen, mit einem großartigen Sinn für Humor.",
+        "NAME": "V.Buterin - Teamkollege"
+      },
+      {
+        "TEXT": "J.Pondy war ein hervorragender Teamkollege bei DA. Sein positives Engagement und die Bereitschaft, Verantwortung zu übernehmen, haben maßgeblich dazu beigetragen, dass wir unsere Ziele erreicht haben.",
+        "NAME": "Reshma Saujani - Teamkollegin"
+      },
+      {
+        "TEXT": "Die Zusammenarbeit mit Jean war ein wahres Vergnügen. Er motiviert und inspiriert das Team auf natürliche Weise und bringt wertvolle Ideen in Brainstormings ein. Jean war stets ansprechbar und hilfsbereit und sorgte mit seinem großartigen Humor für eine angenehme Atmosphäre.",
+        "NAME": "Doris Tamdes - Teamkollegin"
+      }
+    ],
+    "NEXT": "Nächster",
+    "PREVIOUS": "Vorheriger"
+  },
+  "FOOTER": {
+    "IMPRINT": "Impressum",
+    "NAME": "Jean Pondy",
+    "GITHUB": "Besuche GitHub",
+    "EMAIL": "E-Mail senden",
+    "LINKEDIN": "LinkedIn besuchen"
+  }
   }

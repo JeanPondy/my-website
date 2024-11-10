@@ -13,6 +13,24 @@
    //display: none;
    border: 4px solid rgba(112, 230, 28, 1);
 
+   .underline {
+    height: 40px;
+    >a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        
+        
+        &:hover {
+            border-bottom: 2px solid #70E61C;
+            cursor: pointer;
+            
+            
+        }
+        }
+    }
+
    .logo-legal{
     width: 216px;
     height: auto;
@@ -21,6 +39,24 @@
     //margin-left: 100px;
     gap: 10px;
     cursor: pointer;
+
+    .underline {
+        height: 40px;
+        >a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            
+            
+            &:hover {
+                border-bottom: 2px solid #70E61C;
+                cursor: pointer;
+                
+                
+            }
+            }
+    }
 
    
     .logo{
@@ -71,6 +107,7 @@
        
 
     }
+ 
 
    }
    .copyR-name{
@@ -148,29 +185,35 @@
     color: rgba(255, 255, 255, 1);
     margin-top: 8px;
     display: none;
-   
-    
 
-    
-
-    .line{
-           
-            //transition: opacity 0.3s ease; 
-
-            &:hover{
-                opacity: 1; 
-                width: 48px;
-                border-style: solid;
-                border-width: 1px;
-                color: rgba(112, 230, 28, 1);
-                margin-top: -8px;
-                opacity: 0; 
-   
-            }
-
-         
-
+    a{
+        color: white;
+        font-size: 16px;
     }
+
+
+ 
+
+
+    .underline {
+        height: 40px;
+        >a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            
+            
+            &:hover {
+                border-bottom: 2px solid #70E61C;
+                cursor: pointer;
+                
+                
+            }
+        }
+    }
+   
+    
 
    
 
@@ -253,15 +296,20 @@
 
         }
         .legal2{
+            width: 80px;
+            height: 32px;
             display: block;
             margin-top: -8px;
+            border: 2px solid rgb(50, 24, 219);
           
         }
         .copyR-name{
             margin-top: 0px;
+         
         }
         .git-mail-in{
             margin-top: 8px;
+          
 
         }
     }

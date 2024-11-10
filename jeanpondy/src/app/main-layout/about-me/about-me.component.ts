@@ -1,9 +1,10 @@
 import { Component, ElementRef, AfterViewInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule], // Übersetzungsmodul hinzugefügt
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.scss']
 })

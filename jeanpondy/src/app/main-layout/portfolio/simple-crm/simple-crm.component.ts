@@ -1,9 +1,10 @@
 import { Component,  ElementRef, AfterViewInit  } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-simple-crm',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './simple-crm.component.html',
   styleUrl: './simple-crm.component.scss'
 })

@@ -4,5 +4,135 @@
       "SKILLS": "Skills",
       "PORTFOLIO": "Portfolio",
       "CONTACT": "Contact"
+    },
+    "PROFILE": {
+      "I_AM": "I am",
+      "FRONTEND_DEVELOPER": "Frontend Developer",
+      "LETS_TALK": "Let's talk",
+      "SCROLL_DOWN": "Scroll down ->"
+    },
+    "ABOUT_ME": {
+    "TITLE": "About me",
+    "INTRO": "Hi, I'm a passionate frontend developer from Karlsruhe, Germany, who speaks fluent German and French and understands English well. Driven by the boundless creativity and endless possibilities of IT, I specialize in creating visually appealing and intuitive websites and applications.",
+    "LOCATION": {
+      "ICON_ALT": "Location icon",
+      "TEXT": "Whether onsite or remote, I am flexible and adaptable, and enjoy working in different environments, be it in Karlsruhe, Munich or worldwide."
+    },
+    "BULB": {
+      "ICON_ALT": "Light bulb icon",
+      "TEXT": "I am open to new challenges and always looking for ways to continuously expand my knowledge and skills."
+    },
+    "VECTOR": {
+      "ICON_ALT": "Vector icon",
+      "TEXT": "For me, programming is much more than just writing code. It is a creative art where I transform complex technical problems into simple and user-friendly solutions. My goal is to create not only functional but also aesthetically compelling results that enable my clients to realize their visions."
     }
+  },
+  "MY_SKILLS": {
+    "TITLE": "My skills",
+    "DESCRIPTION": "I have gained experience in building projects with different frontend technologies and concepts",
+    "SKILLS_LIST": {
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JS": "JavaScript",
+      "TS": "TypeScript",
+      "ANGULAR": "Angular",
+      "FIREBASE": "Firebase",
+      "GIT": "Git",
+      "API": "REST API",
+      "SCRUM": "Scrum",
+      "MATERIAL_DESIGN": "Material Design",
+      "CONTINUAL_LEARNING": "Continually Learning"
+    },
+    "LOOKING_FOR_OTHER": "Looking for another skill?",
+    "CONTACT_MESSAGE": "Feel free to contact me. I look forward to expanding on my previous knowledge",
+    "CONTACT_BUTTON": "Get in touch"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio",
+    "DESCRIPTION": "Explore a selection of my work here - Interact with projects to see my skills in action"
+  },
+  "JOIN": {
+    "TITLE": "Join",
+    "TECHNOLOGIES": "JavaScript | HTML | CSS",
+    "DESCRIPTION": "Task manager inspired by the kanban system. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "LIVE_TEST_BUTTON": "Live test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "EL_POLLO_LOCO": {
+    "TITLE": "El Pollo Loco",
+    "TECHNOLOGIES": "JavaScript | HTML | CSS",
+    "DESCRIPTION": "A simple jump-and-run game based on an object-oriented approach. El Pollo Loco is a 2D action game in which a Mexican hero fights chicks, chickens, and a giant chicken boss. Jump on chicks and chickens and throw Tabasco bottles at the boss to win. Beat the boss to emerge victorious!",
+    "LIVE_TEST_BUTTON": "Live test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "SIMPLE_CRM": {
+    "TITLE": "Simple CRM",
+    "TECHNOLOGIES": "Angular | Firebase",
+    "DESCRIPTION": "A very simple Customer Relationship Management system working with CRUD functionality.",
+    "LIVE_TEST_BUTTON": "Live test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "POKEDEX": {
+    "TITLE": "Pokédex",
+    "TECHNOLOGIES": "JS | HTML | CSS | API",
+    "DESCRIPTION": "Based on the PokéAPI, a simple library that provides and catalogues Pokémon information.",
+    "LIVE_TEST_BUTTON": "Live test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "DABUBBLE": {
+    "TITLE": "DA Bubble",
+    "TECHNOLOGIES": "Angular | TypeScript | Firebase",
+    "DESCRIPTION": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.",
+    "LIVE_TEST_BUTTON": "Live test",
+    "GITHUB_BUTTON": "Github"
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "SUBTITLE": "Got a problem to solve?",
+    "DESCRIPTION": "Contact me through this form. I'm interested in hearing from you, knowing your ideas, and contributing to your projects with my work.",
+    "CTA": "Need a Frontend developer? Contact me!",
+    "NAME_PLACEHOLDER": "Your name..",
+    "NAME_ERROR": "Please enter a valid name.",
+    "EMAIL_PLACEHOLDER": "Your email address..",
+    "EMAIL_ERROR": "Please enter a valid email address.",
+    "MESSAGE_PLACEHOLDER": "Your message",
+    "MESSAGE_ERROR": "Please enter a valid message (at least 4 characters).",
+    "PRIVACY_POLICY_LABEL": "I've read the",
+    "PRIVACY_POLICY_LINK": "privacy policy",
+    "PRIVACY_POLICY_CONFIRMATION": "and agree to the processing of my data as outlined.",
+    "PRIVACY_POLICY_ERROR": "Please accept the privacy policy.",
+    "SUBMIT_BUTTON": "Send Message :)",
+    "FEEDBACK_CLOSE": "Close"
+  },
+
+  "TEAM_FEEDBACK": {
+    "FEEDBACKS": [
+      {
+        "TEXT": "Jean really kept the team together with his great organization and clear communication. We wouldn’t have got this far without his commitment.",
+        "NAME": "Elon Musk - Team Partner"
+      },
+      {
+        "TEXT": "It was a great pleasure to work with Jean. He knows how to push and encourage team members to present the best work possible, always adding something to brainstorm. Regarding the well-being of group members, he was always present and available to listen and help others, with a great sense of humor as well.",
+        "NAME": "V.Buterin - Team Partner"
+      },
+      {
+        "TEXT": "J.Pondy was a top team colleague at DA. His positive commitment and willingness to take on responsibility made a significant contribution to us achieving our goals.",
+        "NAME": "Reshma Saujani - Team Partner"
+      },
+      {
+        "TEXT": "It was a true pleasure collaborating with Jean. He has a natural ability to motivate and inspire team members to bring their best ideas to the table, consistently contributing valuable insights during brainstorming sessions. When it comes to the well-being of the team, Jean was always approachable and willing to lend a listening ear or offer support, all while maintaining a fantastic sense of humor that lifted the group’s spirits.",
+        "NAME": "Doris Tamdes - Team Partner"
+      }
+    ],
+    "NEXT": "Next",
+    "PREVIOUS": "Previous"
+  },
+  "FOOTER": {
+    "IMPRINT": "Imprint",
+    "NAME": "Jean Pondy",
+    "GITHUB": "Visit GitHub",
+    "EMAIL": "Send Email",
+    "LINKEDIN": "Visit LinkedIn"
+  }
+
   }

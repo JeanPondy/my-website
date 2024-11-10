@@ -97,6 +97,7 @@
 
         .iam {
             width: 152px;
+            width: 220px;
             height: 63px;
             transform: rotate(-90deg); /* Drehung um 90 Grad */
             font-family: Poppins;
@@ -105,10 +106,13 @@
             line-height: 76.8px;
             //margin-top: 48px;
             color: rgba(255, 255, 255, 1);
-            margin-left: -48px;
-           margin-top: 48px;
-           margin-bottom: 44px;
-           //border: 2px solid rgba(255, 255, 255, 1);
+            margin-left: -120px;
+            margin-top: 48px;
+            text-align: left;
+            padding-left: 44px;
+          
+           padding-top: 0px;
+           border: 2px solid rgba(255, 255, 255, 1);
           
           
         }
@@ -123,7 +127,7 @@
 
             .name{
                 font-family: poppins;
-                width: 530px;
+                width: 620px;
                 height: 108px;
                 font-weight: 700;
                 font-size: 90px;
@@ -131,24 +135,27 @@
                 color: rgba(255, 255, 255, 1);
                 text-align: left;
                
-                //border: 2px solid rgba(255, 255, 255, 1);
+                border: 2px solid rgba(255, 255, 255, 1);
               
             }
             .frontend{
                 // font-family: Poppins;
-                 width: 490px;
+                 width: 618px;
                  font-weight: 400;
                  height: 70px;
-                 font-size: 44px;
+                 font-size: 58px;
                  line-height: 69.6px;
                  color: rgba(151, 71, 255, 1) ;
                  line-height: 69.6px;
                  margin-top: -68px;
-                // border: 2px solid  rgba(151, 71, 255, 1);
+                 text-align: left;
+
+                 border: 2px solid  rgba(151, 71, 255, 1);
                  //display: none;
              }
              .btn-talk {
                 width: 165px;
+                width: 210px;
                 height: 58px;
                 margin-left: -480px;
                 border-radius: 10px;
@@ -160,7 +167,7 @@
                 background: rgba(112, 230, 28, 1);
                 font-family: poppins;
                 font-weight: 400;
-                font-size: 23px;
+                font-size: 20px;
                 line-height: 27.6px;
                 cursor: pointer;
                 border: none;
@@ -231,7 +238,7 @@
         position: absolute;
         left: 1316px;
         left: 1246px;
-        width: 160px;
+        width: 172px;
         height: 28px;
         font-family: Poppins;
         font-weight: 400;
@@ -242,19 +249,17 @@
         margin-top: -160px;
         //background-color: rgba(255, 255, 255, 1);
        
+        .scroll-down:hover {
+            cursor: pointer;
+            color: rgba(112, 230, 28, 1);
+    
+    
+        }
+       
       
     }
 
-    &:hover{
-        cursor: pointer;
-       
-    }
-    .scroll-down:hover {
-        cursor: pointer;
-        color: rgba(112, 230, 28, 1);
-
-
-    }
+   
 }
 
 

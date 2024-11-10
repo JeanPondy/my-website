@@ -10,12 +10,14 @@
       loading="lazy"
     />
   </div>
+
   <div class="hero">
     <div class="iam-frontend">
-      <h2 class="iam">I am</h2>
+      <h2 class="iam">{{ "PROFILE.I_AM" | translate }}</h2>
+      <!-- Korrektur hier -->
       <div class="name-beruf">
         <h1 class="name">Jean Pondy</h1>
-        <p class="frontend">FRONTEND DEVELOPER</p>
+        <p class="frontend">{{ "PROFILE.FRONTEND_DEVELOPER" | translate }}</p>
 
         <button
           mat-fab
@@ -23,7 +25,7 @@
           class="btn-talk"
           (click)="scrollToSection('contact')"
         >
-          Let´s talk
+          {{ "PROFILE.LETS_TALK" | translate }}
         </button>
       </div>
     </div>
@@ -33,13 +35,17 @@
   <div class="references">
     <div class="references-line">
       <div class="line"></div>
-      <img (click)="goToGithub()" src="./assets/img/github.png" alt="" />
+      <img (click)="goToGithub()" src="./assets/img/github.png" alt="GitHub" />
       <img
         (click)="scrollToSection('contact')"
         src="./assets/img/email.png"
-        alt=""
+        alt="Email"
       />
-      <img (click)="goToLinkedin()" src="./assets/img/linkedin.png" alt="" />
+      <img
+        (click)="goToLinkedin()"
+        src="./assets/img/linkedin.png"
+        alt="LinkedIn"
+      />
       <div
         [class.active]="activeSection === 'about-me'"
         (click)="scrollToSection('contact')"
@@ -49,7 +55,7 @@
       </div>
     </div>
     <div (click)="scrollToSection('footer')" class="scroll-down">
-      Scroll down ->
+      {{ "PROFILE.SCROLL_DOWN" | translate }}
     </div>
   </div>
 </div>

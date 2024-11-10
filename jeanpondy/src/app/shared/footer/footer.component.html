@@ -8,9 +8,8 @@
       alt=""
     />
 
-    <div class="legal line">
-      <a routerLink="/imprint">Imprint</a>
-      <div class="line"></div>
+    <div class="legal line underline">
+      <a routerLink="/imprint">{{ "FOOTER.IMPRINT" | translate }}</a>
     </div>
   </div>
   <div class="copyR-name">
@@ -39,10 +38,10 @@
     />
   </div>
 
-  <!--   <div class="legal2 line">
-    <div class="line">
-      <a routerLink="/imprint">Imprint</a>
-      <!--     <p class="imprint">Imprint</p> --
-    </div>
-  </div> -->
+  <div class="legal2 underline center">
+    <a class="imprint center" routerLink="/imprint">{{
+      "FOOTER.IMPRINT" | translate
+    }}</a>
+    <!--   <p class="imprint">Imprint</p>  -->
+  </div>
 </div>

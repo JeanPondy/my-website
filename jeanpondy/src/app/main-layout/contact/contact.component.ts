@@ -3,11 +3,12 @@ import { Component, inject, ElementRef, AfterViewInit } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'; 
 import { RouterModule } from '@angular/router'; 
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule, RouterModule],
+  imports: [CommonModule, FormsModule, HttpClientModule, RouterModule, TranslateModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

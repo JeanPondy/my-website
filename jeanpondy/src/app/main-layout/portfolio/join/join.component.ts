@@ -1,9 +1,10 @@
 import { Component, ElementRef, AfterViewInit  } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-join',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './join.component.html',
   styleUrl: './join.component.scss'
 })

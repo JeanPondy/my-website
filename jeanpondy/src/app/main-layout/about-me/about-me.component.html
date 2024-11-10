@@ -1,39 +1,36 @@
 <div id="about-me" class="aboutMe-picture">
   <div class="about-me">
     <div class="about-message">
-      <h2>About me</h2>
+      <h2>{{ "ABOUT_ME.TITLE" | translate }}</h2>
       <p class="message">
-        Hi, I'm a passionate frontend developer from Karlsruhe, Germany, who
-        speaks fluent German and French and understands English well. Driven by
-        the boundless creativity and endless possibilities of IT, I specialise
-        in creating visually appealing and intuitive websites and applications.
+        {{ "ABOUT_ME.INTRO" | translate }}
       </p>
     </div>
 
     <div class="location">
-      <div><img src="./assets/img/location.png" alt="" /></div>
-      <p>
-        Whether onsite or remote, I am flexible and adaptable, and enjoy working
-        in different environments, be it in Karlsruhe, Munich or worldwide.
-      </p>
+      <div>
+        <img
+          src="./assets/img/location.png"
+          alt="{{ 'ABOUT_ME.LOCATION.ICON_ALT' | translate }}"
+        />
+      </div>
+      <p>{{ "ABOUT_ME.LOCATION.TEXT" | translate }}</p>
     </div>
     <div class="bulb">
-      <div><img src="./assets/img/bulbdesktop.png" alt="" /></div>
-      <p>
-        I am open to new challenges and always looking for ways to continuously
-        expand my knowledge and skills.
-      </p>
+      <div>
+        <img
+          src="./assets/img/bulbdesktop.png"
+          alt="{{ 'ABOUT_ME.BULB.ICON_ALT' | translate }}"
+        />
+      </div>
+      <p>{{ "ABOUT_ME.BULB.TEXT" | translate }}</p>
     </div>
     <div class="vector">
-      <!--  <div><img src="./assets/img/location.png" alt="" /></div> -->
-      <img src="./assets/img/vector.png" alt="" />
-      <p>
-        For me, programming is much more than just writing code. It is a
-        creative art where I transform complex technical problems into simple
-        and user-friendly solutions. My goal is to create not only functional
-        but also aesthetically compelling results that enable my clients to
-        realise their visions.
-      </p>
+      <img
+        src="./assets/img/vector.png"
+        alt="{{ 'ABOUT_ME.VECTOR.ICON_ALT' | translate }}"
+      />
+      <p>{{ "ABOUT_ME.VECTOR.TEXT" | translate }}</p>
     </div>
   </div>
 

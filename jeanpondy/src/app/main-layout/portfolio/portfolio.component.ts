@@ -5,11 +5,12 @@ import { ElPolloLocoComponent } from './el-pollo-loco/el-pollo-loco.component';
 import { SimpleCrmComponent } from './simple-crm/simple-crm.component';
 import { PokedexComponent } from './pokedex/pokedex.component';
 import { DaBubbleComponent } from "./da-bubble/da-bubble.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [JoinComponent, ElPolloLocoComponent, SimpleCrmComponent, PokedexComponent, DaBubbleComponent],
+  imports: [JoinComponent, ElPolloLocoComponent, SimpleCrmComponent, PokedexComponent, DaBubbleComponent, TranslateModule],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })

@@ -2,11 +2,12 @@ import { Component , ElementRef, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-team-feedback',
   standalone: true,
-  imports: [MatButtonModule, MatIconModule, CommonModule],
+  imports: [MatButtonModule, MatIconModule, CommonModule, TranslateModule],
   templateUrl: './team-feedback.component.html',
   styleUrl: './team-feedback.component.scss'
 })

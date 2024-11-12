@@ -2,7 +2,7 @@
   <img class="capo" src="./assets/img/caporal.png" alt="" />
   <div class="slider-container">
     <!-- Nachricht links -->
-    <div class="message-box">
+    <div class="message-box" *ngIf="currentMessage">
       <p class="message">{{ currentMessage.text }}</p>
 
       <div class="line-name">
@@ -14,14 +14,13 @@
     </div>
 
     <!-- Bild rechts -->
-    <div class="image-box">
+    <div class="image-box" *ngIf="currentMessage && currentMessage.imageUrl">
       <img [src]="currentMessage.imageUrl" alt="Bild" />
       <div class="line-pic"></div>
     </div>
   </div>
 
   <!-- Navigation und Icons unten -->
-
   <div class="buttons">
     <div>
       <img

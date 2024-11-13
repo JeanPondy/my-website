@@ -3,12 +3,12 @@
 .header-menu {
     width: 1440px; 
     width: 100%;
-    max-width: cover;// à regarder
-    
+   
+    //max-width: cover;// à regarder
     height: 29.03px; 
     top: 0;
     position: fixed;
-    padding: 0 5%;
+   
     padding: 37px 0px 37px 0px;
     gap: 0px;
     opacity: 1; 
@@ -21,7 +21,7 @@
         cursor: pointer;
     }
    
-    //border: 1px solid yellowgreen;
+    border: 1px solid yellowgreen;
 
     .lang-switch {
         background-color: #9747FF;
@@ -35,6 +35,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-left: 16px;
        
         &:hover {
             border: 1px solid white;
@@ -74,15 +75,6 @@
     }
     
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
   > img {
       width: 150px; /* Width of the image */
       min-height: 35.03px; /* Minimum height of the image */
@@ -91,12 +83,15 @@
   .menu{
   display: flex;
   align-items: center;
-  padding: 37px 100px;
+  padding: 37px 40px;
+  //border: 2px solid tomato;
   
-  
-  
+  .about-me{
+    width: 136px;
+  }
+ 
   > button {
-      width: 134px;
+     
       height: 32px;
       color: white;
       background-color: transparent;
@@ -107,11 +102,13 @@
       font-weight: 400px;
       line-height: 27.6px;
       margin-right: 16px;
+      //border: 2px solid yellow;
      
        &:hover{
           color: rgba(112, 230, 28, 1);
           
       } 
+    
   }
   }
   .burger-menu {
@@ -157,7 +154,7 @@
         gap: 0px;
     
         button {
-          width: 80%;
+          width: 100%;
           margin-bottom: 15px;
           padding: 10px;
           background-color: rgb(75,81,91);
@@ -167,6 +164,7 @@
           cursor: pointer;
           display: flex;
           justify-content: center;
+          border: 2px solid green;
     
           &:hover {
             //background-color: rgb(179, 149, 220);
@@ -184,41 +182,30 @@
   
   
   /* ----------------------------------responsive */
+
   
   
-   @media (max-width: 779px) {
-      .header-menu {
-         
-          padding: 37px 25px 37px 25px;
   
-          > img {
-              width: 139.51px; /* Width of the image */
-              min-height: 27.9px; /* Minimum height of the image */
-          }
-          .menu{
-              padding: 37px 25px 37px 25px;
-              >  button {
-                  width: 114px;
-                  height: 32px;
-              }
-          }
-      
-      }
-     
-  }
+
   
   /* Responsive Styles */
-  @media (max-width: 590px) {
+  @media (max-width: 750px) {
       .header-menu {
+     
+      
+        display: flex;
+        justify-content: space-around;
         .menu {
           display: none;
         }
         .burger-menu {
           display: block;
-          padding-right: 56px;
+          padding: 0px 16px;
         }
       }
     }
+  
+  
   
   
   @media (max-width: 320px) {

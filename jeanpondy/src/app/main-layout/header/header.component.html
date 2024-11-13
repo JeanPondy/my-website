@@ -20,6 +20,7 @@
 
   <div class="menu">
     <button
+      class="about-me"
       [class.active]="activeSection === 'about-me'"
       (click)="scrollToSection('about-me')"
     >
@@ -27,12 +28,14 @@
       <!-- Debug-Text -->
     </button>
     <button
+      class="skills"
       [class.active]="activeSection === 'my-skills'"
       (click)="scrollToSection('my-skills')"
     >
       {{ "HEADER.SKILLS" | translate }}
     </button>
     <button
+      class="portfolio"
       [class.active]="activeSection === 'my-portfolio'"
       (click)="scrollToSection('my-portfolio')"
     >

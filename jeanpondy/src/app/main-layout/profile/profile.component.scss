@@ -1,44 +1,38 @@
 .profile{
-
     height: 605.38px;
-    width: 1344px;
+    width: auto;
     height: 646px;
+ 
     top: 297px;
     left: 0px;
     display: flex;
+    //border: 2px solid rgba(255, 255, 255, 1);
    
-
+/* profile-pic */
    .profile-pic {
     width: 710.7px;
     height: 771.38px;
     position: absolute;
 
-    background-position: left 0px top 140px; 
-    background-repeat: no-repeat;
-    object-fit: none;
-    background-size: contain; 
+   
     //border: 2px solid rgba(255, 255, 255, 1);
+   
  
-
+/* background-picture */
     .photo-profile-bg{
         position: absolute;
         top: 160px;
         width: 760px;
         height: 660px;
         left: 0px;
-        
- 
         background-repeat: no-repeat;
         background-position: right 40px top 40px;
         background-size: 760px 560px; /* Breite x Höhe */
         z-index: -100;
-        border: 2px solid rgba(255, 255, 255, 1);
+       //border: 2px solid yellowgreen;
 
     }
-   
-  
-
-   
+ /* picture */  
       .p-pic{
         position: absolute;
         width: 646px;
@@ -51,33 +45,22 @@
         gap: 0px;
         opacity: 0px;
         z-index: -2;
-     
-        
-      
         //display: none;
-      
-        //border: 2px solid rgba(255, 255, 255, 1);
+        //border: 2px solid yellow;
         
-
     }
-  
-
-
   }
+
+/* Hero */
   .hero{
     font-family: poppins;
-    display: flex;
- 
-
     width: 1344px;
     height: 646px;
+    position: absolute;
     top: 297px;
     left: 88px;
-    position: absolute;
   
-    
-  
-   border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid blue;
 
     //border: 2px solid rgb(231, 206, 12);
     //display: none;
@@ -91,53 +74,48 @@
         gap: 35px;
         opacity: 0px;
      
-        
-        
-      
-
+/* I am */
         .iam {
             width: 152px;
             width: 220px;
             height: 63px;
+            //margin-top: 48px;
+            margin-left: -120px;
+          
             transform: rotate(-90deg); /* Drehung um 90 Grad */
             font-family: Poppins;
             font-weight: 400;
             font-size: 64px;
             line-height: 76.8px;
-            //margin-top: 48px;
+            text-align: center;
             color: rgba(255, 255, 255, 1);
-            margin-left: -120px;
-            margin-top: 48px;
-            text-align: left;
-            padding-left: 44px;
-          
-           padding-top: 0px;
-           border: 2px solid rgba(255, 255, 255, 1);
-          
-          
+            padding-top: 0px;
+            //border: 2px solid rgba(255, 255, 255, 1); 
         }
-      
+/* name und Beruf */    
         .name-beruf{
            font-family: poppins;
             height: 172px;
-            margin-left: 72px;
+            margin-left: 48px;
             margin-top: -172px;
-            //border: 2px solid rgba(255, 255, 255, 1);
             text-align: end;
-
+            //border: 4px solid cadetblue;
+/* Name */
             .name{
                 font-family: poppins;
                 width: 620px;
                 height: 108px;
+                margin-top: 0px;
                 font-weight: 700;
                 font-size: 90px;
                 line-height: 108px;
                 color: rgba(255, 255, 255, 1);
                 text-align: left;
                
-                border: 2px solid rgba(255, 255, 255, 1);
+               // border: 2px solid rgba(255, 255, 255, 1);
               
             }
+/* Beruf */
             .frontend{
                 // font-family: Poppins;
                  width: 618px;
@@ -150,9 +128,10 @@
                  margin-top: -68px;
                  text-align: left;
 
-                 border: 2px solid  rgba(151, 71, 255, 1);
+                 //border: 2px solid  rgba(151, 71, 255, 1);
                  //display: none;
              }
+/* Button */             
              .btn-talk {
                 width: 165px;
                 width: 210px;
@@ -186,24 +165,23 @@
     }
     
 }
+/* Refence */
 .references{
     display: flex;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
     position: absolute;
     width: 566px;
+    width: 666px;
     height: 40px;
     top: 903px;
     color: rgba(255, 255, 255, 1);
-   
-    //border: 2px solid rgba(255, 255, 255, 1);
+   // border: 2px solid rgba(255, 255, 255, 1);
    
     .references-line{
         position: absolute;
         top: 0px;
         display: flex;
-       
-
         gap: 32px;
       
         
@@ -228,26 +206,29 @@
         font-family: Poppins;
         font-weight: 400;
         //font-size: 20px;
-        font-size: 20px;
+        font-size: 23px;
         line-height: 27.6px;
         color: rgba(255, 255, 255, 1);
         cursor: pointer;
     
     }
+    
     .scroll-down{
         position: absolute;
-        left: 1316px;
         left: 1246px;
+        left: 1316px;
         width: 172px;
         height: 28px;
         font-family: Poppins;
         font-weight: 400;
         font-size: 20px;
         line-height: 27.6px;
+        text-align: end;
         color: rgba(255, 255, 255, 1);
         transform: rotate(90deg); 
-        margin-top: -160px;
-        //background-color: rgba(255, 255, 255, 1);
+        margin-top: -168px;
+       
+        //border: 2px solid rgba(255, 255, 255, 1);
        
         .scroll-down:hover {
             cursor: pointer;
@@ -261,8 +242,6 @@
 
    
 }
-
-
    
 }
 
@@ -277,30 +256,12 @@
             height: 771.38px;
             position: absolute;
         
-            //background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left 0px top 140px; 
-            background-repeat: no-repeat;
-            object-fit: none;
-            background-size: 100%; 
-            //border: 2px solid rgba(255, 255, 255, 1);
+          
         
            
               .p-pic{
                 position: absolute;
-                width: 646px;
-                height: 705px;
-                top: 106px;
-                width: 546px;
-                height: 664px;
-               // top: 172px;
-                left: 47px;
-                gap: 0px;
-                opacity: 0px;
-                z-index: -2;
-                //display: none;
-              
-                //border: 2px solid rgba(255, 255, 255, 1);
-                
+           
         
             }
           
@@ -323,678 +284,1814 @@
         .references{
 
             .scroll-down{
-                left: 1246px;
-                left: 1146px;
+                left: 1280px;
+              
             }
         }
         
     }
 } 
-@media (max-width: 1350px) {
+
+@media (max-width: 1399px) {
 
    
     .profile{
-
-        .hero{
-            width: 1300px;
-
-            .iam-frontend{
-                width: 658px;
-                .name-beruf{
-                    .btn-talk{
-                        margin-left: -424px;
-                    }
-                }
+        .profile-pic {
+            width: 710.7px;
+            height: 771.38px;
+            position: absolute;
+        
+          
+        
+           
+              .p-pic{
+                position: absolute;
+           
+        
             }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 1232px;
+            height: 646px;
+            position: absolute;
+            top: 297px;
+            left: 88px;
+          
+        
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 220px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -144px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 64px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                  
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 172px;
+                    margin-left: 48px;
+                    margin-top: -172px;
+                    text-align: end;
+                    margin-left: 24px;
+                    width: 576px;
+                 
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 560px;
+                        height: 108px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 90px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                  
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 580px;
+                         font-weight: 400;
+                         height: 70px;
+                         font-size: 58px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                      
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -400px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -24px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
         }
         .references{
 
             .scroll-down{
-                left: 1246px;
-                left: 1146px;
+                left: 1210px;
+              
             }
         }
         
     }
 } 
-@media (max-width: 1304px) {
+
+@media (max-width: 1330px) {
+
+   
     .profile{
-
-
-        .hero{
-            width: 1050px;
-            top: 200px;
-
-            .iam-frontend{
-                width: 428px;
-           
-                .iam{
-                    font-size: 32px;
-                   margin-bottom: 94px;
-                
-               
-                }
-    
-               .name-beruf{
-                margin-left: -24px;
-                margin-top: -160px;
-              
-    
-                .name{
-                    width: 300px;
-                    height: 48px;
-                    font-size: 44px;
-                    margin-top: 60px;
-                    margin-left: 96px;
-                    text-align: start;
-                    //display: none;
-
-                  
-                   
-                }
-                .frontend{
-                  
-                    width: 320px;
-                    font-size: 28px;
-                    margin-top: -4px;
-                    margin-left: 80px;
-                    
-                    
-    
-                }
-                .btn-talk{
-                 
-                    width: 154px;
-                    height: 48px;
-                    margin-left: -288px;
-                    margin-top: 0px;
-                    font-size: 21px;
-                   
-                }
-               
-    
-               }
-            }
-           
+        .profile-pic {
+            width: 710.7px;
+            height: 771.38px;
+            position: absolute;
+        
           
+        
+           
+              .p-pic{
+                position: absolute;
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 1100px;
+            height: 646px;
+            position: absolute;
+            top: 297px;
+            left: 88px;
+          
+          //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 190px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -160px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 54px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 172px;
+                    margin-left: 48px;
+                    margin-top: -162px;
+                    text-align: end;
+                    margin-left: -8px;
+                    width: 480px;
+                   // border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 470px;
+                        height: 108px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 80px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 480px;
+                         font-weight: 400;
+                         height: 70px;
+                         font-size: 48px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -360px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -24px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
         }
         .references{
 
             .scroll-down{
-                
-                left: 960px;
+                left: 1080px;
+              
             }
         }
-       
-       
+        
+    }
+} 
+@media (max-width: 1200px) {
+
+   
+    .profile{
+        .profile-pic {
+            width: 710.7px;
+            height: 771.38px;
+            position: absolute;
+        
+          
+        
+           /* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 760px;
+        width: 700px;
+        height: 660px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 40px top 40px;
+        background-size: 760px 560px; /* Breite x Höhe */
+        z-index: -100;
+        //border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
+                position: absolute;
+                width: 546px;
+                height: 690px;
+              
+                left: 15px;
+                object-fit: contain;
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 960px;
+            height: 646px;
+            position: absolute;
+            top: 297px;
+            left: 88px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 160px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -192px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -142px;
+                    text-align: end;
+                    margin-left: -64px;
+                    width: 388px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 386px;
+                        height: 98px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 66px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 380px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 38px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -300px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: 0px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
+        }
+        .references{
+
+            .scroll-down{
+                left: 934px;
+              
+            }
+        }
+        
     }
 } 
 
 @media (max-width: 1060px) {
 
+   
     .profile{
-        height: 915.31px;
-       
-      
-        .profile-pic{
+        .profile-pic {
+            width: 710.7px;
+            height: 771.38px;
             position: absolute;
-            top: 0px;
-            width: 640.7px;
-            height: 451.38px;
-            left: 0px;
-            //padding-left: 80px;
-            
-            //background-image: url('./../../../public/assets/img/shadows.png');
-            background-position: left -8px top -50px; 
-            background-size: 100%; 
-            background-repeat: no-repeat;
-            object-fit: none;
-            //border: 2px solid rgba(255, 255, 255, 1);
-           
+        
+          
+        
+           /* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 560px;
+        height: 395px;
+        left: 87px;
+        background-repeat: no-repeat;
+        background-position: right 40px top 40px;
+        background-size: 560px 360px; /* Breite x Höhe */
+        z-index: -100;
+        //object-fit: fill;
+     
+       // border: 2px solid yellowgreen;
 
-            .p-pic{
-                
+    }
+              .p-pic{
                 position: absolute;
-            /*     width: 410.61px;
-                height: 448.11px; */
+                width: 546px;
+                height: 690px;
+                width: 410.61px;
+                width: 510.61px;
+                height: 448.11px;
               
-              
+                left: 87px;
              
-               width: 410.61px;
-               height: 448.11px;
-               height: 488.11px;
-               top: 109px;
-             
-               left: 140px;
-               gap: 0px;
-               opacity: 0px;
-               //display: none;
-                //border: 2px solid rgba(255, 255, 255, 1);
-
+                //object-fit: contain;
+           
+        
             }
-        }
+          
+        
+        
+          }
+          /* responsive hero */
 
-        .hero{
-            position: absolute;
-            width: 365px;
+          .hero{
+            font-family: poppins;
+            width: 465px;
             height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 120px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
            
-            top: 579px; //muss
-            //left: -600px;
-            left: -470px;
-            border: 2px solid rgba(255, 255, 255, 1);
-
-         
-           
-
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 160px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -672px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -142px;
+                    text-align: end;
+                    margin-left: -554px;
+                    width: 388px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 386px;
+                        height: 98px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 66px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 380px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 38px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -300px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -16px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
         }
         .references{
-            
-           
-            top: 903px;
-           
+            top: 778px;
+
             .scroll-down{
+                left: 934px;
                 display: none;
+              
             }
         }
-
-       
-       
+        
     }
-}
-@media (max-width: 880px) {
+} 
+@media (max-width: 675px) {
 
    
-}
-@media (max-width: 730px) {
-
     .profile{
-        height: 915.31px;
-       
-      
-        .profile-pic{
-            
-           
-           
-
-            .p-pic{
-                
-            
-             
-               left: 40px;
-              
-
-            }
-        }
-
-        .hero{
+        .profile-pic {
+            width: 100%;
+            height: auto;
             position: absolute;
-            width: 300px;
-            height: 239px;
-           
-            top: 570px;
-            //left: -600px;
-            left: -560px;
 
-            .iam-frontend{
-                position: absolute;
-                width: 380px;
-            }
-           
-
-        }
-        .references{
-            
-            top: 903px;
-            
-           
-            .scroll-down{
-                display: none;
-            }
-        }
 
        
-       
-    }
-}
 
-@media (max-width: 570px) {
-
-    .profile{
-        height: 915.31px;
-       
-      
-        .profile-pic{
-            
-           
-           
-
-            .p-pic{
-                
-            
-             
-               left: 40px;
-              
-
-            }
-        }
-
-        .hero{
-            position: absolute;
-            width: 300px;
-            height: 239px;
-           
-           
-            //left: -600px;
-            left: -560px;
-
-            .iam-frontend{
-                position: absolute;
-                width: 380px;
-            }
-           
-
-        }
-        .references{
-           
-            top: 903px;
-           
-            .scroll-down{
-                display: none;
-            }
-            .references-line{
-                width: 300px;
-                margin-left: -280px;
-               
-                .line{
-                    margin-top: 12px;
-                    width: 100px;
-                    height: 0px;
-                    margin-left: 0px;
-                    border-style: solid;
-                    color: rgba(151, 71, 255, 1);
-                }
-
-                .mail{
-                    display: none;
-                }
-            }
-             
-            
-        }
-
-       
-       
-    }
-}
-@media (max-width: 490px) {
-
-    .profile{
-        height: 915.31px;
-       
-      
-        .profile-pic{
-         
-           
-           
-
-            .p-pic{
-                
-                position: absolute;
-            /*     width: 410.61px;
-                height: 448.11px; */
-            
-               width: 310.61px;
-               height: 748.11px;
-              
-             top: -16px;
-               left: 40px;
-               gap: 0px;
-               opacity: 0px;
-               //display: none;
-               object-fit: contain;
+        
           
+        
+           /* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 540px;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 540px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+        //border: 2px solid yellowgreen;
 
-            }
-        }
-
-        .hero{
-            position: absolute;
-            width: 300px;
-            height: 239px;
-           
-            top: 540px;
-            //left: -600px;
-            left: -620px;
-
-            .iam-frontend{
+    }
+              .p-pic{
                 position: absolute;
-                width: 380px;
-            }
+                width: 410.61px; 
+                height: 448.11px;
+                left: 47px;
+                //margin-left: -40px;
+             
+                object-fit: contain;
+                
            
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
 
+          .hero{
+            font-family: poppins;
+            width: 465px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 20px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 160px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -672px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                   //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -142px;
+                    text-align: end;
+                    margin-left: -554px;
+                    width: 388px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 386px;
+                        height: 98px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 66px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 380px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 38px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                        // border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -300px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -16px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
         }
         .references{
-            
-            top: 903px;
-           
-            .scroll-down{
+            width: 300px;
+
+            .mail{
                 display: none;
             }
-            .references-line{
-                width: 300px;
-                margin-left: -280px;
+
+            .scroll-down{
+                left: 934px;
+                display: none;
               
-                .line{
-                    margin-top: 12px;
-                    width: 100px;
-                    height: 0px;
-                    margin-left: 0px;
-                    border-style: solid;
-                    color: rgba(151, 71, 255, 1);
-                }
-
-                .mail{
-                    display: none;
-                }
             }
-             
-            
         }
-
-       
-       
+        
     }
-}
-@media (max-width: 400px) {
+} 
+@media (max-width: 555px) {
 
+   
     .profile{
-        height: 915.31px;
-        height: 808px;
-      
-      
-        .profile-pic{
+        .profile-pic {
+            width: 100%;
+            height: auto;
             position: absolute;
-           
-           
-           
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 440px;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 440px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+        //border: 2px solid yellowgreen;
 
-            .p-pic{
-                
+    }
+              .p-pic{
                 position: absolute;
-            
+                width: 410.61px; 
+                height: 448.11px;
+                left: 0px;
+                //margin-left: -40px;
              
-               left: 24px;
-              
-               
+                object-fit: contain;
+                
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
 
+          .hero{
+            font-family: poppins;
+            width: 465px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 0px;
+          
+          // border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 160px;
+                    height: 63px;
+                    //margin-top: 48px;
+                    margin-left: -672px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                    font-family: poppins;
+                    height: 142px;
+                    margin-top: -142px;
+                    text-align: end;
+                    margin-left: -554px;
+                    width: 388px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 386px;
+                        height: 98px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 66px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 380px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 38px;
+                         line-height: 69.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -68px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -320px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -24px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
+        }
+        .references{
+            width: 300px;
+
+            .mail{
+                display: none;
+            }
+
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
             }
         }
+        
+    }
+} 
 
-        .hero{
+@media (max-width: 470px) {
+
+   
+    .profile{
+        .profile-pic {
+            width: 100%;
+            height: auto;
             position: absolute;
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 440px;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 440px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+       // border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
+                position: absolute;
+                width: 410.61px; 
+                height: 448.11px;
+                left: 0px;
+                //margin-left: -40px;
+             
+                object-fit: contain;
+                
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
             width: 365px;
             height: 239px;
-           
-            top: 472px;
-            //left: -600px;
-            left: -620px;
-          
-
-            .iam-frontend{
-                position: absolute;
-                width: 340px;
-                margin-left: 20px;
-                margin-top: 16px;
-              
-              
-                .iam {
-                    margin-left: -66px;
-                    font-size: 32px;
-                  
-                }
-                .name-beruf{
-                    margin-left: -60px;
-
-                    .name{
-                        font-size: 44px;
-                    }
-                    .frontend{
-                        font-size: 28px;
-                    }
-                    .btn-talk{
-                        margin-top: -20px;
-                        margin-left: -232px;
-                    }
-                   
-                }
-            }
-           
-
-        }
-        .references{
-            
-         
-            top: 778px;
-           
-            .scroll-down{
-                display: none;
-            }
-            .references-line{
-                width: 300px;
-                margin-left: -280px;
-            
-                .line{
-                    margin-top: 12px;
-                    width: 100px;
-                    height: 0px;
-                    margin-left: 0px;
-                    border-style: solid;
-                    color: rgba(151, 71, 255, 1);
-                }
-
-                .mail{
-                    display: none;
-                }
-            }
-             
-            
-        }
-
-       
-       
-    }
-}
-@media (max-width: 388px) {
-
-    .profile{
-        height: 915.31px;
-       
-      
-     
-     
-
-        .hero{
             position: absolute;
-            width: 300px;
-            height: 239px;
-           
-           
-            //left: -600px;
-            left: -620px;
-
+            top: 579px;
+            left: 0px;
+          
+          // border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
             .iam-frontend{
-                position: absolute;
-                width: 300px;
-                margin-left: 20px;
-                margin-top: 16px;
+           
+             
+        /* I am */
                 .iam {
-                    margin-left: -66px;
-                    font-size: 32px;
+                    width: 152px;
+                    width: 136px;
                    
+                    height: 50px;
+                    //margin-top: 48px;
+                    margin-left: -660px;
+                    margin-top: 0px;
                   
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                   // border: 2px solid rgba(255, 255, 255, 1); 
                 }
+        /* name und Beruf */    
                 .name-beruf{
-                    margin-left: -60px;
-                    margin-top: -159px;
-
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -128px;
+                    text-align: end;
+                    margin-left: -544px;
+                    width: 300px;
+                    //border: 4px solid cadetblue;
+        /* Name */
                     .name{
-                        font-size: 44px;
+                        font-family: poppins;
+                        width: 300px;
+                        height: 88px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 50px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
                       
                     }
+        /* Beruf */
                     .frontend{
-                        margin-left: 40px;
-                        font-size: 24px;
-                    }
-                    .btn-talk{
-                        margin-top: -20px;
-                        margin-left: -216px;
-                    }
-                   
+                        // font-family: Poppins;
+                         width: 300px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 30px;
+                         line-height: 40.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -54px;
+                         text-align: left;
+        
+                        // border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -260px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -8px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
                 }
+              
             }
-           
-
+            
         }
         .references{
-            
-            top: 903px;
-            top: 778px;
+            width: 300px;
 
-            .scroll-down{
+            .mail{
                 display: none;
             }
-            .references-line{
-                width: 300px;
-                margin-left: -280px;
-             ;
-                .line{
-                    margin-top: 12px;
-                    width: 100px;
-                    height: 0px;
-                    margin-left: 0px;
-                    border-style: solid;
-                    color: rgba(151, 71, 255, 1);
-                }
 
-                .mail{
-                    display: none;
-                }
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
             }
+        }
+        
+    }
+} 
+@media (max-width: 450px) {
+
+   
+    .profile{
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            position: absolute;
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 300px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+       // border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
+                position: absolute;
+                width: 350.61px; 
+                height: 448.11px;
+                left: 27px;
+                //margin-left: -40px;
              
+                object-fit: fill;
+              
+            }
+          
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 365px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 0px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 136px;
+                   
+                    height: 50px;
+                    //margin-top: 48px;
+                    margin-left: -660px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                   // border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -128px;
+                    text-align: end;
+                    margin-left: -554px;
+                    width: 300px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 300px;
+                        height: 88px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 50px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                       // border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 300px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 30px;
+                         line-height: 40.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -54px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -260px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -8px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
             
         }
+        .references{
+            width: 300px;
 
-       
-       
+            .mail{
+                display: none;
+            }
+
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
+            }
+        }
+        
     }
-}
+} 
+@media (max-width: 400px) {
+
+   
+    .profile{
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            position: absolute;
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 300px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+        //border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
+                position: absolute;
+                width: 350.61px; 
+                height: 448.11px;
+                left: 8px;
+                //margin-left: -40px;
+             
+                object-fit: fill;
+              
+                
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 365px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 0px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 136px;
+                   
+                    height: 50px;
+                    //margin-top: 48px;
+                    margin-left: -660px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -128px;
+                    text-align: end;
+                    margin-left: -554px;
+                    width: 300px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 300px;
+                        height: 88px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 50px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                        //border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 300px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 30px;
+                         line-height: 40.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -54px;
+                         text-align: left;
+        
+                        // border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -260px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: -8px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
+        }
+        .references{
+            width: 300px;
+
+            .mail{
+                display: none;
+            }
+
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
+            }
+        }
+        
+    }
+} 
+
+@media (max-width: 375px) {
+
+   
+    .profile{
+        .profile-pic {
+            width: 100%;
+            height: auto;
+            position: absolute;
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 395px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 300px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+        //border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
+                position: absolute;
+                width: 320.61px; 
+                height: 448.11px;
+                left: 8px;
+                //margin-left: -40px;
+             
+                object-fit: fill;
+              
+                
+           
+        
+            }
+          
+        
+        
+          }
+          /* responsive hero */
+
+          .hero{
+            font-family: poppins;
+            width: 340px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 0px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 120px;
+                   
+                    height: 50px;
+                    //margin-top: 48px;
+                    margin-left: -660px;
+                    margin-top: 0px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 142px;
+                    margin-top: -124px;
+                    text-align: end;
+                    margin-left: -560px;
+                    width: 280px;
+                    //border: 4px solid cadetblue;
+        /* Name */
+                    .name{
+                        font-family: poppins;
+                        width: 280px;
+                        height: 88px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 44px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                       // border: 2px solid rgba(255, 255, 255, 1);
+                      
+                    }
+        /* Beruf */
+                    .frontend{
+                        // font-family: Poppins;
+                         width: 280px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 28px;
+                         line-height: 40.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -54px;
+                         text-align: left;
+        
+                         //border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -260px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: 0px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
+                }
+              
+            }
+            
+        }
+        .references{
+            width: 300px;
+
+            .mail{
+                display: none;
+            }
+
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
+            }
+        }
+        
+    }
+} 
+
 @media (max-width: 350px) {
 
+   
     .profile{
-        height: 915.31px;
-       
-      
-        .profile-pic{
-            
-           
-           
-
-            .p-pic{
-                
-                position: absolute;
-            /*     width: 410.61px;
-                height: 448.11px; */
-            
-               width: 280.61px;
-               height: 708.11px;
-               top: -10px;
-               left: 8px;
-               gap: 0px;
-               opacity: 0px;
-               //display: none;
-               object-fit: contain;
-            
-              
-
-            }
-        }
-
-        .hero{
+        .profile-pic {
+            width: 100%;
+            height: auto;
             position: absolute;
-            width: 300px;
-            height: 239px;
-           
-           
-            top: 444px;
-            //left: -600px;
-            left: -620px;
 
-            .iam-frontend{
+/* background-picture */
+    .photo-profile-bg{
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: auto;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-position: right 0px top 0px;
+        background-size: 300px 360px; /* Breite x Höhe */
+        z-index: -100;
+        object-fit: fill;
+     
+        //border: 2px solid yellowgreen;
+
+    }
+              .p-pic{
                 position: absolute;
-                width: 300px;
-                margin-left: 4px;
-              
-                .iam {
-                    margin-left: -66px;
-                    font-size: 32px;
-                  
-                }
-                .name-beruf{
-                    margin-left: -60px;
-                   
-                    margin-top: -159px;
+                width: 300.61px; 
+                height: 448.11px;
+                left: 8px;
+                //margin-left: -40px;
+             
+                object-fit: fill;
+               
+            }
+          
+          }
+          /* responsive hero */
 
+          .hero{
+            font-family: poppins;
+            width: 316px;
+            height: 239px;
+            position: absolute;
+            top: 579px;
+            left: 0px;
+          
+           //border: 2px solid blue;
+        
+            //border: 2px solid rgb(231, 206, 12);
+            //display: none;
+        
+            .iam-frontend{
+           
+             
+        /* I am */
+                .iam {
+                    width: 152px;
+                    width: 104px;
+                   
+                    height: 50px;
+                    //margin-top: 48px;
+                    margin-left: -660px;
+                    margin-top: -8px;
+                  
+                    transform: rotate(-90deg); /* Drehung um 90 Grad */
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 76.8px;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+                    padding-top: 0px;
+                    //border: 2px solid rgba(255, 255, 255, 1); 
+                }
+        /* name und Beruf */    
+                .name-beruf{
+                   font-family: poppins;
+                    height: 132px;
+                    margin-top: -120px;
+                    text-align: end;
+                    margin-left: -570px;
+                    width: 256px;
+                    //border: 4px solid cadetblue;
+        /* Name */
                     .name{
-                        font-size: 44px;
+                        font-family: poppins;
+                        width: 240px;
+                        height: 80px;
+                        margin-top: 0px;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 108px;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: left;
+                       
+                       // border: 2px solid rgba(255, 255, 255, 1);
                       
                     }
+        /* Beruf */
                     .frontend{
-                        margin-left: 40px;
-                        font-size: 24px;
-                    }
-                    .btn-talk{
-                        margin-left: -216px;
-                    }
-                   
+                        // font-family: Poppins;
+                         width: 250px;
+                         font-weight: 400;
+                         height: 50px;
+                         font-size: 25px;
+                         line-height: 40.6px;
+                         color: rgba(151, 71, 255, 1) ;
+                         line-height: 69.6px;
+                         margin-top: -48px;
+                         text-align: left;
+        
+                        // border: 2px solid  rgba(151, 71, 255, 1);
+                         //display: none;
+                     }
+        /* Button */             
+                     .btn-talk {
+                        width: 165px;
+                        width: 210px;
+                        height: 58px;
+                        margin-left: -240px;
+                        border-radius: 10px;
+                        padding: 15px 30px;
+                        gap: 10px;
+                        position: absolute;
+                        color: white;
+                        margin-top: 0px;
+                        background: rgba(112, 230, 28, 1);
+                        font-family: poppins;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 27.6px;
+                        cursor: pointer;
+                        border: none;
+                        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* nur ein Schatteneffekt */
+                        box-shadow: none;
+                        outline: none;
+                        &:hover {
+                          background: rgba(151, 71, 255, 1);
+                          transform: scale(1.1); /* leichtes Vergrößern bei Hover */
+                          cursor: pointer;
+                        }
+                      }
+                    
                 }
+              
             }
-           
-
+            
         }
         .references{
-            
-            top: 903px;
-            top: 778px;
-           
-            .scroll-down{
+            width: 300px;
+
+            .mail{
                 display: none;
             }
-            .references-line{
-                width: 300px;
-                margin-left: -280px;
-      
-                .line{
-                    margin-top: 12px;
-                    width: 100px;
-                    height: 0px;
-                    margin-left: 0px;
-                    border-style: solid;
-                    color: rgba(151, 71, 255, 1);
-                }
 
-                .mail{
-                    display: none;
-                }
+            .scroll-down{
+                left: 934px;
+                display: none;
+              
             }
-             
-            
         }
-
-       
-       
+        
     }
-}
+} 
+
+
+
+
+
+
+
 
 
 

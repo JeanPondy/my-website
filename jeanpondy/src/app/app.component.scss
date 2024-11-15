@@ -8,8 +8,8 @@
  
   background-image: url('./../../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
-  background-position: left 0px top 0px;
-  background-size: 100%  1061.56px;
+  background-position: left 0px top 32px;
+  background-size: 100%  100%;
   z-index: -1;
 }
 /* -----------------------------------------------------------about-bg */
@@ -92,4 +92,105 @@
 
  
 
-  /* ------------------------Begrenzung der Breite und Zentrierung */
+  /* ------------------------responsive */
+  @media (max-width: 1620px) {
+
+  .shape-hero {
+    position: absolute;
+    width: 100%;
+    height: 971.56px;
+    top: 16px;
+    top: 377.6px;
+   
+    background-image: url('./../../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 30px;
+    background-size: 100%  100%;
+    z-index: -1;
+  }
+}
+
+  @media (max-width: 1440px) {
+
+    .shape-hero {
+      position: absolute;
+      width: 100%;
+      height: 1071.56px;
+      height: 971.56px;
+      top: 377.6px;
+     
+      background-image: url('./../../public/assets/img/shapeheropage.png');
+      background-repeat: no-repeat;
+      background-position: left 0px top 30px;
+      background-size: 100%  100%;
+      z-index: -1;
+    }
+    
+      }
+ @media (max-width: 1060px) {
+  .shape-hero {
+    position: absolute;
+    width: 100%;
+    height: 1071.56px;
+    height: 467.43px;
+    top: 345.09px;
+  
+   
+    background-image: url('./../../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 24px;
+    background-size: 100%  100%;
+    z-index: -1;
+  }
+  
+    }
+ @media (max-width: 800px) {
+      .shape-hero {
+        position: absolute;
+        width: 100%;
+        height: 1071.56px;
+        height: 967.43px;
+        top: 345.09px;
+      
+       
+        background-image: url('./../../public/assets/img/shapeheropage.png');
+        background-repeat: no-repeat;
+        background-position: left 0px top 112px;
+        background-size: 100%  25%;
+        z-index: -1;
+      }
+      
+        }
+ @media (max-width: 800px) {
+  .shape-hero {
+    position: absolute;
+    width: 100%;
+    height: 1071.56px;
+    height: 967.43px;
+    top: 345.09px;
+  
+   
+    background-image: url('./../../public/assets/img/shapeheropage.png');
+    background-repeat: no-repeat;
+    background-position: left 0px top 150px;
+    background-size: 100%  15%;
+    z-index: -1;
+  }
+  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

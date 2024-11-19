@@ -11,7 +11,8 @@
     opacity: 0;
     transform: translateY(80px);
     transition: transform 4.6s ease-out, opacity 4.6s ease-out;
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+   
    
   
     // Klasse für sichtbare Elemente
@@ -661,7 +662,7 @@
         flex-direction: column;
         text-align: right;
       
-        border: 2px solid rgba(255, 255, 255, 1);
+        //border: 2px solid rgba(255, 255, 255, 1);
      
 
         .skills-line{
@@ -683,14 +684,14 @@
                 margin-left: 76px;
                 margin-top: 0px;
                 margin-bottom: 0px;
-                border: 2px solid rgba(255, 255, 255, 1);
+               // border: 2px solid rgba(255, 255, 255, 1);
             
                
             }
 
             .line{
                 width: 68px;
-                margin-top: 0px;
+                margin-top: 24px;
                 border-style: solid;
                 color: rgba(151, 71, 255, 1);
               
@@ -710,7 +711,7 @@
             color: white;
             margin-top: 16px;
             margin-bottom: 0px;
-            border: 2px solid rgba(255, 255, 255, 1);
+            //border: 2px solid rgba(255, 255, 255, 1);
             text-align: right;
         
         }
@@ -725,7 +726,7 @@
             margin-left: 60px;
             margin-top: 16px;
             margin-bottom: 0px;
-            border: 2px solid rgba(255, 255, 255, 1);
+            //border: 2px solid rgba(255, 255, 255, 1);
          
 
            span{
@@ -745,7 +746,7 @@
             color: rgba(255, 255, 255, 1);
             margin-left: 60px;
             margin-top: 16px;
-            border: 2px solid rgba(255, 255, 255, 1);
+            //border: 2px solid rgba(255, 255, 255, 1);
         
         }
        
@@ -776,16 +777,12 @@
                 margin-top: -4px;
                 margin-left: -24px;
              
-           
-              
-              
-
             }
         
             &:hover{
                 
                 background: rgba(151, 71, 255, 1);
-                scale: 1.2;
+                scale: 1.1;
         
             }
         
@@ -835,19 +832,358 @@
 @media (max-width: 1350px){
     .my-skills1{
         width: 980px;
-        height: 544px;
-        top: 1779px;
+        height: 504px;
       
-        .my-skills{
-            padding-right: 0px;
-            .skills-line{
+        top: 1779px;
 
-                .line{
-                    display: none;
+        .skills-icons{
+            display: flex;
+           flex-wrap: wrap;
+            width: 664px;
+            height: 404px;
+            gap:24px 60px;
+            margin-top: -80px;
+            //border: 2px solid rgba(255, 255, 255, 1);
+    
+            .html{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    width: 54px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+            }
+           
+            .css{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 52.99px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .js{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .ts{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .angular{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 55.8px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .firebase{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 43.63px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .git{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+    
+                >img{
+                    
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .api{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+               // cursor: pointer;
+    
+                >img{
+                    
+                    width: 56.69px;
+                    height: 60px;
+                    margin-bottom: 8px; 
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+               
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .scrum{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+    
+                >img{
+                    
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 101px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .material-d{
+                width: 88px;
+                height: 101px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+    
+                >img{
+                    
+                    width: 60px;
+                    height: 60px;
+                    gap: 10px;
+                    margin-bottom: 8px;
+                    transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
+                }
+                &:hover > img {
+                    animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+                  }
+                >div{
+                    width: 88px;
+                    height: 120px;
+                    padding: 12px 0px 0px 0px;
+                    gap: 10px;
+                    opacity: 0px;
+                }
+            }
+            .c-learning{
+                width: 88px;
+                height: 119px;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                display: inline-block;
+                .main-image {
+                    width: 100%; /* Setze die gewünschte Breite für das Hauptbild */
+                    height: auto; /* Erhält das Seitenverhältnis */
+                  }
+                  .overlay-image {
+                    position: absolute;
+                    top: -40px;
+                    left: 0;
+                    width: auto; /* Das Overlay-Bild soll genauso breit sein wie das Hauptbild */
+                    height: 100%;
+                    opacity: 0; /* Das Overlay ist im normalen Zustand unsichtbar */
+                    transition: opacity 0.3s ease; /* Sanfter Übergang */
+                  }
+                
+                  &:hover .overlay-image {
+                    opacity: 1; /* Das Overlay-Bild wird sichtbar, wenn der Hover aktiviert ist */
+                  }
+                
+                
+    
+                >div{
+                    width: 88px;
+                    height: 120px;
+                    padding: 12px 0px 0px 0px;
+                   
                 }
             }
         }
+      
+        .my-skills{
+          margin-top: -80px;
+            padding-right: 0px;
 
+            .p1{
+                margin-top: 60px;
+            }
+            h3{
+                margin-top: 40px;
+            }
+            .p2{
+                margin-top: 32px;
+            }
+            .btn-talk{
+                margin-top: 56px;
+            }
+
+            .skills-line{
+
+              .line{
+                width: 48px;
+                margin-top: 24px;
+                margin-left: 8px;
+                border-style: solid;
+                color: rgba(151, 71, 255, 1);
+                
+
+               }
+            }
+
+        }
+       
     }
 }
 @media (max-width: 1098px){
@@ -856,26 +1192,56 @@
         height: 544px;
         top: 1779px;
 
+       
+
 
         .my-skills{
             width: 395px;
             height: 400px;
             padding-right: 24px;
 
+           
+            .p1{
+                width: 410px;
+            }
+            h3{
+                width: 410px;
+                margin-left: 0px;
+            }
+            .p2{
+                width: 410px;
+                margin-left: 0px;
+            }
+            .btn-talk{
+                margin-left: 200px;
+            }
+
           
-            .skills-line{
+            .skills-line{ 
+                margin-right: -24px;
+               
                 h2{
                     width: 395px;
-                   
                     font-size: 60px;
                     
                 }
 
                 .line{
-                    display: none;
-                }
+                    width: 68px;
+                    margin-top: 0px;
+                    margin-left: 8px;
+                    margin-right: 0px;
+                    border-style: solid;
+                    color: rgba(151, 71, 255, 1);
+                    
+    
+                   }
+
+               
             }
         }
+      
+
 
     }
 }
@@ -883,24 +1249,26 @@
     .my-skills1{
         width: 800px;
         height: 940px;
-        top: 1570;
-        top: 1750px;
+        position: absolute;
+        top: 1420px;
+        top: 1600px;
+       
      
-      
-
-
         .skills-icons{
             display: none;
         }
+
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-             width: 440px;
-             height: auto;
-             gap:40px 88px;
-             margin: 20px 0;
-           margin-bottom: 56px;
+            width: 440px;
+            height: auto;
+            gap:40px 88px;
+            margin: 40px 0;
+            margin-bottom: 32px;
+            justify-content: center;
+          
             
             
         }
@@ -911,226 +1279,51 @@
             height: 143px;
             padding-left: 200px;
            
+            margin-top: -800px;
+           
 
 
             .p1{
-                margin-top: -72px;
-                width: 350px;
+                margin-top: -48px;
+                width: 400px;
                 height: 38px;
         
                
-                //padding-left: 420px;
+                padding-left: 24px;
+             
                }
                h3{
-                width: 410px;
+                width: 440px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 52px;
+             
+                text-align: right;
 
                }
                .p2{
-                width: 300px;
+                width: 440px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
-                margin-left: 80px;
+                margin-left: 0px;
+                margin-top: 16px;
+                text-align: center;
                 //border: 2px solid yellow;
                }
                .btn-talk{
                 width: 154px;
                 height: 48px;
+                width: 210px; 
+                height: 58px;
                
-                margin-left: 160px;
-                margin-top: 32px;
-                border-radius: 10px;
-                padding: 15px 30px 15px 30px;
-                gap: 10px;
-                cursor: pointer;
-          
-                color: white;
-               
-                background: rgba(112, 230, 28, 1);
-                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-               
-               }
-
-          
-            .skills-line{
-              
-                h2{
-                    width: 350px;
-                    height: 143px;
-                    font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
-                }
-
-                .line{
-                    display: none;
-                }
-            }
-        }
-
-    }
-}
-@media (max-width: 980px){
-    .my-skills1{
-        width: 800px;
-        height: 940px;
-        
-        .skills-icons2{
-            display: block;
-            display: flex;
-            flex-wrap: wrap;
-            width: 440px;
-            height: auto;
-            gap:40px 88px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-           
-            
-        }
-
-
-        .my-skills{
-            width: 800px;
-            height: 143px;
-            padding-left: 200px;
-           
-
-
-            .p1{
-                margin-top: -72px;
-                width: 350px;
-                height: 38px;
-               
-                //padding-left: 420px;
-               }
-               h3{
-                width: 410px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 38.4px;
-                color: white;
-                margin-left: 52px
-               }
-               .p2{
-                width: 300px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 400px;
-                font-size: 16px;
-                line-height: 19.2px;
-                color: white;
-               }
-               .btn-talk{
-                width: 154px;
-                height: 48px;
-                justify-content: center;
-                align-items: center;
-             
-                
-                border-radius: 10px;
-                padding: 15px 30px 15px 30px;
-                gap: 10px;
-                cursor: pointer;
-          
-                color: white;
-               
-                background: rgba(112, 230, 28, 1);
-                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-               }
-
-          
-            .skills-line{
-              
-                h2{
-                    width: 350px;
-                    height: 143px;
-                    font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
-                }
-
-                .line{
-                    display: none;
-                }
-            }
-        }
-
-    }
-}
-@media (max-width: 940px){
-    .my-skills1{
-        width: 740px;
-   
-       
-      
-
-
-        .skills-icons2{
-            display: block;
-            display: flex;
-            flex-wrap: wrap;
-            width: 440px;
-            height: auto;
-            gap:40px 88px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: -40px; 
-        }
-
-
-        .my-skills{
-            width: 800px;
-            height: 143px;
-            padding-left: 200px;
-           
-
-
-            .p1{
-                margin-top: -72px;
-                width: 350px;
-                height: 38px;
-               
-                //padding-left: 420px;
-               }
-               h3{
-                width: 410px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 38.4px;
-                color: white;
-                margin-left: 52px
-               }
-               .p2{
-                width: 300px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 400px;
-                font-size: 16px;
-                line-height: 19.2px;
-                color: white;
-               }
-               .btn-talk{
-                width: 154px;
-                height: 48px;
-                justify-content: center;
-                align-items: center;
-               
+                margin-left: 140px;
                 margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
@@ -1142,22 +1335,145 @@
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+               
                }
 
           
             .skills-line{
               
+              
                 h2{
                     width: 350px;
                     height: 143px;
                     font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 120px;
                 }
 
-                .line{
-                    display: none;
+               
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 940px){
+    .my-skills1{
+        width: 800px;
+        width: 740px;
+        height: 940px;
+        position: absolute;
+        top: 1420px;
+        top: 1610px;
+       
+     
+        .skills-icons{
+            display: none;
+        }
+
+        .skills-icons2{
+            display: block;
+            display: flex;
+            flex-wrap: wrap;
+            width: 440px;
+            height: auto;
+            gap:40px 88px;
+            margin: 40px 0;
+            margin-bottom: 32px;
+         
+            
+            
+        }
+
+
+        .my-skills{
+            width: 800px;
+            height: 143px;
+            padding-left: 160px;
+           
+            margin-top: -800px;
+           
+
+
+            .p1{
+                margin-top: -48px;
+                width: 400px;
+                height: 38px;
+        
+               
+                padding-left: 24px;
+             
+               }
+               h3{
+                width: 440px;
+                height: 38px;
+                font-family: Poppins;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38.4px;
+                color: white;
+             
+                text-align: right;
+
+               }
+               .p2{
+                width: 440px;
+                height: 38px;
+                font-family: Poppins;
+                font-weight: 400px;
+                font-size: 16px;
+                line-height: 19.2px;
+                color: white;
+                margin-left: 0px;
+                margin-top: 16px;
+                text-align: center;
+                //border: 2px solid yellow;
+               }
+               .btn-talk{
+                width: 154px;
+                height: 48px;
+                width: 210px; 
+                height: 58px;
+               
+                margin-left: 140px;
+                margin-top: 24px;
+                border-radius: 10px;
+                padding: 15px 30px 15px 30px;
+                gap: 10px;
+                cursor: pointer;
+          
+                color: white;
+               
+                background: rgba(112, 230, 28, 1);
+                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+               
+               }
+
+          
+            .skills-line{
+             
+              
+                h2{
+                    width: 350px;
+                    height: 143px;
+                    font-size: 60px;  
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
                 }
+                .line{
+                    margin-top: -40px;
+                    width: 120px;
+                }
+
+               
             }
         }
 
@@ -1166,9 +1482,18 @@
 @media (max-width: 880px){
     .my-skills1{
         width: 600px;
-        height: 912px;
-        
-      
+        width: 600px;
+        height: 940px;
+        position: absolute;
+        top: 1420px;
+        top: 1600px;
+       
+       
+     
+        .skills-icons{
+            display: none;
+        }
+
         .skills-icons2{
             display: block;
             display: flex;
@@ -1176,54 +1501,64 @@
             width: 440px;
             height: auto;
             gap:40px 88px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: -40px; 
+            margin: 40px 0;
+            margin-bottom: 32px;
+        
+            
+            
         }
-
 
 
         .my-skills{
             width: 600px;
             height: 143px;
-            padding-left: 100px;
+            padding-left: 80px;//
            
+            margin-top: -800px;
            
 
 
             .p1{
-                margin-top: -72px;
-                width: 350px;
+                margin-top: -48px;
+                width: 400px;
                 height: 38px;
+        
+               
+                padding-left: 24px;
              
-                //padding-left: 420px;
                }
                h3{
-                width: 410px;
+                width: 440px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 52px
+             
+                text-align: right;
+
                }
                .p2{
-                width: 300px;
+                width: 440px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
+                margin-left: 0px;
+                text-align: center;
+                //border: 2px solid yellow;
                }
                .btn-talk{
                 width: 154px;
                 height: 48px;
-                justify-content: center;
-                align-items: center;
-              
-                margin-top: 0px;
+                width: 210px; 
+                height: 58px;
+               
+                margin-left: 140px;
+                margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1234,96 +1569,112 @@
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
                     width: 350px;
                     height: 143px;
                     font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 72px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
 @media (max-width: 730px){
     .my-skills1{
         width: 460px;
-        height: 912px;
-        top: 1586px;
-        top: 1766px;
-      
+        width: 460px;
+        height: 940px;
+        position: absolute;
+        top: 1540px;
+        top: 1640px;
        
+       
+     
+        .skills-icons{
+            display: none;
+        }
+
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 440px;
+            width: 340px;
             height: auto;
-            gap:40px 88px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: -32px; 
+            gap:40px 38px;
+            margin: 32px 0;
+            margin-bottom: 24px;
+          
+            
+            
         }
 
 
         .my-skills{
             width: 390px;
             height: 143px;
-            padding-left: 40px;
-         
+            padding-left: 40px;//
+           
+            margin-top: -800px;
            
 
 
             .p1{
-                margin-top: -72px;
-                width: 350px;
-                height: 38px;
-                padding-left: 48px;
+                margin-top: -48px;
+                width: 340px;
+                height: 58px;
+               
+        
+               
+                padding-left: 0px;
+             
                }
                h3{
-                width: 360px;
+                width: 340px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
-                font-size: 32px;
+                font-size: 26px;
                 line-height: 38.4px;
+                color: white;
+             
+                text-align: right;
+
+               }
+               .p2{
+                width: 340px;
+                height: 38px;
+                font-family: Poppins;
+                font-weight: 400px;
+                font-size: 16px;
+                line-height: 19.2px;
                 color: white;
                 margin-left: 0px;
-          
-                //border: 2px solid orangered;
-               }
-               .p2{
-                width: 300px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 400px;
-                font-size: 16px;
-                line-height: 19.2px;
-               /*  display: flex;
-                justify-content: center;
                 text-align: center;
-                align-items: center; */
-                margin-left: 24px;
-                color: white;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 154px;
-                height: 48px;
-                justify-content: center;
-                align-items: center;
-                
-                margin-top: 0px;
-                margin-left: 120px;
+                width: 210px; 
+                height: 58px;
+               
+                margin-left: 80px;
+                margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
@@ -1334,324 +1685,395 @@
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
-                    width: 300px;
+                    width: 350px;
                     height: 143px;
                     font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 72px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
 @media (max-width: 590px){
     .my-skills1{
+        width: 460px;
         width: 370px;
-      
+        height: 940px;
+        position: absolute;
+        top: 1540px;
+        top: 1692px;
        
        
-        
-      
+     
+        .skills-icons{
+            display: none;
+        }
+
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 268px;
+            width: 360px;
             height: auto;
-            gap:40px 2px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: 52px; 
+            gap:40px 38px;
+            margin: 32px 0;
+            margin-bottom: 32px;
+          
+            
+            
         }
-      
 
 
         .my-skills{
             width: 340px;
             height: 143px;
-            padding-left: 0px;
+            padding-left: 0px;//
            
+            margin-top: -800px;
            
 
 
             .p1{
-                margin-top: -72px;
+                margin-top: -56px;
                 width: 350px;
-                height: 38px;
-              
-                padding-left: 8px;
+                height: 58px;
                
+        
+               
+                padding-left: 0px;
+             
                }
-               .p2{
-                width: 30px;
-                height: 38px;
-                font-family: Poppins;
-                font-weight: 400px;
-                font-size: 16px;
-                line-height: 19.2px;
-                color: white;
-           
-            
-            }
                h3{
-                width: 360px;
+                width: 350px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
-                font-size: 32px;
+                font-size: 26px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 5px
+             
+                text-align: right;
+
                }
                .p2{
-                margin-top: -8px;
-                width: 300px;
-                height: 38px;
+                width: 350px;
+                height: 50px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
-                margin-left: 32px;
                 color: white;
+                margin-left: 0px;
+                text-align: center;
+                margin-bottom: 8px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 154px;
-                height: 48px;
-                justify-content: center;
-                align-items: center;
-                margin-left: 120px;
-                margin-top: 8px;
+                width: 210px; 
+                height: 58px;
+               
+                margin-left: 80px;
+                margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
                 cursor: pointer;
           
                 color: white;
-                font-size: 23px;
+               
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
                     width: 300px;
                     height: 143px;
-                    font-size: 60px;  
-                    //padding-left: 280px;
-                    //margin-left: 140px;
+                    font-size: 45px;  
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 40px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
 @media (max-width: 490px){
     .my-skills1{
-        width: 360px;
-        top: 1766px;
-        top: 1774px;
+        width: 460px;
+        width: 340px;
+        height: 940px;
         margin-left: -80px;
-      
-      
+        position: absolute;
+        top: 1540px;
+        top: 1730px;
+       
+       
+     
+        .skills-icons{
+            display: none;
+        }
 
-      
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 268px;
+            width: 332px;
             height: auto;
-            gap:40px 2px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: 52px; 
+            gap:40px 32px;
+            margin: 32px 0;
+            margin-bottom: 32px;
+          
+            
+            
         }
 
 
         .my-skills{
-            width: 340px;
+            width: 312px;
             height: 143px;
+            padding-left: 0px;//
+           
+            margin-top: -800px;
            
 
-          
-           
+
             .p1{
-                margin-top: -72px;
-                width: 344px;
-                height: 38px;
-                padding-left: 8px;
+                margin-top: -56px;
+                width: 324px;
+                height: 58px;
                
+        
+               
+                padding-left: 0px;
+             
                }
-               
                h3{
-                width: 350px;
+                width: 324px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 26px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 5px
+             
+                text-align: right;
+
                }
                .p2{
-                margin-top: -8px;
-                width: 300px;
-                height: 38px;
+                width: 324px;
+                height: 50px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
-                margin-left: 8px;
                 color: white;
+                margin-left: 0px;
+                text-align: center;
+                margin-bottom: 8px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 158px;
-                height: 49px;
-                justify-content: center;
-                align-items: center;
-                margin-left: 96px;
-                margin-top: 16px;
+                width: 210px; 
+                height: 58px;
+               
+                margin-left: 64px;
+                margin-top: 24px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
                 cursor: pointer;
           
                 color: white;
-                font-size: 23px;
+               
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
-                    width: 180px;
+                    width: 240px;
                     height: 143px;
                     font-size: 45px;  
-                    padding-left: 90px;
-                    //margin-left: 140px;
-                  
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                   
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 24px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
 @media (max-width: 400px){
     .my-skills1{
-        width: 360px;
-        margin-left: -88px;
-      
-        top: 1559px;
-      
-      
+        width: 460px;
+        width: 340px;
+        height: 940px;
+        margin-left: -80px;
+        position: absolute;
+        top: 1540px;
+        top: 1730px;
+       
+       
+     
+        .skills-icons{
+            display: none;
+        }
 
-      
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 268px;
+            width: 332px;
             height: auto;
-            gap:40px 2px;
-            margin: 20px 0;
-            margin-bottom: 56px;
-            margin-left: 48px; 
+            gap:40px 32px;
+            margin: 32px 0;
+            margin-bottom: 32px;
             justify-content: center;
-            align-items: center;
+          
+            
+            
         }
 
 
         .my-skills{
-            width: 340px;
+            width: 312px;
             height: 143px;
+            padding-left: 0px;//
+           
+            margin-top: -800px;
            
 
-          
-           
+
             .p1{
-                margin-top: -72px;
-                width: 344px;
-                height: 38px;
-                padding-left: 8px;
+                margin-top: -56px;
+                width: 324px;
+                height: 58px;
                
+        
+               
+                padding-left: 0px;
+             
                }
-               
                h3{
-                width: 350px;
+                width: 324px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 26px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 5px
+             
+                text-align: right;
+
                }
                .p2{
-                margin-top: -8px;
-                width: 350px;
-                height: 38px;
+                width: 324px;
+                height: 50px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
+                margin-left: 0px;
+                text-align: center;
+                margin-bottom: 8px;
+                margin-top: 8px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 158px;
-                height: 49px;
-                justify-content: center;
-                align-items: center;
-                margin-left: 96px;
-                margin-top: 16px;
+                width: 180px; 
+                height: 58px;
+               
+                margin-left: 72px;
+                margin-top: 32px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
                 cursor: pointer;
           
                 color: white;
-                font-size: 23px;
+               
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+                .btn-touch{
+                    width: 158px;
+                    height: 28px;
+                    font-family: poppins;
+                    font-weight: 400;
+                    font-size: 18px;
+                   text-align: center;
+                 
+                }
+            
+
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
-                    width: 180px;
+                    width: 240px;
                     height: 143px;
                     font-size: 45px;  
-                    padding-left: 90px;
-                    //margin-left: 140px;
-                  
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                   
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 24px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
@@ -1660,205 +2082,267 @@
 
 @media (max-width: 388px){
     .my-skills1{
-        height: 1216px;
+        width: 460px;
         width: 322px;
+        height: 1240px;
+        height: 940px;
         margin-left: -88px;
-        top: 1560px;
-      
+        position: absolute;
+        top: 1540px;
+        top: 1750px;
+       
+       
+     
+        .skills-icons{
+            display: none;
+        }
 
-      
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 268px;
+            width: 320px;
             height: auto;
-            gap:40px 88px;
-            margin: 32px 0;
+            gap:32px 16px;
+            margin: 40px 0;
+            margin-bottom: 24px;
+            justify-content: center;
+           
             
-            margin-bottom: 56px;
-            margin-left: 24px; 
+            
         }
 
-        .my-skills{
-            width: 340px;
-            height: 143px;
-           
-           
 
+        .my-skills{
+            width: 296px;
+            height: 143px;
+            padding-left: 0px;//
+           
+            margin-top: -800px;
           
            
+
+
             .p1{
-                margin-top: -72px;
-                width: 260px;
-                height: 38px;
+                margin-top: -56px;
+                width: 312px;
+                height: 68px;
+                padding-left: 0px;
                
-                padding-left: 32px;
-              
-               
+             
                }
-               
                h3{
-                width: 270px;
+                width: 312px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 5px;
-                margin-top: 8px;
-               
+             
+                text-align: right;
+
                }
                .p2{
-                margin-top: -8px;
-                width: 280px;
-                height: 38px;
+                width: 312px;
+                height: 56px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
-                margin-left: 8px;
+                margin-left: 0px;
+                text-align: center;
+                margin-bottom: 8px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 158px;
-                height: 49px;
-                justify-content: center;
-                align-items: center;
-                margin-left: 80px;
-                margin-top: 16px;
+                width: 180px; 
+                height: 58px;
+               
+                margin-left: 64px;
+                margin-top: 32px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
                 cursor: pointer;
           
                 color: white;
-                font-size: 23px;
+               
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+                .btn-touch{
+                    width: 158px;
+                    height: 28px;
+                    font-family: poppins;
+                    font-weight: 400;
+                    font-size: 18px;
+                   text-align: center;
+                 
+                }
+            
+
+               
                }
 
           
             .skills-line{
+             
               
                 h2{
-                    width: 180px;
+                    width: 240px;
                     height: 143px;
                     font-size: 45px;  
-                    padding-left: 20px;
-                    //margin-left: 140px;
-           
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                   
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 24px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
 @media (max-width: 350px){
     .my-skills1{
         width: 302px;
+        height: 940px;
         margin-left: -92px;
-        top: 1584px;
-        
-      
-
-      
+        position: absolute;
+        top: 1540px;
+        top: 1810px;
+       
+       
      
+        .skills-icons{
+            display: none;
+        }
+
         .skills-icons2{
             display: block;
             display: flex;
             flex-wrap: wrap;
-            width: 268px;
+            width: 296px;
             height: auto;
-            gap:40px 88px;
-            margin: 32px 0;
-            margin-bottom: 56px;
-            margin-left: 12px; 
+            gap:32px 16px;
+            margin: 40px 0;
+            margin-bottom: 24px;
+            justify-content: center;
+         
+            
+            
         }
 
 
         .my-skills{
-            width: 280px;
+            width: 274px;
             height: 143px;
+            padding-left: 0px;//
            
-           
-           
-
+            margin-top: -800px;
           
            
+
+
             .p1{
-                margin-top: -72px;
-                width: 250px;
-                height: 38px;
+                margin-top: -56px;
+                width: 290px;
+                height: 68px;
+                padding-left: 0px;
+                text-align: right;
+               
              
-               
-               
                }
-               
                h3{
-                width: 270px;
+                width: 290px;
                 height: 38px;
                 font-family: Poppins;
                 font-weight: 700;
-                font-size: 24px;
+                font-size: 22px;
                 line-height: 38.4px;
                 color: white;
-                margin-left: 12px;
-                
              
+                text-align: right;
+
                }
                .p2{
-                margin-top: -8px;
-                width: 280px;
-                height: 38px;
+                width: 290px;
+                height: 56px;
                 font-family: Poppins;
                 font-weight: 400px;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: white;
+                margin-left: 0px;
+                text-align: center;
+                margin-bottom: 8px;
+                //border: 2px solid yellow;
                }
                .btn-talk{
-                width: 158px;
-                height: 49px;
-                justify-content: center;
-                align-items: center;
-                margin-left: 80px;
-                margin-top: 16px;
+                width: 180px; 
+                height: 58px;
+               
+                margin-left: 56px;
+                margin-top: 32px;
                 border-radius: 10px;
                 padding: 15px 30px 15px 30px;
                 gap: 10px;
                 cursor: pointer;
           
                 color: white;
-                font-size: 23px;
+               
                 background: rgba(112, 230, 28, 1);
                 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+                .btn-touch{
+                    width: 158px;
+                    height: 28px;
+                    font-family: poppins;
+                    font-weight: 400;
+                    font-size: 18px;
+                   text-align: center;
+                 
+                }
+            
+
+               
                }
+
 
           
             .skills-line{
+             
               
                 h2{
-                    width: 180px;
+                    width: 240px;
                     height: 143px;
                     font-size: 45px;  
-                    padding-left: 20px;
-                    //margin-left: 140px;
-               
+                    padding-left: 80px;
+                    margin-top: -20px;
+                    margin-left: 0px;
+                   
+                }
+                .line{
+                    margin-top: -40px;
+                    width: 24px;
                 }
 
-                .line{
-                    display: none;
-                }
+               
             }
         }
 
     }
 }
+
+
+
 
 

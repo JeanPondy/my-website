@@ -47,7 +47,7 @@
         flex-direction: column;
         margin-top: 0px;
         align-items: flex-end;
-        border: 2px solid rgba(255, 255, 255, 1);
+       // border: 2px solid rgba(255, 255, 255, 1);
 
         h3{
             width: 196px;
@@ -179,6 +179,7 @@
                 font-family: Poppins;
                 font-weight: 700;
                 font-size: 32px;
+                margin-top: -32px;
                 line-height: 38.4px;
                 color: rgba(151, 71, 255, 1);
                 text-align: right;
@@ -197,11 +198,15 @@
             }
     
             p{
-                width: 400px; 
-                height: 140px;
-                margin-bottom: 16px;
+                width: 460px; 
+                height: 120px;
+                margin-bottom: 8px;
+                //border: 2px solid white;
                
             } 
+            .buttons{
+                margin-top: 32px;
+            }
         }
         }
 }
@@ -223,7 +228,7 @@
       
     
         .el-pollo-info{
-            width: 400px;
+            width: 440px;
             height: 339.19px;
             //gap: 35px;
             display: flex;
@@ -252,11 +257,13 @@
                 line-height: 27.6px;
                 color: rgba(112, 230, 28, 1);
                 text-align: right;
+                margin-bottom: 0px;
             }
     
             p{
-                width: 400px; 
+                width: 440px; 
                 margin-bottom: 16px;
+                margin-top: 8px;
                
             } 
         }
@@ -287,8 +294,8 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-         
             align-items: flex-end;
+            margin-top: 0px;
            
     
             h3{
@@ -316,9 +323,12 @@
     
             p{
                 width: 380px; 
-                margin-bottom: 16px;
-               
+                height: 160px;
+                margin-bottom: 0px; 
             } 
+            .buttons{
+                margin-top: 32px;
+            }
         }
         }
 }
@@ -331,7 +341,7 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        margin-left: -0px;
+        margin-left: 0px;
       
        
       
@@ -352,13 +362,13 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: -80px;
+            margin-top: -64px;
             align-items: center;
             justify-content: center;
             //border: 2px solid rgb(243, 13, 232);
             width: 315px;//
             margin-top: -168px;
-            margin-top: -120px;
+            margin-top: -112px;
     
             h3{
                 width: 196px;
@@ -372,7 +382,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 40px;
+                margin-bottom: 0px;
                 //border: 2px solid rgba(151, 71, 255, 1);
               
             }
@@ -389,9 +400,10 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 16px;
                 margin-bottom: 32px;
                 //border: 2px solid rgba(112, 230, 28, 1);
-                margin-top: -5px;
+               
             }
     
             p{
@@ -479,8 +491,7 @@
             width: 340px;
             height: 310px;
             padding-left: 0px;
-            margin-top: -96px;
-            margin-top: -12px;
+            margin-top: 0px;
           
            
         }
@@ -494,93 +505,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: -122px;
-           
-    
-            h3{
-                width: 196px;
-                height: 42.82px;
-                font-family: Poppins;
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 38.4px;
-                color: rgba(151, 71, 255, 1);
-                text-align:initial;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-top: 64px;
-              
-            }
-    
-            h4{
-                width: 400px;
-                height: 28px;
-                font-family: Poppins;
-                font-weight: 400;
-                font-size: 23px;
-                line-height: 27.6px;
-                color: rgba(112, 230, 28, 1);
-                text-align: right;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-top: -4px;
-              
-            }
-    
-            p{
-                width: 380px; 
-               
-                display: flex;
-                align-items: center;
-                text-align: center;
-                margin-top: -24px;
-                  
-            } 
-            .buttons{
-               
-                margin-top: 0px;
-            }
-        }
-        }
-}
-
-@media (max-width: 880px){}
-@media (max-width: 730px){
-    .el-pollo{
-        width: 460px;
-        height: 587.43px;
-        gap: 35px;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-left: 0px;
-      
-       
-      
-        >img{
-            width: 340px;
-            height: 310px;
-            margin-top: -96px;
-            padding-left: 0px;
-            margin-top: -12px;
-          
-           
-        }
-      
-    
-        .el-pollo-info{
-            width: 400px;//
-            height: 339.19px;
-            //gap: 35px;
-            display: flex;
-            flex-direction: column;
-            margin-top: -80px;
-            align-items: center;
-            justify-content: center;
-            margin-top: -168px;
             margin-top: -120px;
            
     
@@ -596,7 +520,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 24px;
               
             }
     
@@ -612,23 +536,109 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 32px;
-                margin-top: -4px;
+                margin-top: 8px;
+                margin-bottom: 0px;
+              
             }
     
             p{
                 width: 380px; 
-                margin-bottom: 32px;
+               
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: 8px;
+                  
+            } 
+            .buttons{
+               
+                margin-top: 16px;
+            }
+        }
+        }
+}
+
+@media (max-width: 880px){}
+@media (max-width: 730px){
+    .el-pollo{
+        width: 460px;
+        height: 587.43px;
+        height: 600px;
+        gap: 35px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+      
+       
+      
+        >img{
+            width: 340px;
+            height: 310px;
+            padding-left: 0px;
+            margin-top: -40px;
+          
+           
+        }
+      
+    
+        .el-pollo-info{
+            width: 400px;//
+            height: 339.19px;
+            //gap: 35px;
+            display: flex;
+            flex-direction: column;
+            margin-top: -80px;
+            align-items: center;
+            justify-content: center;
+            margin-top: -120px;
+           
+    
+            h3{
+                width: 196px;
+                height: 42.82px;
+                font-family: Poppins;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38.4px;
+                color: rgba(151, 71, 255, 1);
+                text-align:initial;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 40px;
+              
+            }
+    
+            h4{
+                width: 400px;
+                height: 28px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 23px;
+                line-height: 27.6px;
+                color: rgba(112, 230, 28, 1);
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 0px;
+                margin-top: 16px;
+            }
+    
+            p{
+                width: 380px; 
                 display: flex;
                 align-items: center;
                 text-align: center;
                 margin-bottom: 0px;
                // border: 2px solid rgba(255, 255, 255, 1);
-               margin-top: -24px;  
+               margin-top: 8px;  
             } 
             .buttons{
                
-                margin-top: 0px;
+                margin-top: 24px;
             }
         }
         }
@@ -636,7 +646,7 @@
 @media (max-width: 590px){
     .el-pollo{
         width: 370px;
-        height: 587.43px;
+        height: 572px;
         gap: 35px;
         display: flex;
         flex-direction: column-reverse;
@@ -649,12 +659,8 @@
         >img{
             width: 260px;
             height: 290px;
-            margin-top: -112px;
             padding-left: 0px;
-            margin-top: -28px;
-
-          
-           
+            margin-top: -40px; 
         }
       
     
@@ -664,10 +670,8 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: -80px;
             align-items: center;
             justify-content: center;
-            margin-top: -162px;
             margin-top: -114px;
            
     
@@ -683,7 +687,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 32px;
               
             }
     
@@ -700,18 +704,20 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 0px;
-                margin-top: -4px;
+                margin-top: 8px;
             }
     
             p{
                 width: 350px; 
+                height: 174px;
+                height: auto;
                 margin-bottom: 32px;
                 display: flex;
                 align-items: center;
                 text-align: center;
                 margin-bottom: 0px;
                // border: 2px solid rgba(255, 255, 255, 1);
-               margin-top: 8px;
+               margin-top: 4px;
                
             } 
             .buttons{
@@ -731,8 +737,8 @@
 @media (max-width: 490px){}
 @media (max-width: 400px){
     .el-pollo{
-        width: 370px;
-        height: 587.43px;
+        width: 340px;
+        height: 564px;
         gap: 35px;
         display: flex;
         flex-direction: column-reverse;
@@ -745,26 +751,21 @@
         >img{
             width: 260px;
             height: 290px;
-            margin-top: -112px;
             padding-left: 0px;
-            margin-top: -112px;
-            margin-top: -28px;
-           
-
+            margin-top: -40px;
           
-           
         }
       
     
         .el-pollo-info{
-            width: 374px;//
+            width: 340px;//
             height: 339.19px;
             //gap: 35px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: -106px;
+            margin-top: -114px;
            
     
             h3{
@@ -779,7 +780,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 32px;
+                margin-bottom: 0px;
               
             }
     
@@ -795,19 +797,19 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 8px;
                 margin-bottom: 0px;
-                margin-top: -4px;
+               
             }
     
             p{
-                width: 350px; 
-                margin-bottom: 32px;
+                width: 340px; 
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-bottom: 0px;
                // border: 2px solid rgba(255, 255, 255, 1);
-               margin-top: 8px;
+               margin-top: 4px;
+               margin-bottom: 0px;
                
             } 
             .buttons{
@@ -817,7 +819,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 20px;
+                margin-top: 24px;
           
             }
         }
@@ -840,7 +842,7 @@
             width: 260px;
             height: 290px;
             padding-left: 0px;
-            margin-top: -28px;
+            margin-top: -40px;
           
            
         }
@@ -856,7 +858,7 @@
             align-items: center;
             justify-content: center;
         
-            margin-top: -120px;
+            margin-top: -114px;
            
     
             h3{
@@ -871,7 +873,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 32px;
               
             }
     
@@ -887,8 +889,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 8px;
                 margin-bottom: 0px;
-                margin-top: -4px;
+              
             }
     
             p{
@@ -896,11 +899,10 @@
                 display: flex;
                 align-items: center;
                 text-align:center;
-                margin-bottom: 0px;
                // border: 2px solid rgba(255, 255, 255, 1);
                 height: auto;
-                margin-top: 8px;
-               
+                margin-top: 4px;
+                margin-bottom: 0px;
             } 
             .buttons{
                 width: 339px;
@@ -934,8 +936,8 @@
             height: 260px;
             padding-left: 0px;
            // border: 2px solid orange;
-           margin-top: -122px;
-           margin-top: -18px;
+           margin-top: -40px;
+           margin-bottom: 40px;
            
         }
       
@@ -963,7 +965,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 64px;
+                margin-top: 0px;
+                margin-bottom: 0px;
               
             }
     
@@ -979,23 +982,23 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 8px;
                 margin-bottom: 0px;
-                margin-top: -4px;
+               
 
               
             }
     
             p{
                 width: 300px; 
-                height: 172px;
+                height: 200px;
                 display: flex;
                 align-items: center;
                 text-align:center;
-                margin-top: 8px ;
-                margin-bottom: 0px;
+               
                // border: 2px solid rgba(255, 255, 255, 1);
                 //margin-top: 8px;
-                margin: 8px 4px 0px 4px; 
+                margin: 4px 4px 0px 4px; 
              
                
             } 

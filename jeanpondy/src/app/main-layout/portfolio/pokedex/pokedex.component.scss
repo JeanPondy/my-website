@@ -39,7 +39,7 @@
         margin-top: 0px;
         
         align-items: flex-end;
-        border: 2px solid rgba(255, 255, 255, 1);
+        //border: 2px solid rgba(255, 255, 255, 1);
 
 
         h3{
@@ -159,7 +159,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 120px;
+            margin-top: 0px;
             align-items: flex-end;
 
              
@@ -182,20 +182,28 @@
                 font-weight: 400;
                 font-size: 23px;
                 line-height: 27.6px;
+                margin-bottom: 0px;
                 color: rgba(112, 230, 28, 1);
                 text-align: right;
             }
     
             p{
-                width: 413px;
-                height: 38px;
+                width: 400px;
+                height: 64px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 19.2px;
                 color: rgba(255, 255, 255, 1);
                 text-align: right;
+                margin-bottom: 8px;
+                margin-top: 8px;
+                //border: 2px solid rgba(255, 255, 255, 1);
             } 
+            .buttons{
+                margin-top: 32px;
+
+            }
         }
     }
 }
@@ -217,7 +225,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 120px;
+            margin-top: 0px;
             align-items: flex-end;
 
              
@@ -230,6 +238,7 @@
                 line-height: 38.4px;
                 color: rgba(151, 71, 255, 1);
                 text-align: right;
+                margin-bottom: 0px;
               
             }
     
@@ -242,11 +251,12 @@
                 line-height: 27.6px;
                 color: rgba(112, 230, 28, 1);
                 text-align: right;
+                margin-top: 16px;
             }
     
             p{
-                width: 413px;
-                height: 38px;
+                width: 400px;
+                height: 58px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
@@ -278,7 +288,7 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 120px;
+            margin-top: 0px;
             align-items: flex-end;
         
 
@@ -337,7 +347,7 @@
             height: 230px;//
             margin-top: -0px;//
             //border: 2px solid rgba(255, 255, 255, 1);
-            margin-top: 12px;
+            margin-top: 40px;
            
         }
       
@@ -348,10 +358,9 @@
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 32px;
             align-items: center;
            // border: 2px solid rgb(243, 13, 232);
-            margin-top: -20px;
+            margin-top: -60px;
         
 
              
@@ -367,6 +376,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 0px;
+                margin-top: 72px;
                 //border: 2px solid rgba(151, 71, 255, 1);
               
             }
@@ -383,14 +394,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-bottom: 56px;
+                margin-bottom: 0px;
                 //border: 2px solid rgba(112, 230, 28, 1);
-                margin-top: -5px;
+                margin-top: 16px;
             }
     
             p{
                 width: 350px;
-                height: 38px;
+                height: 48px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
@@ -399,9 +410,9 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-bottom: 0px;
+                margin-bottom: 16px;
                 //border: 2px solid rgba(255, 255, 255, 1);
-                margin-top: -48px;
+                margin-top: 8px;
             } 
             .buttons{
                 width: 375px;
@@ -412,7 +423,7 @@
                 justify-content: flex-end; 
                 //border: 2px solid rgb(13, 194, 222);
                 height: 55.36px;
-                margin-top: 32px;
+                margin-top: 40px;
               
     
                 .btn-talk1{
@@ -474,7 +485,7 @@
         >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 52px;
+            margin-top: 40px;
           
           
            
@@ -489,7 +500,7 @@
             flex-direction: column;
             margin-top: 32px;
             align-items: center;
-            margin-top: -22px;
+            margin-top: -72px;
         
 
              
@@ -505,6 +516,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 40px;
               
             }
     
@@ -520,13 +532,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -5px;
+                margin-top: 16px;
               
             }
     
             p{
                 width: 380px;
-                height: 38px;
+                height: 58px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
@@ -535,7 +547,7 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-top: -48px;
+                margin-top: 8px;
             } 
             .buttons{
                 margin-top: 32px;
@@ -553,6 +565,7 @@
         margin-top: 0px;
         width: 460px;
         height: 587.43px;//
+        height: 472px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
@@ -561,7 +574,7 @@
         >img{
             width: 460px;//
             height: 230px;//
-            margin-top: 52px;
+            margin-top: 0px;
            
           
            
@@ -571,12 +584,12 @@
         .pokedex-info{
             width: 300px;
             height: 339.19px;
+            height: 272px;
             //gap: 35px;
             display: flex;
             flex-direction: column;
-            margin-top: 32px;
             align-items: center;
-            margin-top: -22px;
+            margin-top: -72px;
         
 
              
@@ -592,6 +605,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 40px;
+                margin-bottom: 0px;
               
             }
     
@@ -607,13 +622,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin: -5px;
+                margin: 16px;
+                margin-bottom: 0px;
               
             }
     
             p{
                 width: 380px;
-                height: 38px;
+                height: 48px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
@@ -622,10 +638,11 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-top: 13px;
+                margin-top: 8px;
+                margin-bottom: 0px;
             } 
             .buttons{
-                margin-top: 32px;
+                margin-top: 24px;
             }
         }
     }
@@ -637,7 +654,7 @@
         flex-direction: column-reverse;
         margin-top: 0px;
         width: 370px;
-        height: 587.43px;//
+        height: 487.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
@@ -646,7 +663,7 @@
         >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -0px;
+            margin-top: 0px;
             
           
            
@@ -655,12 +672,12 @@
     
         .pokedex-info{
             width: 300px;
-            height: 339.19px;
+            height: 280px;
             //gap: 35px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: -22px;
+            margin-top: -72px;
         
 
              
@@ -676,6 +693,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 40px;
+                margin-bottom: 0px;
               
             }
     
@@ -691,13 +710,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -5px;
+                margin-top: 8px;
+                margin-bottom: 0px;
               
             }
     
             p{
                 width: 360px;
-                height: 38px;
+                height: 56px;
                 font-family: Poppins;
                 font-weight: 400;
                 font-size: 16px;
@@ -706,7 +726,8 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-top: 13px;
+                margin-top: 4px;
+                margin-bottom: 0px;
             
             } 
             .buttons{
@@ -716,7 +737,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 32px;
+                margin-top: 24px;
             } 
         }
     }
@@ -724,13 +745,13 @@
 
 
 @media (max-width: 490px){}
-@media (max-width: 388px){
+@media (max-width: 400px){
     .pokedex{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 0px;
-        width: 322px;
-        height: 587.43px;//
+        width: 340px;
+        height: 487.43px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
@@ -739,8 +760,8 @@
         >img{
             width: 342px;//
             height: 213px;//
-            margin-top: -0px;
-          
+            margin-top: 0px;
+            
           
            
         }
@@ -748,12 +769,12 @@
     
         .pokedex-info{
             width: 300px;
-            height: 339.19px;
+            height: 280px;
             //gap: 35px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: -22px;
+            margin-top: -72px;
         
 
              
@@ -769,6 +790,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-top: 32px;
+                margin-bottom: 0px;
               
             }
     
@@ -784,7 +807,103 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -5px;
+                margin-top: 8px;
+                margin-bottom: 0px;
+              
+            }
+    
+            p{
+                width: 340px;
+                height: 56px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19.2px;
+                color: rgba(255, 255, 255, 1);
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: 4px;
+                margin-bottom: 0px;
+            
+            } 
+            .buttons{
+                width: 339px;
+                height: 65.36px;
+                gap: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 24px;
+            } 
+        }
+    }
+}
+
+@media (max-width: 388px){
+    .pokedex{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        width: 322px;
+        height: 440px;//
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+
+        >img{
+            width: 342px;//
+            height: 213px;//
+            margin-top: 8px;
+          
+          
+           
+        }
+      
+    
+        .pokedex-info{
+            width: 300px;
+            height: 339.19px;
+            //gap: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: -64px;
+        
+
+             
+            h3{
+                width: 196px;
+                height: 42.82px;
+                font-family: Poppins;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38.4px;
+                color: rgba(151, 71, 255, 1);
+                text-align:initial;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 32px;
+                margin-bottom: 0px;
+              
+            }
+    
+            h4{
+                width: 300px;
+                height: 28px;
+                font-family: Poppins;
+                font-weight: 400;
+                font-size: 23px;
+                line-height: 27.6px;
+                color: rgba(112, 230, 28, 1);
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 8px;
+                margin-bottom: 0px;
           
             }
     
@@ -799,7 +918,8 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-top: 13px;
+                margin-top: 4px;
+                margin-bottom: 0px;
             
             } 
             .buttons{
@@ -809,7 +929,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 32px;
+                margin-top: 24px;
                 
             } 
         }
@@ -823,6 +943,7 @@
         margin-top: 0px;
         width: 302px;
         height: 587.43px;//
+        height: 440px;//
         padding-left: 0px;
         justify-content: center;
         align-items: center;
@@ -831,7 +952,7 @@
         >img{
             width: 321px;//
             height: 213px;//
-            margin-top: -20px;
+            margin-top: 8px;
            
           
            
@@ -900,7 +1021,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 40px;
+                margin-top: 24px;
                 
             } 
         }

@@ -2,6 +2,7 @@
 .team-feedback{
     width: 1340px;
     height: 378px;
+    top: 4580px;
     top: 4726px;
     left: 100px;
     position: absolute;
@@ -9,7 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 1px solid yellow;
  
 
     opacity: 0;
@@ -270,8 +272,8 @@
     .team-feedback{
         width: 980px;
         height: 512px;
-        top: 4726px;
-        top: 4872.43px;
+        top: 4828px;
+      
       
 
         .capo{
@@ -350,6 +352,8 @@
     .team-feedback{
         width: 880px;
         height: 512px;
+        top: 4723px;
+        top: 4869px;
       
        
 
@@ -429,8 +433,8 @@
     .team-feedback{
         width: 800px;
         height: 512px;
-        top: 5094px;
-        top: 5240.43px;
+        top: 5086px;
+      
        
 
         .capo{
@@ -466,7 +470,7 @@
                 width: 581.5px;
                 height: 180px;
                 display: flex;
-               
+         
                 align-items: center;
              }
 
@@ -512,8 +516,8 @@
     .team-feedback{
         width: 800px;
         height: 512px;
-        top: 6144px;
-        top: 6290.43px;
+        top: 6090px;
+       
       
         
         
@@ -692,7 +696,7 @@
     .team-feedback{
         width: 600px;
         height: 512px;
-        top: 6262.43px;
+        top: 6136px;
        
        
       
@@ -790,8 +794,7 @@
     .team-feedback{
         width: 460px;
         height: 512px;
-        top: 6132px;
-        top: 6278.43px;
+        top: 5744px;
        
         
 
@@ -891,8 +894,7 @@
     .team-feedback{
         width: 370px;
         height: 512px;
-        top: 6105.43px;
-        top: 6245.43px;
+        top: 5626px;
        
 
         .capo{
@@ -926,18 +928,22 @@
                 height: 180px;
                 display: flex;
                 align-items: center;
-               
+                overflow: hidden; 
 
                 .message{
                     width: 330px;
                     margin-top: 20px;
+                    /*  */
+                    overflow-y: auto;
+                    word-wrap: break-word;
+                    box-sizing: border-box;
                    
                   
                 }
                 .line-name{
                     width: 325.5px;
-                    margin-top: 24px;
-                   
+                    margin-top: 0px;
+                    box-sizing: border-box; 
 
                     .line{
                         width: 54.5px;
@@ -990,10 +996,12 @@
         display: block;
     }
     .team-feedback{
+        margin-left: 0px;
         width: 370px;
         height: 512px;
-   
-         left: 10px;
+        left: 30px;
+        top: 5664px;
+     
     
 
         .capo{
@@ -1098,8 +1106,7 @@
     .team-feedback{
         width: 370px;
         height: 512px;
-        top: 5537.72;
-        top: 5916px;
+        top: 5664px;
         left: 10px;
 
         opacity: 0;
@@ -1215,7 +1222,7 @@
         width: 322px;
         height: 512px;
         left: 10px;
-        top: 6248px;
+        top: 5692px;
      
 
         .capo{
@@ -1319,9 +1326,8 @@
     .team-feedback{
         width: 302px;
         height: 512px;
-        top: 6272px;;
         left: 8px;
-       
+        top: 5774px;
 
         .capo{
             position: absolute;

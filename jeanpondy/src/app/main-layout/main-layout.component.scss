@@ -6,3 +6,10 @@
     position: relative;
     overflow: hidden;
   }
+
+  @media (max-width: 980px){
+    .content-wrapper {
+      height: 7840px;
+    }
+
+  }

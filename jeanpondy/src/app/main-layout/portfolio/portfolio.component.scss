@@ -18,8 +18,8 @@
     opacity: 0;
     transform: translateY(120px);
     transition: transform 2.6s ease-out, opacity 2.6s ease-out;
-   // border: 2px solid rgba(255, 255, 255, 1);
-    border: 1px solid yellow;
+    border: 1px solid rgba(255, 255, 255, 1);
+   
    
   
     // Klasse für sichtbare Elemente
@@ -905,7 +905,7 @@
   @media (max-width: 350px){
       .portfolio{
         width: 302px;
-        height: 2860px;
+        height: 2820px;
         align-items: center;
         left: 8px;
         top: 2852px;

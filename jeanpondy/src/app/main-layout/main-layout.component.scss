@@ -7,9 +7,22 @@
     overflow: hidden;
   }
 
+
+
+  @media (max-width: 1350px){
+    .content-wrapper {
+      height: 6410px;
+    }
+  }
+
+@media (max-width: 1060px){
+  .content-wrapper{
+    height: 6776px;
+  }
+}
+
   @media (max-width: 980px){
     .content-wrapper {
       height: 7840px;
     }
-
   }

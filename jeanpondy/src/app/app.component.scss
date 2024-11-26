@@ -11,6 +11,7 @@
   background-position: left 0px top 32px;
   background-size: 100%  100%;
   z-index: -1;
+  display: none;
 }
 /* -----------------------------------------------------------about-bg */
 .about-bg{
@@ -24,6 +25,7 @@
     background-position: right 0px top 80px;
     background-size: 172.03px 608px;
     z-index: -1;
+    display: none;
   }
 
   /* -------------------------------------------------------skills-bg */
@@ -39,6 +41,7 @@
     background-repeat: no-repeat;
     background-position: left 0px top 0px;
     z-index: -1;
+    display: none;
   }
 
 
@@ -54,6 +57,7 @@
     background-repeat: no-repeat;
     background-position: left 0px top 0px;
     z-index: -1;
+    display: none;
   }
 
   /* -----------------------------------team-feedback-bg */
@@ -71,6 +75,7 @@
     background-position: right 0px top 0px;
     
     z-index: -1;
+    display: none;
   }
 
 /* ------------------------------------------------message-bg */
@@ -88,6 +93,7 @@
     background-position: left -121px top 200px;
     background-size: 647.47px 602.79px;
     z-index: -1;
+    display: none;
   } 
 
  

@@ -20,18 +20,7 @@ body {
     overflow-y: hidden;
   }
 
-  .content-wrapper {
  
-    width: 100%;
-    max-width: 1440px;
-    height: 6123px;
-    height: auto;
-    margin: 0 auto;
-  
-    position: relative;
-    overflow: hidden;
-    border: 1px solid wheat;
-  }
 
 
 
@@ -185,8 +174,6 @@ body {
   }  
 
 }
-
-
  @media (max-width: 1440px) {
   .content-wrapper {
     width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
@@ -217,9 +204,6 @@ body {
     z-index: -10;
   } 
 } 
-
-
-
 
 @media (max-width: 1365px) {
   .content-wrapper {
@@ -545,8 +529,6 @@ body{
 
 }
 
- 
-
 @media (max-width: 590px){
   body{
     .content-wrapper {
@@ -794,8 +776,7 @@ body{
 }
 @media (max-width: 388px){
   body { 
-    height: 7765px;
-    height: 7850px;
+    
 
     .content-wrapper {
       width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
@@ -894,105 +875,7 @@ body{
  
 }
 
-@media (max-width: 350px){
-  body { 
-  
-  
-   
-    height: 7765px;
-    height: 7850px;
 
-    .content-wrapper {
-      width: 100%; /* Füllt die gesamte Breite innerhalb der max-width von 1440px */
-      max-width: 1440px; /* Maximale Breite auf 1440px begrenzt */
-      height: 7800px; /* Höhe des Inhalts */
-      height: 7742px; 
-    }
-
-    .shape-hero {
-      position: absolute;
-      width: 100vw;
-      height: 100vh;
-      //background-image: url('./../public/assets/img/shapeheropage.png');
-      background-repeat: no-repeat;
-      background-position: left 0px top 195.6px;
-      background-size: 740px 801.56px;
-      z-index: -1;
-    }
-    .photo-profile-bg{
-      position: absolute;
-      width: 100vw;
-      height: 100vh;
-      background-image: url('./../public/assets/img/photo-shadows.png');
-      background-repeat: no-repeat;
-      background-position: left 2px top 121.62px;
-      //background-size: 960px 620px; /* Breite x Höhe */
-      background-size: 350.7px 480.38px;
-      z-index: -10;
-     
-    }  
-    .about-bg{
-      position: absolute;
-      width: 100vw;
-      height: 200vh;
-      background-image: url('./../public/assets/img/purple-shadow-R2.png');
-      background-repeat: no-repeat;
-      background-position: right 0px top 820px;
-      z-index: -1;
-    }
-    .skills-bg{
-      position: absolute;
-      width: 100vw;
-      height: 400vh;
-      background-image: url('./../public/assets/img/green-shadow-2L.png');
-      background-repeat: no-repeat;
-      background-position: left 0px top 1920px;
-      z-index: -1;
-    }
-    .p-folio-bg{
-      position: absolute;
-      width: 100vw;
-      height: 400vh;
-      background-image: url('./../public/assets/img/purple-shadow-L3.png');
-      background-repeat: no-repeat;
-      background-position: left 0px top 3200px;
-      z-index: -1;
-    }
-    .message-bg{
-      position: absolute;
-      width: 100vw;
-      height: 717vh;
-      background-image: url('./../public/assets/img/purple-shadow-L4.png');
-      background-repeat: no-repeat;
-      background-position: left 0px top 7540px;
-      z-index: -1;
-    }
-  
-  
-  }
-  .big-bg2 {
-    margin-top: 1259px;
-   
-    background-repeat: no-repeat;
-    width: 1205.31px;
-    height: 6000px;
-    margin-left: -320px;
-    background-size: 99.9%;
-    display: none;
-}
-.ober{
- 
-  .profile-pic {
-    height: 650px;
-   // width: 95%;
-    width: 746px;
-    margin-left: -310px;
-    
-   }
-}
- 
- 
-}
 
 
 

@@ -3,29 +3,28 @@
   position: absolute;
   width: 100%;
   height: 971.56px;
-  top: 16px;
   top: 377.6px;
- 
   background-image: url('./../../public/assets/img/shapeheropage.png');
   background-repeat: no-repeat;
   background-position: left 0px top 32px;
   background-size: 100%  100%;
   z-index: -1;
-  display: none;
+  //display: none;
 }
 /* -----------------------------------------------------------about-bg */
 .about-bg{
     position: absolute;
     width: 572.03px;
     height: 100%;
-    top: 750px;
+    
+    margin-top: 750px;
     right: 0px;
     background-image: url('./../../public/assets/img/purple-shadow-R2.png');
     background-repeat: no-repeat;
     background-position: right 0px top 80px;
     background-size: 172.03px 608px;
     z-index: -1;
-    display: none;
+    //display: none;
   }
 
   /* -------------------------------------------------------skills-bg */

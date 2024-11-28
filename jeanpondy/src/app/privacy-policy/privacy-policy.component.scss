@@ -1,11 +1,6 @@
 
 .datenschutzerklärung {
-    position: absolute;
-    top: 40px;
-   
-   
-   
-      z-index: 100;
+
       font-family: "zabars", Arial, Helvetica, sans-serif;
       height: auto;
       display: flex;
@@ -13,10 +8,14 @@
       justify-content: center;
       align-items: center;
       margin: 0;
+      z-index: 100;
       color: #fff;
       //background-image: url("img/5_background/layers/air.png");
       background-color: rgba(20, 29, 47, 1);
       //background-color: #fff;
+
+   
+     
       
      
     }
@@ -86,7 +85,8 @@
     
     .datenschutzerklärung h1 {
       text-align: center;
-      margin: 75px 0;
+      margin-top: 120px;
+      margin-bottom: 80px;
     }
     
     .datenschutzerklärung p {

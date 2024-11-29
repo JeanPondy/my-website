@@ -20,11 +20,11 @@ export class HeaderComponent {
       if (event instanceof NavigationEnd) {
         // Aktuelle URL in Kleinbuchstaben prüfen
         const currentUrl = event.urlAfterRedirects.toLowerCase();
-        console.log('Current URL:', currentUrl); // Debug-Ausgabe
+        //console.log('Current URL:', currentUrl); // Debug-Ausgabe
         this.showHeaderMenu = !(
           currentUrl.includes('imprint') || currentUrl.includes('privacy-policy')
         );
-        console.log('Show Header Menu:', this.showHeaderMenu); // Debug-Ausgabe
+        //console.log('Show Header Menu:', this.showHeaderMenu); // Debug-Ausgabe
       }
     }); // Hier das fehlende schließende `);` hinzugefügt
   }

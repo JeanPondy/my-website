@@ -217,7 +217,7 @@
         position: absolute;
         left: 1246px;
         left: 1316px;
-        width: 172px;
+        width: 200px;
         height: 28px;
         font-family: Poppins;
         font-weight: 400;
@@ -236,6 +236,26 @@
     
     
         }
+
+        .profile-arrow-down-line{
+            transform: rotate(90deg);
+            margin-bottom: -6px;
+            animation: _ngcontent-ng-c1194678647_jumpInfinite 1.5s infinite, rotateAndMoveDown 1.5s infinite;
+          
+        }
+
+        @keyframes rotateAndMoveDown {
+            0% {
+                transform: rotate(90deg) translateY(-20px);
+            }
+            50% {
+                transform: rotate(90deg) translateY(0px); // Bild um 90 Grad drehen und nach unten bewegen
+            }
+            100% {
+              transform: rotate(90deg) translateY(-20px); // Zurück zur Ausgangsposition
+            }
+          }
+        
        
       
     }

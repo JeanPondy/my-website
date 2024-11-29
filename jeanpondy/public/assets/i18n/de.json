@@ -9,7 +9,7 @@
       "I_AM": "Ich bin",
       "FRONTEND_DEVELOPER": "Frontend-Entwickler",
       "LETS_TALK": "Lass uns reden",
-      "SCROLL_DOWN": "Runterscrollen ->"
+      "SCROLL_DOWN": "Runterscrollen"
     },
     "ABOUT_ME": {
       "TITLE": "Über mich",
@@ -137,5 +137,17 @@
     "GITHUB": "Besuche GitHub",
     "EMAIL": "E-Mail senden",
     "LINKEDIN": "LinkedIn besuchen"
+  },
+
+  "IMPRESSUM": {
+    "TITLE": "Impressum",
+    "SUBTITLE_SECTION_5": "Angaben gemäß § 5 TMG",
+    "ADDRESS": "Jean Pondy\nReinhold-Frank-Str 46\n76133 Karlsruhe",
+    "CONTACT": "Kontakt",
+    "PHONE": "Telefon: 015124341365",
+    "FAX": "Telefax: 015124341365",
+    "EMAIL": "E-Mail: mpondolpondy@gmail.com",
+    "SOURCE": "Quelle:",
+    "SOURCE_LINK": "https://www.e-recht24.de/impressum-generator.html"
   }
   }

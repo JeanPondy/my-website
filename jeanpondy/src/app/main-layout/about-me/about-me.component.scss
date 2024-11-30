@@ -12,7 +12,7 @@
     opacity: 0;
     transform: scale(0.8); // Startet kleiner als die normale Größe
    
-    transition: transform 2.6s ease-out, opacity 2.6s ease-out;
+    transition: transform 1s ease-out, opacity 1s ease-out;
   
     // Klasse für sichtbare Elemente
     &.is-visible {

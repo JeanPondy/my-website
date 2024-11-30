@@ -1,66 +1,73 @@
-<div class="header-menu">
-  <img (click)="goToHome()" class="logo" src="./assets/img/logo1.jpeg" alt="" />
+<div class="header-container">
+  <div class="header-menu">
+    <img
+      (click)="goToHome()"
+      class="logo"
+      src="./assets/img/logo1.jpeg"
+      alt=""
+    />
 
-  <div class="lang-div">
-    <div
-      [ngClass]="{ 'lang-switch': selectedLang === 'en' }"
-      (click)="switchLanguage('en')"
-      class="lang-en"
-    >
-      EN
+    <div class="lang-div">
+      <div
+        [ngClass]="{ 'lang-switch': selectedLang === 'en' }"
+        (click)="switchLanguage('en')"
+        class="lang-en"
+      >
+        EN
+      </div>
+      <div
+        [ngClass]="{ 'lang-switch': selectedLang === 'de' }"
+        (click)="switchLanguage('de')"
+        class="lang-de"
+      >
+        DE
+      </div>
     </div>
-    <div
-      [ngClass]="{ 'lang-switch': selectedLang === 'de' }"
-      (click)="switchLanguage('de')"
-      class="lang-de"
-    >
-      DE
+
+    <div class="menu">
+      <!-- *ngIf="showHeaderMenu" -->
+      <button
+        class="about-me"
+        [class.active]="activeSection === 'about-me'"
+        (click)="scrollToSection('about-me')"
+      >
+        {{ "HEADER.ABOUT_ME" | translate }}
+        <!-- Debug-Text -->
+      </button>
+      <button
+        class="skills"
+        [class.active]="activeSection === 'my-skills'"
+        (click)="scrollToSection('my-skills')"
+      >
+        {{ "HEADER.SKILLS" | translate }}
+      </button>
+      <button
+        class="portfolio"
+        [class.active]="activeSection === 'my-portfolio'"
+        (click)="scrollToSection('my-portfolio')"
+      >
+        Portfolio
+      </button>
+    </div>
+    <div class="burger-menu" (click)="toggleMobileMenu()">
+      <img src="./assets/img/burger-menu.png" alt="Menu" />
     </div>
   </div>
 
-  <div class="menu">
-    <!-- *ngIf="showHeaderMenu" -->
-    <button
-      class="about-me"
-      [class.active]="activeSection === 'about-me'"
-      (click)="scrollToSection('about-me')"
-    >
-      {{ "HEADER.ABOUT_ME" | translate }}
-      <!-- Debug-Text -->
-    </button>
-    <button
-      class="skills"
-      [class.active]="activeSection === 'my-skills'"
-      (click)="scrollToSection('my-skills')"
-    >
-      {{ "HEADER.SKILLS" | translate }}
-    </button>
-    <button
-      class="portfolio"
-      [class.active]="activeSection === 'my-portfolio'"
-      (click)="scrollToSection('my-portfolio')"
-    >
-      Portfolio
-    </button>
-  </div>
-  <div class="burger-menu" (click)="toggleMobileMenu()">
-    <img src="./assets/img/burger-menu.png" alt="Menu" />
-  </div>
-</div>
-
-<div class="mobile-menu-overlay" [class.active]="isMobileMenuOpen">
-  <div class="mobile-menu">
-    <button (click)="scrollToSection('about-me'); closeMobileMenu()">
-      {{ "HEADER.ABOUT_ME" | translate }}
-    </button>
-    <button (click)="scrollToSection('my-skills'); closeMobileMenu()">
-      {{ "HEADER.SKILLS" | translate }}
-    </button>
-    <button (click)="scrollToSection('my-portfolio'); closeMobileMenu()">
-      Portfolio
-    </button>
-    <button (click)="scrollToSection('contact'); closeMobileMenu()">
-      {{ "HEADER.CONTACT" | translate }}
-    </button>
+  <div class="mobile-menu-overlay" [class.active]="isMobileMenuOpen">
+    <div class="mobile-menu">
+      <button (click)="scrollToSection('about-me'); closeMobileMenu()">
+        {{ "HEADER.ABOUT_ME" | translate }}
+      </button>
+      <button (click)="scrollToSection('my-skills'); closeMobileMenu()">
+        {{ "HEADER.SKILLS" | translate }}
+      </button>
+      <button (click)="scrollToSection('my-portfolio'); closeMobileMenu()">
+        Portfolio
+      </button>
+      <button (click)="scrollToSection('contact'); closeMobileMenu()">
+        {{ "HEADER.CONTACT" | translate }}
+      </button>
+    </div>
   </div>
 </div>

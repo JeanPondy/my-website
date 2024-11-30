@@ -5,6 +5,8 @@
 <div *ngIf="showBackground" class="p-folio-bg"></div>
 <div *ngIf="showBackground" class="team-feedback-bg"></div>
 <div *ngIf="showBackground" class="message-bg"></div>
-<app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<div class="layout">
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</div>

@@ -68,6 +68,13 @@
     z-index: 1000;
     background-color: rgba(20, 29, 47, 1);
     color:  rgba(255, 255, 255, 1);
+
+
+    h2{
+      width: 400px;
+      text-align: center;
+  
+    }
    
 
   }
@@ -96,7 +103,7 @@
   
   /* ------------------- Media Queries ------------------ */
   
-  @media (max-width: 455px) {
+  @media (max-width: 1455px) {
     .impressum p {
       text-align: center;
     }
@@ -112,6 +119,12 @@
     }
   }
   @media (max-width: 425px) {
+    .impressum{
+      margin-top: 40px;
+      h2{
+        width: 300px;
+      }
+    }
     .datenschutzerklärung {
       padding: 0 22.5px;
     }

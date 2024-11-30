@@ -12,7 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 @Component({
   selector: 'app-main-layout',
   standalone: true,
-  imports: [CommonModule, ProfileComponent, HeaderComponent, AboutMeComponent, MySkillsComponent, PortfolioComponent, TeamFeedbackComponent, ContactComponent],
+  imports: [CommonModule, ProfileComponent, AboutMeComponent, MySkillsComponent, PortfolioComponent, TeamFeedbackComponent, ContactComponent],
   templateUrl: './main-layout.component.html',
   styleUrl: './main-layout.component.scss'
 })

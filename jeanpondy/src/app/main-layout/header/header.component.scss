@@ -1,23 +1,22 @@
-
+.header-container {
+  width: 100%;               // Vollbildbreite für den Hintergrund
+  background: rgba(20, 29, 47, 1); // Hintergrundfarbe des Headers
+  position: fixed;           // Fixiert den gesamten Container
+  top: 0;
+  z-index: 1000;             // Gleiche Z-Index wie der Header
+}
 
 .header-menu {
- 
-    width: 1440px; 
-    width: 100%;
-   
-    //max-width: cover;// à regarder
-    height: 29.03px; 
-    top: 0;
-    position: fixed;
-   
-    padding: 37px 0px 37px 0px;
-    gap: 0px;
-    opacity: 1; 
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
-    background-color: rgba(20, 29, 47, 1);
-    z-index: 1000; 
+  width: 100%;                // Nimmt die volle Breite ein
+  max-width: 1440px;          // Begrenzung des Inhalts auf maximal 1440px
+  height: 29.03px;
+  padding: 37px 0;
+  padding-left: 4px;
+  margin: 0 auto;             // Zentriert den Header-Inhalt
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: transparent; 
  
    
     .logo{
@@ -86,7 +85,7 @@
   .menu{
   display: flex;
   align-items: center;
-  padding: 37px 40px;
+  padding: 37px 0px;
   //border: 2px solid tomato;
   
   .about-me{
@@ -127,7 +126,7 @@
   .mobile-menu-overlay {
       display: none;
       position: fixed;
-      top: 40px;
+      top: 100px;
       left: 0;
       right: 0;
       bottom: 0;

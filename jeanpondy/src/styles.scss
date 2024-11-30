@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    min-height: 100vh;   
    
   }
 
@@ -20,12 +21,41 @@ body {
     overflow-y: hidden;
   }
 
+
+
+  .layout {
+    display: flex;
+    flex-direction: column; /* Header, Main und Footer vertikal anordnen */
+    min-height: 100vh;      /* Layout füllt mindestens die gesamte Viewport-Höhe */
+  }
+  app-header {
+    flex-shrink: 0; /* Header wird nicht gestaucht */
+  }
+  app-main-layout {
+    flex: 1; /* Nimmt den restlichen Platz ein */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Kein Scrollen innerhalb von main */
+  }
+  app-footer {
+    flex-shrink: 0; /* Footer bleibt in der Größe fest */
+  }
   
 
+
+.footer-container {
+  display: flex;         
+  flex-direction: column; 
+  width: 100%;         
+  border-top: 4px solid rgba(112, 230, 28, 1);
+  flex-shrink: 0;         // Verhindert, dass der Footer schrumpft
+  overflow: hidden;       // Schneidet überflüssige Inhalte ab
+  justify-content: flex-end; // Footer immer unten
+  
+ ;
+}
+
  
-
-
-
 
 /* Poppins Regular */
 @font-face {

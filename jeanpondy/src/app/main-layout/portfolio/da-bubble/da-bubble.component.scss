@@ -14,13 +14,13 @@
    
      }
 
-     transform: perspective(800px) rotateX(45deg);
+     transform: perspective(1200px) rotateX(45deg);
      opacity: 0;
-     transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+     transition: transform 1s ease-out, opacity 1s ease-out;
      transform-origin: top;
  
      &.is-visible {
-     transform: perspective(400px) rotateX(0);
+     transform: perspective(800px) rotateX(0);
      opacity: 1;
     
   }

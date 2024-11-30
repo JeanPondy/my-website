@@ -1,14 +1,24 @@
+
+
+
+
 .footer{
-    max-width: 100%;
+  
     width: 100%;
+    max-width: 1440px;  
     height: 291px;
-    border-top: 4px solid rgba(112, 230, 28, 1);
+    max-height: 291px;             // Maximale Höhe auf 91px beschränken
+    min-height: 91px;  
+    margin: 0 auto; 
+    padding-left: 4px;   
+    overflow: hidden;  
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;  
+    
     //display: none;
-    //border: 1px solid rgba(112, 230, 28, 1);
+    border: 1px solid rgba(112, 230, 28, 1);
+   
 
    .underline {
     height: 40px;

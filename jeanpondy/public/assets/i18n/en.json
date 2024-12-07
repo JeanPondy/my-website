@@ -106,11 +106,17 @@
   },
   "TEAM_FEEDBACK": {
     "FEEDBACKS": [
+
+      {
+        "TEXT": "Jean really kept the team together with his great organization and clear communication. We wouldn’t have got this far without his commitment.",
+        "IMAGE_URL": "assets/img/doris3.png",
+        "NAME": "Obe - Team Partner"
+      },
    
       {
         "TEXT": "It was a great pleasure to work with Jean. He knows how to push and encourage team members to present the best work possible, always adding something to brainstorm. Regarding the well-being of group members, he was always present and available to listen and help others, with a great sense of humor as well.",
-        "IMAGE_URL": "assets/img/vitalik-buterin.jpg.webp",
-        "NAME": "V. Buterin - Team Partner"
+        "IMAGE_URL": "assets/img/gabin.jpeg",
+        "NAME": "G. Eone - Team Partner"
       },
       {
         "TEXT": "J.Pondy was a top team colleague at DA. His positive commitment and willingness to take on responsibility made a significant contribution to us achieving our goals.",
@@ -121,12 +127,8 @@
         "TEXT": "It was a true pleasure collaborating with Jean. He has a natural ability to motivate and inspire team members to bring their best ideas to the table, consistently contributing valuable insights during brainstorming sessions. When it comes to the well-being of the team, Jean was always approachable and willing to lend a listening ear or offer support, all while maintaining a fantastic sense of humor that lifted the group’s spirits.",
         "IMAGE_URL": "assets/img/doris.png",
         "NAME": "Doris Tamdes - Team Partner"
-      },
-      {
-        "TEXT": "Jean really kept the team together with his great organization and clear communication. We wouldn’t have got this far without his commitment.",
-        "IMAGE_URL": "assets/img/doris3.png",
-        "NAME": "Obe - Team Partner"
       }
+   
     ]
   },
   "FOOTER": {

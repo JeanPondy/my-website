@@ -109,11 +109,17 @@
   },
 "TEAM_FEEDBACK": {
     "FEEDBACKS": [
+
+      {
+        "TEXT": "Jean hat das Team wirklich zusammengehalten mit seiner großartigen Organisation und klaren Kommunikation. Ohne sein Engagement wären wir nicht so weit gekommen.",
+        "IMAGE_URL": "assets/img/doris3.png",
+        "NAME": "Obe - Teamkollege"
+      },
      
       {
         "TEXT": "Es war eine große Freude, mit Jean zusammenzuarbeiten. Er weiß, wie man Teammitglieder motiviert und dazu bringt, die bestmögliche Arbeit zu leisten, und bringt stets Ideen in die Brainstorming-Sitzungen ein. Für das Wohl der Gruppenmitglieder war er immer präsent und verfügbar, um zuzuhören und anderen mit viel Humor zu helfen.",
-        "IMAGE_URL": "assets/img/vitalik-buterin.jpg.webp",
-        "NAME": "V. Buterin - Teamkollege"
+        "IMAGE_URL": "assets/img/gabin.jpeg",
+        "NAME": "G. Eone - Teamkollege"
       },
       {
         "TEXT": "J. Pondy war ein erstklassiger Teamkollege bei DA. Sein positives Engagement und die Bereitschaft, Verantwortung zu übernehmen, haben erheblich dazu beigetragen, dass wir unsere Ziele erreicht haben.",
@@ -124,12 +130,8 @@
         "TEXT": "Die Zusammenarbeit mit Jean war eine wahre Freude. Er hat ein natürliches Talent, Teammitglieder zu motivieren und zu inspirieren, ihre besten Ideen einzubringen, und hat stets wertvolle Einblicke in Brainstorming-Sitzungen gegeben. In Bezug auf das Wohl des Teams war Jean immer ansprechbar und bereit, zuzuhören oder Unterstützung anzubieten, und hat dabei mit seinem großartigen Humor die Stimmung der Gruppe gehoben.",
         "IMAGE_URL": "assets/img/doris.png",
         "NAME": "Doris Tamdes - Teamkollegin"
-      },
-      {
-        "TEXT": "Jean hat das Team wirklich zusammengehalten mit seiner großartigen Organisation und klaren Kommunikation. Ohne sein Engagement wären wir nicht so weit gekommen.",
-        "IMAGE_URL": "assets/img/doris3.png",
-        "NAME": "Obe - Teamkollege"
       }
+    
     ]
   },
   "FOOTER": {

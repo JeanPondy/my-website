@@ -32,14 +32,13 @@
           <!-- Email -->
           <label for="email"></label>
           <input
-            id="emailField"
+            id="email"
             #email="ngModel"
             [(ngModel)]="contactData.email"
             type="email"
             name="email"
             placeholder="{{ 'CONTACT.EMAIL_PLACEHOLDER' | translate }}"
             required
-            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
           />
           <span *ngIf="!email.valid && email.touched" style="color: red">
             {{ "CONTACT.EMAIL_ERROR" | translate }}

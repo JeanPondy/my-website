@@ -27,7 +27,7 @@
           mat-fab
           extended
           class="btn-talk"
-          (click)="scrollToSection('contact')"
+          (click)="scrollToSection('nameField')"
         >
           {{ "PROFILE.LETS_TALK" | translate }}
         </button>
@@ -41,7 +41,7 @@
       <div class="line"></div>
       <img (click)="goToGithub()" src="./assets/img/github.png" alt="GitHub" />
       <img
-        (click)="scrollToSection('contact')"
+        (click)="scrollToSection('nameField')"
         src="./assets/img/email.png"
         alt="Email"
       />
@@ -52,7 +52,7 @@
       />
       <div
         [class.active]="activeSection === 'about-me'"
-        (click)="scrollToSection('contact')"
+        (click)="scrollToSection('nameField')"
         class="mail"
       >
         mpondolpondy&#64;gmail.com

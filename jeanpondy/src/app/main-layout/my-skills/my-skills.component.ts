@@ -36,18 +36,32 @@ export class MySkillsComponent implements AfterViewInit {
 
   // Methode, um zu einem bestimmten Abschnitt zu scrollen und dabei 80px Offset oben zu lassen
   scrollToSection(section: string) {
-    this.activeSection = section;  // Setze den aktiven Abschnitt
-    
+    this.activeSection = section;
     const element = document.getElementById(section);
-    if (element) {
-      const yOffset = -220; // 80px Abstand vom oberen Rand
-      const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-      window.scrollTo({
-        top: yPosition,
-        behavior: 'smooth'
-      });
+    if (element) {
+        const yOffset = -220; // Offset anpassen, falls nötig
+        const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        // Scrollen mit Animation
+        window.scrollTo({
+            top: yPosition,
+            behavior: 'smooth',
+        });
+
+        // Nach dem Scrollen Fokus und Cursor setzen
+        setTimeout(() => {
+            if (element instanceof HTMLElement) {
+                element.focus(); // Fokus setzen
+
+                // Cursor aktivieren, falls das Element ein Eingabefeld ist
+                if (element instanceof HTMLInputElement || element instanceof HTMLTextAreaElement) {
+                    element.select(); // Inhalt auswählen oder Cursor ins Eingabefeld setzen
+                }
+            }
+        }, 500); // Wartezeit für das Scrollen
     }
-  }
+}
+
 
 }

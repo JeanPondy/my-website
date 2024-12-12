@@ -17,10 +17,10 @@
           <!-- Name -->
           <label for="name"></label>
           <input
+            id="nameField"
             [(ngModel)]="contactData.name"
             #name="ngModel"
             type="text"
-            id="name"
             name="name"
             placeholder="{{ 'CONTACT.NAME_PLACEHOLDER' | translate }}"
             required
@@ -32,14 +32,14 @@
           <!-- Email -->
           <label for="email"></label>
           <input
+            id="emailField"
             #email="ngModel"
             [(ngModel)]="contactData.email"
             type="email"
-            id="email"
             name="email"
             placeholder="{{ 'CONTACT.EMAIL_PLACEHOLDER' | translate }}"
             required
-            pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
           />
           <span *ngIf="!email.valid && email.touched" style="color: red">
             {{ "CONTACT.EMAIL_ERROR" | translate }}
@@ -48,9 +48,9 @@
           <!-- Message -->
           <label for="message"></label>
           <textarea
+            id="messageField"
             #message="ngModel"
             [(ngModel)]="contactData.message"
-            id="message"
             name="message"
             placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}"
             style="height: 200px"

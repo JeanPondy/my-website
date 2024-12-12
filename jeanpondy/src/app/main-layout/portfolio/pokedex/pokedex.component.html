@@ -6,13 +6,19 @@
       {{ "POKEDEX.DESCRIPTION" | translate }}
     </p>
     <div class="buttons">
-      <button (click)="goToElpolloloco()" mat-fab extended class="btn-talk1">
+      <button (click)="showOverlay()" mat-fab extended class="btn-talk1">
         Live test
       </button>
-      <button (click)="goToGithub()" mat-fab extended class="btn-talk2">
+      <button (click)="showOverlay()" mat-fab extended class="btn-talk2">
         Github
       </button>
     </div>
   </div>
   <img src="./assets/img/pokedex.png" alt="" />
+
+  <div class="overlay" *ngIf="isOverlayVisible" (click)="closeOverlay()">
+    <div class="overlay-content">
+      <p class="c-soon">Coming Soon...</p>
+    </div>
+  </div>
 </div>

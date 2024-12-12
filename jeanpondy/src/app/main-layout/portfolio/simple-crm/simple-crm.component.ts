@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component,  ElementRef, AfterViewInit  } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-simple-crm',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, CommonModule],
   templateUrl: './simple-crm.component.html',
   styleUrl: './simple-crm.component.scss'
 })
@@ -12,6 +13,15 @@ export class SimpleCrmComponent implements AfterViewInit {
 
 
   constructor(private el: ElementRef) {}
+
+  isOverlayVisible = false;
+  showOverlay(): void {
+    this.isOverlayVisible = true;
+  }
+
+  closeOverlay(): void {
+    this.isOverlayVisible = false;
+  }
 
   ngAfterViewInit() {
     // Intersection Observer für Scroll-Effekte

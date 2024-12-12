@@ -117,10 +117,91 @@
     }
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    .overlay-content {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+
+      .c-soon{
+        font-size: 32px;
+        color: black;
+      }
+    }
+  }
+
 /* ----------------------------responsive */
 
-@media (max-width: 1669px){}
-@media (max-width: 1438px){}
+@media (max-width: 1669px){
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80vw;
+        height: 40vh;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      
+        .overlay-content {
+          background: white;
+          padding: 20px 40px;
+          border-radius: 10px;
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+    
+          .c-soon{
+            font-size: 32px;
+            color: black;
+          }
+        }
+      }
+}
+@media (max-width: 1438px){
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90vw;
+        height: 40vh;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      
+        .overlay-content {
+          background: white;
+          padding: 20px 40px;
+          border-radius: 10px;
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+    
+          .c-soon{
+            font-size: 32px;
+            color: black;
+          }
+        }
+      }
+}
 @media (max-width: 1350px){
     .simple-crm{
         margin: 0px 0 0 0px;
@@ -210,6 +291,32 @@
             }
             }
         }
+    .overlay {
+            position: fixed;
+            top: 0;
+            left: -20px;
+            width: 90vw;
+            height: 35vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 
 }
 @media (max-width: 980px){
@@ -335,6 +442,32 @@
             }
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 80vw;
+            height: 55vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }
 @media (max-width: 940px){
     .simple-crm{
@@ -407,6 +540,32 @@
             }
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 60vw;
+            height: 55vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }
 
 @media (max-width: 880px){}
@@ -479,6 +638,32 @@
             }
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 75vw;
+            height: 45vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }
 
 @media (max-width: 590px){
@@ -561,6 +746,60 @@
 
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 75vw;
+            height: 42vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
+}
+@media (max-width: 490px){
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90vw;
+        height: 42vh;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      
+        .overlay-content {
+          background: white;
+          padding: 20px 40px;
+          border-radius: 10px;
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+    
+          .c-soon{
+            font-size: 32px;
+            color: black;
+          }
+        }
+      }
 }
 @media (max-width: 400px){
     .simple-crm{
@@ -642,6 +881,32 @@
 
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: -10px;
+            width: 95vw;
+            height: 42vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }
 
 @media (max-width: 388px){
@@ -725,6 +990,32 @@
 
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0px;
+            width: 92vw;
+            height: 42vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }
 
 @media (max-width: 350px){
@@ -810,4 +1101,30 @@
 
             }
         }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: -4px;
+            width: 96vw;
+            height: 42vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 20px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
 }

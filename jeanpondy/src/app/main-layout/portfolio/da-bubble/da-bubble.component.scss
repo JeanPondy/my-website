@@ -290,6 +290,33 @@
             }
         }
 
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: -20px;
+            width: 90vw;
+            height: 40vh;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          
+            .overlay-content {
+              background: white;
+              padding: 20px 40px;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+        
+              .c-soon{
+                font-size: 32px;
+                color: black;
+              }
+            }
+          }
+
 }
 @media (max-width: 1060px){
     .dabubble{
@@ -973,7 +1000,7 @@
             top: 0;
             left: 0px;
             width: 95vw;
-            height: 80vh;
+            height: 50vh;
             background: rgba(0, 0, 0, 0.6);
             display: flex;
             justify-content: center;
@@ -1071,7 +1098,7 @@
             top: 0;
             left: -4px;
             width: 97vw;
-            height: 80vh;
+            height: 52vh;
             background: rgba(0, 0, 0, 0.6);
             display: flex;
             justify-content: center;

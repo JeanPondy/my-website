@@ -3,6 +3,8 @@
   background: rgba(20, 29, 47, 1); // Hintergrundfarbe des Headers
   position: fixed;           // Fixiert den gesamten Container
   top: 0;
+
+  
   z-index: 1000;             // Gleiche Z-Index wie der Header
 }
 
@@ -124,6 +126,7 @@
     
   }
   .mobile-menu-overlay {
+
       display: none;
       position: fixed;
       top: 100px;
@@ -184,7 +187,603 @@
   
   
   /* ----------------------------------responsive */
+  @media (max-width: 1540px) {
+.header-menu {
+  width: 100%;                // Nimmt die volle Breite ein
+  max-width: 1340px;          // Begrenzung des Inhalts auf maximal 1440px
+  height: 29.03px;
+  padding: 37px 0;
+  padding-left: 4px;
+  margin: 0 auto;             // Zentriert den Header-Inhalt
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: transparent; 
+ 
+   
+    .logo{
+        cursor: pointer;
+    }
+   
+    //border: 1px solid yellowgreen;
 
+    .lang-switch {
+        background-color: #9747FF;
+    }
+    .lang-div {
+        width: 84px;
+        height: 30px;
+        border-radius: 14px;
+        border: 1px solid #70E61C;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16px;
+       
+        &:hover {
+            border: 1px solid white;
+            cursor: pointer;
+            
+        }
+    }
+    .lang-en {
+        width: 44px;
+        height: 28px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: lightgray;
+        
+        &:hover {
+            color: white;
+        }
+        
+    }
+    .lang-de {
+        width: 44px;
+        height: 28px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        color: lightgrey;
+        &:hover {
+            color: white;
+        }
+        
+    }
+    
+  
+  > img {
+      width: 150px; /* Width of the image */
+      min-height: 35.03px; /* Minimum height of the image */
+  }
+  
+  .menu{
+  display: flex;
+  align-items: center;
+  padding: 37px 0px;
+  //border: 2px solid tomato;
+  
+  .about-me{
+    width: 136px;
+  }
+ 
+  > button {
+     
+      height: 32px;
+      color: white;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-family: Poppins;
+      font-size: 23px;
+      font-weight: 400px;
+      line-height: 27.6px;
+      margin-right: 16px;
+      //border: 2px solid yellow;
+     
+       &:hover{
+          color: rgba(112, 230, 28, 1);
+          
+      } 
+    
+  }
+  }
+  .burger-menu {
+      display: none;
+      cursor: pointer;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    
+  }
+  }
+  @media (max-width: 1350px) {
+    .header-menu {
+      width: 100%;                // Nimmt die volle Breite ein
+      max-width: 1140px;          // Begrenzung des Inhalts auf maximal 1440px
+      height: 29.03px;
+      padding: 37px 0;
+      padding-left: 4px;
+      margin: 0 auto;             // Zentriert den Header-Inhalt
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: transparent; 
+     
+       
+        .logo{
+            cursor: pointer;
+        }
+       
+        //border: 1px solid yellowgreen;
+    
+        .lang-switch {
+            background-color: #9747FF;
+        }
+        .lang-div {
+            width: 84px;
+            height: 30px;
+            border-radius: 14px;
+            border: 1px solid #70E61C;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-left: 16px;
+           
+            &:hover {
+                border: 1px solid white;
+                cursor: pointer;
+                
+            }
+        }
+        .lang-en {
+            width: 44px;
+            height: 28px;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: lightgray;
+            
+            &:hover {
+                color: white;
+            }
+            
+        }
+        .lang-de {
+            width: 44px;
+            height: 28px;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            color: lightgrey;
+            &:hover {
+                color: white;
+            }
+            
+        }
+        
+      
+      > img {
+          width: 150px; /* Width of the image */
+          min-height: 35.03px; /* Minimum height of the image */
+      }
+      
+      .menu{
+      display: flex;
+      align-items: center;
+      padding: 37px 0px;
+      //border: 2px solid tomato;
+      
+      .about-me{
+        width: 136px;
+      }
+     
+      > button {
+         
+          height: 32px;
+          color: white;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          font-family: Poppins;
+          font-size: 23px;
+          font-weight: 400px;
+          line-height: 27.6px;
+          margin-right: 16px;
+          //border: 2px solid yellow;
+         
+           &:hover{
+              color: rgba(112, 230, 28, 1);
+              
+          } 
+        
+      }
+      }
+      .burger-menu {
+          display: none;
+          cursor: pointer;
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        
+      }
+      }
+
+  @media (max-width: 1200px) {
+        .header-menu {
+          width: 100%;                // Nimmt die volle Breite ein
+          max-width: 940px;          // Begrenzung des Inhalts auf maximal 1440px
+          height: 29.03px;
+          padding: 37px 0;
+          padding-left: 4px;
+          margin: 0 auto;             // Zentriert den Header-Inhalt
+          display: flex; 
+          justify-content: space-between; 
+          align-items: center; 
+          background: transparent; 
+         
+           
+            .logo{
+                cursor: pointer;
+            }
+           
+            //border: 1px solid yellowgreen;
+        
+            .lang-switch {
+                background-color: #9747FF;
+            }
+            .lang-div {
+                width: 84px;
+                height: 30px;
+                border-radius: 14px;
+                border: 1px solid #70E61C;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-left: 16px;
+               
+                &:hover {
+                    border: 1px solid white;
+                    cursor: pointer;
+                    
+                }
+            }
+            .lang-en {
+                width: 44px;
+                height: 28px;
+                border-radius: 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                color: lightgray;
+                
+                &:hover {
+                    color: white;
+                }
+                
+            }
+            .lang-de {
+                width: 44px;
+                height: 28px;
+                border-radius: 14px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                
+                color: lightgrey;
+                &:hover {
+                    color: white;
+                }
+                
+            }
+            
+          
+          > img {
+              width: 150px; /* Width of the image */
+              min-height: 35.03px; /* Minimum height of the image */
+          }
+          
+          .menu{
+          display: flex;
+          align-items: center;
+          padding: 37px 0px;
+          //border: 2px solid tomato;
+          
+          .about-me{
+            width: 136px;
+          }
+         
+          > button {
+             
+              height: 32px;
+              color: white;
+              background-color: transparent;
+              border: none;
+              cursor: pointer;
+              font-family: Poppins;
+              font-size: 23px;
+              font-weight: 400px;
+              line-height: 27.6px;
+              margin-right: 16px;
+              //border: 2px solid yellow;
+             
+               &:hover{
+                  color: rgba(112, 230, 28, 1);
+                  
+              } 
+            
+          }
+          }
+          .burger-menu {
+              display: none;
+              cursor: pointer;
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+            
+          }
+          }
+  @media (max-width: 1060px) {
+            .header-menu {
+              width: 100%;                // Nimmt die volle Breite ein
+              max-width: 840px;          // Begrenzung des Inhalts auf maximal 1440px
+              height: 29.03px;
+              padding: 37px 0;
+              padding-left: 4px;
+              margin: 0 auto;             // Zentriert den Header-Inhalt
+              display: flex; 
+              justify-content: space-between; 
+              align-items: center; 
+              background: transparent; 
+             
+               
+                .logo{
+                    cursor: pointer;
+                }
+               
+                //border: 1px solid yellowgreen;
+            
+                .lang-switch {
+                    background-color: #9747FF;
+                }
+                .lang-div {
+                    width: 84px;
+                    height: 30px;
+                    border-radius: 14px;
+                    border: 1px solid #70E61C;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 16px;
+                   
+                    &:hover {
+                        border: 1px solid white;
+                        cursor: pointer;
+                        
+                    }
+                }
+                .lang-en {
+                    width: 44px;
+                    height: 28px;
+                    border-radius: 14px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    color: lightgray;
+                    
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
+                .lang-de {
+                    width: 44px;
+                    height: 28px;
+                    border-radius: 14px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    color: lightgrey;
+                    &:hover {
+                        color: white;
+                    }
+                    
+                }
+                
+              
+              > img {
+                  width: 150px; /* Width of the image */
+                  min-height: 35.03px; /* Minimum height of the image */
+              }
+              
+              .menu{
+              display: flex;
+              align-items: center;
+              padding: 37px 0px;
+              //border: 2px solid tomato;
+              
+              .about-me{
+                width: 136px;
+              }
+             
+              > button {
+                 
+                  height: 32px;
+                  color: white;
+                  background-color: transparent;
+                  border: none;
+                  cursor: pointer;
+                  font-family: Poppins;
+                  font-size: 23px;
+                  font-weight: 400px;
+                  line-height: 27.6px;
+                  margin-right: 16px;
+                  //border: 2px solid yellow;
+                 
+                   &:hover{
+                      color: rgba(112, 230, 28, 1);
+                      
+                  } 
+                
+              }
+              }
+              .burger-menu {
+                  display: none;
+                  cursor: pointer;
+                  img {
+                    width: 30px;
+                    height: 30px;
+                  }
+                }
+                
+              }
+  }
+
+  @media (max-width: 880px) {
+    .header-menu {
+      width: 100%;                // Nimmt die volle Breite ein
+      max-width: 740px;          // Begrenzung des Inhalts auf maximal 1440px
+      height: 29.03px;
+      padding: 37px 0;
+      padding-left: 4px;
+      margin: 0 auto;             // Zentriert den Header-Inhalt
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      background: transparent; 
+     
+       
+        .logo{
+            cursor: pointer;
+        }
+       
+        //border: 1px solid yellowgreen;
+    
+        .lang-switch {
+            background-color: #9747FF;
+        }
+        .lang-div {
+            width: 84px;
+            height: 30px;
+            border-radius: 14px;
+            border: 1px solid #70E61C;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-left: 16px;
+           
+            &:hover {
+                border: 1px solid white;
+                cursor: pointer;
+                
+            }
+        }
+        .lang-en {
+            width: 44px;
+            height: 28px;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: lightgray;
+            
+            &:hover {
+                color: white;
+            }
+            
+        }
+        .lang-de {
+            width: 44px;
+            height: 28px;
+            border-radius: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            color: lightgrey;
+            &:hover {
+                color: white;
+            }
+            
+        }
+        
+      
+      > img {
+          width: 150px; /* Width of the image */
+          min-height: 35.03px; /* Minimum height of the image */
+      }
+      
+      .menu{
+      display: flex;
+      align-items: center;
+      padding: 37px 0px;
+      //border: 2px solid tomato;
+      
+      .about-me{
+        width: 136px;
+      }
+     
+      > button {
+         
+          height: 32px;
+          color: white;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          font-family: Poppins;
+          font-size: 23px;
+          font-weight: 400px;
+          line-height: 27.6px;
+          margin-right: 16px;
+          //border: 2px solid yellow;
+         
+           &:hover{
+              color: rgba(112, 230, 28, 1);
+              
+          } 
+        
+      }
+      }
+      .burger-menu {
+          display: none;
+          cursor: pointer;
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        
+      }
+}
   
   
   

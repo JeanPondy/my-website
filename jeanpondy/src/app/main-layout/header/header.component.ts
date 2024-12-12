@@ -43,7 +43,7 @@ export class HeaderComponent {
     if (this.router.url !== '/') {
       // Zur Startseite navigieren und nach kurzer Verzögerung scrollen
       this.router.navigate(['/']).then(() => {
-        setTimeout(() => this.performScroll(section), 100); // Scroll nach kurzer Verzögerung
+        setTimeout(() => this.performScroll(section), 0); // Scroll nach kurzer Verzögerung
       });
     } else {
       // Direkt scrollen, wenn auf der Startseite

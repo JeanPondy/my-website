@@ -8,14 +8,15 @@
 
   <h2>{{ "IMPRESSUM.CONTACT" | translate }}</h2>
   <p>
-    {{ "IMPRESSUM.PHONE" | translate }}<br />
-    {{ "IMPRESSUM.FAX" | translate }}<br />
-    {{ "IMPRESSUM.EMAIL" | translate }}
+    {{ "IMPRESSUM.PHONE" | translate }}
   </p>
+  <p>{{ "IMPRESSUM.FAX" | translate }}</p>
+
+  {{ "IMPRESSUM.EMAIL" | translate }}
 
   <p>
     {{ "IMPRESSUM.SOURCE" | translate }}
-    <a href="{{ 'IMPRESSUM.SOURCE_LINK' | translate }}">
+    <a class="source" href="{{ 'IMPRESSUM.SOURCE_LINK' | translate }}">
       {{ "IMPRESSUM.SOURCE_LINK" | translate }}
     </a>
   </p>

@@ -216,7 +216,7 @@
     .scroll-down{
         position: absolute;
         left: 1246px;
-        left: 1316px;
+        left: 1226px;
         width: 200px;
         height: 28px;
         font-family: Poppins;
@@ -230,7 +230,7 @@
        
         //border: 2px solid rgba(255, 255, 255, 1);
        
-        .scroll-down:hover {
+        &:hover {
             cursor: pointer;
             color: rgba(112, 230, 28, 1);
     

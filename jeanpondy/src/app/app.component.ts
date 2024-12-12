@@ -31,6 +31,9 @@ export class AppComponent {
         this.showBackground = !(
           currentUrl.includes('imprint') || currentUrl.includes('privacy-policy')
         );
+
+        // Scrollt die Seite bei Navigation nach oben
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     });
   }

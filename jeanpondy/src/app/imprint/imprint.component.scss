@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+
     font-family: "bangers", sans-serif;
   }
   body {
@@ -15,6 +15,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
+  
   }
   .menu-bar {
     display: flex;
@@ -40,6 +41,7 @@
     margin-top: 30px;
     justify-content: flex-end;
     align-items: baseline;
+ 
   }
   
   .menu a {
@@ -64,17 +66,30 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     z-index: 1000;
     background-color: rgba(20, 29, 47, 1);
     color:  rgba(255, 255, 255, 1);
+
+    //border: 1px solid yellow;
+   
 
 
     h2{
       width: 400px;
       text-align: center;
+    
   
     }
+   .source{
+    text-decoration: none;
+    text-align: center;
+    color:  rgba(255, 255, 255, 1);
+    &:hover {
+      color: rgb(164, 125, 247);
+      text-decoration: underline;
+  }
+   }
    
 
   }

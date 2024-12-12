@@ -1,16 +1,26 @@
+import { CommonModule } from '@angular/common';
 import { Component,  ElementRef, AfterViewInit  } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-da-bubble',
   standalone: true,
-  imports: [TranslateModule],
+  imports: [TranslateModule, CommonModule],
   templateUrl: './da-bubble.component.html',
   styleUrl: './da-bubble.component.scss'
 })
 export class DaBubbleComponent implements AfterViewInit  {
 
   constructor(private el: ElementRef) {}
+
+  isOverlayVisible = false;
+  showOverlay(): void {
+    this.isOverlayVisible = true;
+  }
+
+  closeOverlay(): void {
+    this.isOverlayVisible = false;
+  }
 
   ngAfterViewInit() {
     // Intersection Observer für Scroll-Effekte

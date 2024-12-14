@@ -19,7 +19,14 @@ export class TeamFeedbackComponent implements AfterViewInit {
   constructor(private el: ElementRef, private translate: TranslateService) {
     this.translate.setDefaultLang('en'); // Standardsprache auf Englisch setzen
     this.translate.use('en'); // Aktuelle Sprache setzen
-    this.loadTranslations(); // Übersetzungen laden
+    //this.loadTranslations(); // Übersetzungen laden
+  }
+
+  ngOnInit() {
+    // Reagiere auf Änderungen der Sprache
+    this.translate.onLangChange.subscribe(() => {
+      this.loadTranslations(); // Übersetzungen neu laden, wenn die Sprache sich ändert
+    });
   }
 
   ngAfterViewInit() {
@@ -42,7 +49,7 @@ export class TeamFeedbackComponent implements AfterViewInit {
   // Übersetzungen laden
   private loadTranslations() {
     this.translate.get('TEAM_FEEDBACK.FEEDBACKS').subscribe((feedbacks: any[]) => {
-      this.messages = feedbacks && feedbacks.length > 0 
+      this.messages = feedbacks && feedbacks.length > 0
         ? feedbacks.map(feedback => ({
             text: feedback.TEXT,
             imageUrl: feedback.IMAGE_URL,
@@ -54,9 +61,9 @@ export class TeamFeedbackComponent implements AfterViewInit {
 
   // Sprachwechsel
   switchLanguage(lang: string) {
-    this.selectedLang = lang;  // Den aktuellen Wert der ausgewählten Sprache setzen
-    this.translate.use(lang);  // Sprache wechseln
-    this.loadTranslations();  // Übersetzungen neu laden
+    this.selectedLang = lang;
+    this.translate.use(lang);
+    this.loadTranslations(); // Übersetzungen neu laden
   }
 
   get currentMessage() {

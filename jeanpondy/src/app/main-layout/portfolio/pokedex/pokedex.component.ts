@@ -43,12 +43,12 @@ export class PokedexComponent implements AfterViewInit {
 
 
 
-  goToElpolloloco(){
-    window.open('https://jean-pondy.com/el-pollo-loco-jp/', '-blabk');
+  goToEpokedex(){
+    window.open('https://jean-pondy.com/pokedex/', '-blabk');
   }
 
   goToGithub(){
-    window.open(' https://github.com/JeanPondy/elPolloLoco', '-blabk');
+    window.open('https://github.com/JeanPondy/pokedex', '-blabk');
   }
 
 
